@@ -1,13 +1,13 @@
 ---
-JavaScript: My Own - JavaScript Tutorial
+JavaScript: Brian's JavaScript Tutorial
 ---
 
-<h2 align="center">Advanced Styling with Responsive Design</h2>
+<h2 align="center">Brian's JavaScript Tutorial</h2>
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. introduction to resp design (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. logo: university cote d'azure (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- ![](./images/image001.png){width="2.1145833333333335in" height="0.2916666666666667in"} -->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
@@ -271,9 +271,17 @@ to update automatically whenever you make a formatting change.
 The **Tell me** search box takes you straight to commands and Help in
 Word.
 
-![A screenshot that shows typing &quot;table of contents&quot; in the Search
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.png?raw=true"
+  style="width:33%;"
+  alt="A screenshot that shows typing a table of contents in the search box." />
+</p>
+<!-- ![A screenshot that shows typing &quot;table of contents&quot; in the Search
 box.](./images/image008.png){width="3.301176727909011in"
 height="2.9367607174103236in"}
+-->
 
 **Try it:** Go to **Tell me what you want to do** near the top of the
 window, and then type what you want to do.
@@ -298,10 +306,19 @@ we can provide content that's truly useful and helpful. Thanks!
 ## **Welcome to the JavaScript Introduction course!**
 
 Hello,
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  style="width:20%;"
+  alt="JavaScript Introduction course visual." />
+</p>
+<!--
 ![JavaScript Introduction course
 visual](./images/image009.png){width="2.0833333333333335in"
-height="1.1666666666666667in"}Thank you for registering to this course!
+height="1.1666666666666667in"}
+-->
+Thank you for registering to this course!
 You will learn JavaScript in the browser and hence interact a lot with
 HTML/CSS/standards APIs. This course is targeted to beginners who want
 to have fun rapidly and bring interactivity to HTML documents, write
@@ -320,8 +337,17 @@ survey]{.underline}](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017
 
 ### **Course outline**
 
-![psychedelic cat](./images/image010.gif){width="1.6875in"
-height="1.0416666666666667in"}HTML5, CSS and JavaScript are the "classic
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.gif?raw=true"
+  style="width:17%;"
+  alt="Psychedelic cat." />
+</p>
+<!-- ![psychedelic cat](./images/image010.gif){width="1.6875in"
+height="1.0416666666666667in"} -->
+
+HTML5, CSS and JavaScript are the "classic
 three" for Web developers and designers. JavaScript lets you add
 interactive features to your Web sites, including dynamically updated
 content, controlled multimedia, animated images, and much more.
@@ -330,17 +356,36 @@ content, controlled multimedia, animated images, and much more.
     many examples. You will also have a first look at the browser
     devtools, and discover how JavaScript is useful.
 
--   ![Balls
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image011.png?raw=true"
+  style="width:20%;"
+  alt="Balls game." />
+</p>
+
+<!-- ![Balls
     game](./images/image011.png){width="1.9479166666666667in"
-    height="1.65625in"}In **Module 2**, you will learn about conditional
+    height="1.65625in"}-->
+
+In **Module 2**, you will learn about conditional
     statements, logical operators, loops and how to detect events. We
     will introduce the DOM API and the selector API (for selecting
     elements in the DOM). And finally, armed with all this new
     knowledge, you will be able to write a small game.
 
--   ![animated gif of a blue
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.gif?raw=true"
+  style="width:19%;"
+  alt="Animated gif of a blue shell." />
+</p>
+<!--  ![animated gif of a blue
     shell](./images/image012.gif){width="1.875in"
-    height="1.0416666666666667in"}**Module 3** will be more &quot;project
+    height="1.0416666666666667in"}-->
+	
+**Module 3** will be more &quot;project
     oriented&quot;, and less focused on fundamental concepts. You&apos;ll use a
     few more HTML5 APIs, such as geolocation, audio and video APIs. You
     will also play with sound samples and music, and this is going to be
@@ -355,8 +400,18 @@ content, controlled multimedia, animated images, and much more.
     will use ES6 classes in the small game you started to develop since
     Module 2.
 
--   ![logo JSON](./images/image013.png){width="1.09375in"
-    height="1.09375in"}**Module 5** is the last module of the course!
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.png?raw=true"
+  style="width:11%;"
+  alt="JSON logo." />
+</p>
+
+<!-- -   ![logo JSON](./images/image013.png){width="1.09375in"
+    height="1.09375in"} -->
+
+**Module 5** is the last module of the course!
     You&apos;ll mainly learn how to use HTML5 forms in JavaScript and the
     JSON format. To put into practice all this new knowledge, you will
     develop a mini contact manager made with ES6 classes that load/save
