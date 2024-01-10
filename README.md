@@ -2521,9 +2521,7 @@ tweak them, change small things, try to understand how the syntax looks
 like.
 
 Even without deep explanations, without reading a book, or studying in
-details
-
-the different concepts of language, you can learn a lot.
+details the different concepts of language, you can learn a lot.
 
 So, in this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.
@@ -2635,9 +2633,7 @@ works.
 Okay, so what is this syntax?
 
 In JavaScript, when you've got braces like that, opening braces and
-closing braces,
-
-it's called an object.
+closing braces, it's called an object.
 
 And inside an object, you&apos;ve got properties and values.
 
@@ -2652,12 +2648,10 @@ The data is this thing.
 The grid is true, and so on&hellip;
 
 So you separate the different properties of the object using a comma
-
 and sometimes, you can have some properties that in turn, have a value
 that is an object.
 
 So the xAxis property is equal to an object that has a property domain,
-
 that has for values: &quot;-1, 1&quot;.
 
 And when you&apos;ve got brackets, opening and closing brackets, it&apos;s like
@@ -2671,9 +2665,7 @@ So in that case, the domain has two elements: the minimum value and the
 maximum value.
 
 And here you can see that the data that are plotted, the cosinus
-function,
-
-is also an array.
+function, is also an array.
 
 So, if I use the comma and I introduce a second element here.
 
@@ -2693,9 +2685,7 @@ to 10.
 Here we go!
 
 And if we look at the values, we see the x square function that is a bit
-better,
-
-and if we just plot it for x=0 to x=2&hellip;
+better, and if we just plot it for x=0 to x=2&hellip;
 
 &hellip;In that case, i&apos;ve got another scale for looking at the functions.
 
@@ -2754,8 +2744,14 @@ button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.
 
-![](./images/image042.png){width="6.5in"
-height="3.3847222222222224in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![](./images/image042.png){width="6.5in" height="3.3847222222222224in"} -->
 
 By looking at this example (HTML and JS code), you will notice a few
 things:
@@ -2857,6 +2853,7 @@ for the x and y values, with or without a grid, etc.
 Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:
 
+```
 > {
 >
 >     **target**: &apos;#myFunction&apos;,
@@ -2884,6 +2881,7 @@ you tweaked). They are in bold in the source code we saw earlier:
 >     }
 >
 > }
+```
 
 **[JavaScript object]{.underline}**
 
@@ -2896,6 +2894,7 @@ detail.
 A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:
 
+```
 > {
 >
 >    givenName: &quot;Michel&quot;,
@@ -2903,6 +2902,7 @@ properties/values inside, separated by a comma. Here is a simple object:
 >    familyName: &quot;Buffa&quot;
 >
 > }
+```
 
 We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
@@ -2942,14 +2942,17 @@ Notice that between the name of the properties and the value there is a
 If we look at the values of the xAxis and yAxis properties, they
 are also objects.
 
+```
 > xAxis: {
 >
 >     domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
 >
 > }
+```
 
 The data object is even more complicated:
 
+```
 > data: &lbrack;{
 >
 >    fn: &apos;sin(x)&apos;,
@@ -2957,6 +2960,7 @@ The data object is even more complicated:
 >    color: &apos;red&apos;
 >
 > }&rbrack;,
+```
 
 Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! **In JavaScript, brackets
@@ -2972,6 +2976,7 @@ two properties:
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:
 
+```
 > data: &lbrack;
 >
 >     {
@@ -2991,9 +2996,17 @@ cos(x) to our example, with a different color:
 >     }
 >
 > &rbrack;
+```
 
-![](./images/image044.png){width="6.5in"
-height="3.1777777777777776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image044.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![](./images/image044.png){width="6.5in"
+height="3.1777777777777776in"} -->
 
 #### Conclusion
 
@@ -3012,47 +3025,47 @@ details, you saw:
 
 Not bad ;-)
 
-![toggle](./images/image045.gif){width="6.25in" height="5.0625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image045.gif?raw=true"
+  style="width:62%;"
+  alt="Toggle." />
+</p>
+<!-- ![toggle](./images/image045.gif){width="6.25in" height="5.0625in"} -->
 
 ## [[DOM Manipulation]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#dom-manipulation)
 
 Let's use this idea of DOM manipulation to improve our counter page:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Count&lt;/title&gt;
-
 &lt;script&gt;
-
 let counter = 0;
-
 function count() {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 }
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;0&lt;/h1&gt;
-
 &lt;button onclick=&quot;count()&quot;&gt;Count&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-![count 2](./images/image046.gif){width="6.25in" height="5.0625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.gif?raw=true"
+  style="width:62%;"
+  alt="Count 2." />
+</p>
+<!-- ![count 2](./images/image046.gif){width="6.25in" height="5.0625in"} -->
 
 We can make this page even more interesting by displaying an alert every
 time the counter gets to a multiple of ten. In this alert, we'll want to
@@ -3063,22 +3076,25 @@ Template literals requre that there are backticks (&ast;`) around the entire
 expression and a &ast;$ and curly braces around any substitutions. For
 example, let's change our count function
 
+```
 function count() {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 if (counter % 10 === 0) {
-
 alert(&ast;`Count is now &ast;${counter}&ast;`)
-
 }
-
 }
+```
 
-![count with alert](./images/image047.gif){width="6.25in"
-height="5.0625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.gif?raw=true"
+  style="width:62%;"
+  alt="Count with alert." />
+</p>
+<!-- ![count with alert](./images/image047.gif){width="6.25in"
+height="5.0625in"} -->
 
 Now, let's look at some ways in which we can improve the design of this
 page. First, just as we try to avoid in-line styling with CSS, we want
@@ -3087,7 +3103,9 @@ counter example by adding a line of script that changes
 the onclick attribute of a button on the page, and removing
 the onclick attribute from within the button tag.
 
+```
 document.querySelector(&apos;button&apos;).onclick = count;
+```
 
 One thing to notice about what we've just done is that we're not calling
 the count function by adding parentheses afterward, but instead just
@@ -3099,8 +3117,15 @@ as values themselves.
 The above change alone is not enough though, as we can see by inspecting
 the page and looking at our browser's console:
 
-![error console](./images/image048.png){width="6.5in"
-height="1.3472222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.png?raw=true"
+  style="width:65%;"
+  alt="Error console." />
+</p>
+<!-- ![error console](./images/image048.png){width="6.5in"
+height="1.3472222222222223in"} -->
 
 This error came up because when JavaScript searched for an element
 using document.querySelector(&apos;button&apos;), it didn't find anything. This
@@ -3118,38 +3143,30 @@ This function takes in two arguments:
 We can use the function to only run the code once all content has
 loaded:
 
+```
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 // Some code here
-
 });
+```
 
 In the example above, we've used
 an [[anonymous]{.underline}](https://www.w3schools.com/js/js_function_definition.asp) function,
 which is a function that is never given a name. Putting all of this
 together, our JavaScript now looks like this:
 
+```
 let counter = 0;
-
 function count() {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 if (counter % 10 === 0) {
-
 alert(&ast;`Count is now &ast;${counter}&ast;`)
-
 }
-
 }
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelector(&apos;button&apos;).onclick = count;
-
 });
+```
 
 Another way that we can improve our design is by moving our JavaScript
 into a separate file. The way we do this is very similar to how we put
@@ -3164,51 +3181,35 @@ our CSS in a separate file for styling:
 For our counter page, we could have a file called counter.html that
 looks like this:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Count&lt;/title&gt;
-
 &lt;script src=&quot;counter.js&quot;&gt;&lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;0&lt;/h1&gt;
-
 &lt;button&gt;Count&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 And a file called counter.js that looks like this:
 
+```
 let counter = 0;
-
 function count() {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 if (counter % 10 === 0) {
-
 alert(&ast;`Count is now &ast;${counter}&ast;`)
-
 }
-
 }
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelector(&apos;button&apos;).onclick = count;
-
 });
+```
 
 Having JavaScript in a separate file is useful for a number of reasons:
 
@@ -3231,48 +3232,38 @@ Let's get started on another example of a page that can be a bit more
 interactive. Below, we'll create a page where a user can type in their
 name to get a custom greeting.
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Hello&lt;/title&gt;
-
 &lt;script&gt;
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelector(&apos;form&apos;).onsubmit = function() {
-
 const name = document.querySelector(&apos;#name&apos;).value;
-
 alert(&ast;`Hello, &ast;${name}&ast;`);
-
 };
-
 });
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;form&gt;
-
 &lt;input autofocus id=&quot;name&quot; placeholder=&quot;Name&quot; type=&quot;text&quot;&gt;
-
 &lt;input type=&quot;submit&quot;&gt;
-
 &lt;/form&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-![Greeting Demo](./images/image049.gif){width="6.25in"
-height="5.072916666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image049.gif?raw=true"
+  style="width:62%;"
+  alt="Greetings demo." />
+</p>
+<!-- ![Greeting Demo](./images/image049.gif){width="6.25in"
+height="5.072916666666667in"} -->
 
 Some notes about the page above:
 
@@ -3291,50 +3282,39 @@ We can do more than just add HTML to our page using JavaScript, we can
 also change the styling of a page! In the page below, we use buttons to
 change the color of our heading.
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Colors&lt;/title&gt;
-
 &lt;script&gt;
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
-
 button.onclick = function() {
-
 document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
-
 }
-
 });
-
 });
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-
 &lt;button data-color=&quot;red&quot;&gt;Red&lt;/button&gt;
-
 &lt;button data-color=&quot;blue&quot;&gt;Blue&lt;/button&gt;
-
 &lt;button data-color=&quot;green&quot;&gt;Green&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-![Color demo](./images/image050.gif){width="6.25in"
-height="5.072916666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.gif?raw=true"
+  style="width:62%;"
+  alt="Color demo." />
+</p>
+<!-- ![Color demo](./images/image050.gif){width="6.25in"
+height="5.072916666666667in"} -->
 
 Some notes on the page above:
 
@@ -3369,8 +3349,15 @@ console.log(document.querySelectorAll(&apos;button&apos;));
 
 Which gives us this in the console:
 
-![node list](./images/image051.png){width="6.5in"
-height="4.674305555555556in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.png?raw=true"
+  style="width:65%;"
+  alt="Node list." />
+</p>
+<!-- ![node list](./images/image051.png){width="6.5in"
+height="4.674305555555556in"} -->
 
 ### [[Arrow Functions]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#arrow-functions)
 
@@ -3381,36 +3368,28 @@ we have an input (or parentheses when there's no input) followed
 by =&gt; followed by some code to be run. For example, we can alter our
 script above to use an anonymous arrow function:
 
+```
 document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
-
 document.querySelectorAll(&apos;button&apos;).forEach(button =&gt; {
-
 button.onclick = () =&gt; {
-
 document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
-
 }
-
 });
-
 });
+```
 
 We can also have named functions that use arrows, as in this rewriting
 of the count function:
 
+```
 count = () =&gt; {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 if (counter % 10 === 0) {
-
 alert(&ast;`Count is now &ast;${counter}&ast;`)
-
 }
-
 }
+```
 
 To get an idea about some other events we can use, let's see how we can
 implement our color switcher using a dropdown menu instead of three
@@ -3421,52 +3400,40 @@ a keyword that changes based on the context in which it's used. In the
 case of an event handler, this refers to the object that triggered the
 event.
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Colors&lt;/title&gt;
-
 &lt;script&gt;
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelector(&apos;select&apos;).onchange = function() {
-
 document.querySelector(&apos;#hello&apos;).style.color = this.value;
-
 }
-
 });
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-
 &lt;select&gt;
-
 &lt;option value=&quot;black&quot;&gt;Black&lt;/option&gt;
-
 &lt;option value=&quot;red&quot;&gt;Red&lt;/option&gt;
-
 &lt;option value=&quot;blue&quot;&gt;Blue&lt;/option&gt;
-
 &lt;option value=&quot;green&quot;&gt;Green&lt;/option&gt;
-
 &lt;/select&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-![colors with dropdown](./images/image052.gif){width="6.25in"
-height="5.40625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.gif?raw=true"
+  style="width:62%;"
+  alt="Colors with dropdown." />
+</p>
+<!-- ![colors with dropdown](./images/image052.gif){width="6.25in"
+height="5.40625in"} -->
 
 There are many
 other [[events]{.underline}](https://www.w3schools.com/js/js_events.asp) we
@@ -3494,35 +3461,23 @@ writing the HTML layout of the page. Notice below how we leave space for
 an unorderd list, but we dont yet add anything to it. Also notice that
 we add a link to tasks.js where we'll write our JavaScript.
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Tasks&lt;/title&gt;
-
 &lt;script src=&quot;tasks.js&quot;&gt;&lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Tasks&lt;/h1&gt;
-
 &lt;ul id=&quot;tasks&quot;&gt;&lt;/ul&gt;
-
 &lt;form&gt;
-
 &lt;input id=&quot;task&quot; placeholder = &quot;New Task&quot; type=&quot;text&quot;&gt;
-
 &lt;input id=&quot;submit&quot; type=&quot;submit&quot;&gt;
-
 &lt;/form&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 Now, here's our code which we can keep in tasks.js. A few notes on what
 you'll see below:
@@ -3547,74 +3502,51 @@ you'll see below:
     > We can then add those elements to the DOM using
     > the append function.
 
+```
 // Wait for page to load
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 // Select the submit button and input to be used later
-
 const submit = document.querySelector(&apos;#submit&apos;);
-
 const newTask = document.querySelector(&apos;#task&apos;);
-
 // Disable submit button by default:
-
 submit.disabled = true;
-
 // Listen for input to be typed into the input field
-
 newTask.onkeyup = () =&gt; {
-
 if (newTask.value.length &gt; 0) {
-
 submit.disabled = false;
-
 }
-
 else {
-
 submit.disabled = true;
-
 }
-
 }
-
 // Listen for submission of form
-
 document.querySelector(&apos;form&apos;).onsubmit = () =&gt; {
-
 // Find the task the user just submitted
-
 const task = newTask.value;
-
 // Create a list item for the new task and add the task to it
-
 const li = document.createElement(&apos;li&apos;);
-
 li.innerHTML = task;
-
 // Add new element to our unordered list:
-
 document.querySelector(&apos;#tasks&apos;).append(li);
-
 // Clear out input field:
-
 newTask.value = &apos;&apos;;
-
 // Disable the submit button again:
-
 submit.disabled = true;
-
 // Stop form from submitting
-
 return false;
-
 }
-
 });
+```
 
-![Tasks demo](./images/image053.gif){width="6.25in"
-height="5.885416666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image053.gif?raw=true"
+  style="width:62%;"
+  alt="Tasks demo." />
+</p>
+<!-- ![Tasks demo](./images/image053.gif){width="6.25in"
+height="5.885416666666667in"} -->
 
 ## [[Intervals]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#intervals)
 
@@ -3627,26 +3559,27 @@ the [[setInterval]{.underline}](https://www.w3schools.com/jsref/met_win_setinte
 which takes as argument a function to be run, and a time (in
 milliseconds) between function runs.
 
+```
 let counter = 0;
-
 function count() {
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 }
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 document.querySelector(&apos;button&apos;).onclick = count;
-
 setInterval(count, 1000);
-
 });
+```
 
-![count auto](./images/image054.gif){width="6.25in"
-height="5.885416666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.gif?raw=true"
+  style="width:62%;"
+  alt="Count auto." />
+</p>
+<!-- ![count auto](./images/image054.gif){width="6.25in"
+height="5.885416666666667in"} -->
 
 ## [[Local Storage]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#local-storage)
 
@@ -3674,44 +3607,28 @@ two key functions:
 Let's look at how we can use these new functions to update our counter!
 In the code below,
 
-// Check if there is already a vlaue in local storage
-
+```
+// Check if there is already a value in local storage
 if (!localStorage.getItem(&apos;counter&apos;)) {
-
 // If not, set the counter to 0 in local storage
-
 localStorage.setItem(&apos;counter&apos;, 0);
-
 }
-
 function count() {
-
 // Retrieve counter value from local storage
-
 let counter = localStorage.getItem(&apos;counter&apos;);
-
 // update counter
-
 counter++;
-
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
-
 // Store counter in local storage
-
 localStorage.setItem(&apos;counter&apos;, counter);
-
 }
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 // Set heading to the current value inside local storage
-
 document.querySelector(&apos;h1&apos;).innerHTML =
 localStorage.getItem(&apos;counter&apos;);
-
 document.querySelector(&apos;button&apos;).onclick = count;
-
 });
+```
 
 ## [[APIs]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#apis)
 
@@ -3723,19 +3640,25 @@ very similar to a Python dictionary, as it allows us to store key-value
 pairs. For example, I could create a JavaScript Object representing
 Harry Potter:
 
+```
 let person = {
-
 first: &apos;Harry&apos;,
-
 last: &apos;Potter&apos;
-
 };
+```
 
 I can then access or change parts of this object using either bracket or
 dot notation:
 
-![Harry Potter](./images/image055.png){width="4.0in"
-height="3.920931758530184in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image055.png?raw=true"
+  style="width:40%;"
+  alt="Harry Potter." />
+</p>
+<!-- ![Harry Potter](./images/image055.png){width="4.0in"
+height="3.920931758530184in"} -->
 
 **One way in which JavaScript Objects are really useful is in
 transferring data from one site to another, particularly when
@@ -3751,41 +3674,31 @@ in [[JSON]{.underline}](https://www.w3schools.com/js/js_json_intro.asp) (JavaS
 Object Notation) form. For example, a flight in JSON form might look
 like this:
 
+```
 {
-
 &quot;origin&quot;: &quot;New York&quot;,
-
 &quot;destination&quot;: &quot;London&quot;,
-
 &quot;duration&quot;: 415
-
 }
+```
 
 The values within a JSON do not have to just be strings and numbers as
 in the example above. We can also store lists, or even other JavaScript
 Objects:
 
+```
 {
-
 &quot;origin&quot;: {
-
 &quot;city&quot;: &quot;New York&quot;,
-
 &quot;code&quot;: &quot;JFK&quot;
-
 },
-
 &quot;destination&quot;: {
-
 &quot;city&quot;: &quot;London&quot;,
-
 &quot;code&quot;: &quot;LHR&quot;
-
 },
-
 &quot;duration&quot;: 415
-
 }
+```
 
 ### [[Currency Exchange]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#currency-exchange)
 
@@ -3806,21 +3719,16 @@ Let's take a look at how to implement this API into an application by
 creating a new HTML file called currency.html and link it to a
 JavaScript file but leave the body empty:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Currency Exchange&lt;/title&gt;
-
 &lt;script src=&quot;currency.js&quot;&gt;&lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;&lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 Now, we'll use something
 called [[AJAX]{.underline}](https://www.w3schools.com/js/js_ajax_intro.asp),
@@ -3836,28 +3744,28 @@ away. We deal with promises by giving them a .then attribute describing
 what should be done when we get a response. The code snippet below will
 log our response to the console.
 
+```
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 // Send a GET request to the URL
-
 fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
-
 // Put response into json form
-
 .then(response =&gt; response.json())
-
 .then(data =&gt; {
-
 // Log data to the console
-
 console.log(data);
-
 });
-
 });
+```
 
-![Currency log](./images/image056.png){width="6.5in"
-height="1.2791666666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+  style="width:65%;"
+  alt="Currency log." />
+</p>
+<!-- ![Currency log](./images/image056.png){width="6.5in"
+height="1.2791666666666666in"} -->
 
 One important point about the above code is that the argument
 of .then is always a function. Although it seems we are creating the
@@ -3867,132 +3775,99 @@ of two anonymous functions.
 Rather than simply logging this data, we can use JavaScript to display a
 message to the screen, as in the code below:
 
+```
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-
 // Send a GET request to the URL
-
 fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
-
 // Put response into json form
-
 .then(response =&gt; response.json())
-
 .then(data =&gt; {
-
 // Get rate from data
-
 const rate = data.rates.EUR;
-
 // Display message on the screen
-
 document.querySelector(&apos;body&apos;).innerHTML = &ast;`1 USD is equal to
 &ast;${rate.toFixed(3)} EUR.&ast;`;
-
 });
-
 });
+```
 
-![Currency](./images/image057.png){width="6.5in"
-height="2.5805555555555557in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.png?raw=true"
+  style="width:65%;"
+  alt="Currency." />
+</p>
+<!-- ![Currency](./images/image057.png){width="6.5in"
+height="2.5805555555555557in"} -->
 
 Now, let's make the site a bit more interactive by allowing the user to
 choose which currency they would like to see. We'll start by altering
 our HTML to allow the user to input a currency:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;title&gt;Currency Exchange&lt;/title&gt;
-
-&lt;script src=&quot;currency.js&quot;&gt;&lt;/script&gt;
-
-&lt;/head&gt;
-
+  &lt;head&gt;
+    &lt;title&gt;Currency Exchange&lt;/title&gt;
+    &lt;script src=&quot;currency.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
 &lt;body&gt;
-
-&lt;form&gt;
-
-&lt;input id=&quot;currency&quot; placeholder=&quot;Currency&quot; type=&quot;text&quot;&gt;
-
-&lt;input type=&quot;submit&quot; value=&quot;Convert&quot;&gt;
-
-&lt;/form&gt;
-
-&lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
-
+  &lt;form&gt;
+    &lt;input id=&quot;currency&quot; placeholder=&quot;Currency&quot; type=&quot;text&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Convert&quot;&gt;
+  &lt;/form&gt;
+  &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 Now, we'll make some changes to our JavaScript so it only changes when
 the form is submitted, and so it takes into account the user's input.
 We'll also add some error checking here:
 
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+```
+  document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+    document.querySelector(&apos;form&apos;).onsubmit = function() {
+      // Send a GET request to the URL
+      fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
+      // Put response into json form
+      .then(response =&gt; response.json())
+      .then(data =&gt; {
+        // Get currency from user input and convert to upper case
+        const currency =
+        document.querySelector(&apos;#currency&apos;).value.toUpperCase();
+        // Get rate from data
+        const rate = data.rates&lbrack;currency&rbrack;;
+        // Check if currency is valid:
+        if (rate !== undefined) {
+          // Display exchange on the screen
+          document.querySelector(&apos;#result&apos;).innerHTML = &ast;`1 USD is equal to
+            &ast;${rate.toFixed(3)} &ast;${currency}.&ast;`;
+        }
+        else {
+          // Display error on the screen
+          document.querySelector(&apos;#result&apos;).innerHTML = &apos;Invalid Currency.&apos;;
+        }
+      })
+      // Catch any errors and log them to the console
+      .catch(error =&gt; {
+        console.log(&apos;Error:&apos;, error);
+      });
+      // Prevent default submission
+      return false;
+    }
+  });
+```
 
-document.querySelector(&apos;form&apos;).onsubmit = function() {
-
-// Send a GET request to the URL
-
-fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
-
-// Put response into json form
-
-.then(response =&gt; response.json())
-
-.then(data =&gt; {
-
-// Get currency from user input and convert to upper case
-
-const currency =
-document.querySelector(&apos;#currency&apos;).value.toUpperCase();
-
-// Get rate from data
-
-const rate = data.rates&lbrack;currency&rbrack;;
-
-// Check if currency is valid:
-
-if (rate !== undefined) {
-
-// Display exchange on the screen
-
-document.querySelector(&apos;#result&apos;).innerHTML = &ast;`1 USD is equal to
-&ast;${rate.toFixed(3)} &ast;${currency}.&ast;`;
-
-}
-
-else {
-
-// Display error on the screen
-
-document.querySelector(&apos;#result&apos;).innerHTML = &apos;Invalid Currency.&apos;;
-
-}
-
-})
-
-// Catch any errors and log them to the console
-
-.catch(error =&gt; {
-
-console.log(&apos;Error:&apos;, error);
-
-});
-
-// Prevent default submission
-
-return false;
-
-}
-
-});
-
-![Echange demo](./images/image058.gif){width="6.25in"
-height="5.28125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.gif?raw=true"
+  style="width:62%;"
+  alt="Exchange demo." />
+</p>
+<!-- ![Echange demo](./images/image058.gif){width="6.25in" height="5.28125in"} -->
 
 That's all for this lecture! Next time, we'll work on using JavaScript
 to create even more engaging user interfaces!
