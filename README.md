@@ -1,4 +1,19 @@
-![](./images/image001.png){width="2.1145833333333335in" height="0.2916666666666667in"}
+---
+JavaScript: My Own - JavaScript Tutorial
+---
+
+<h2 align="center">Advanced Styling with Responsive Design</h2>
+<br/>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. introduction to resp design (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- ![](./images/image001.png){width="2.1145833333333335in" height="0.2916666666666667in"} -->
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  style="width:20%;"
+  alt="." />
+</p>
 
 You don't need to wait until your pages are finalized; inserting a table
 of contents can be an
@@ -42,10 +57,15 @@ it. Word will do the heavy lifting.
 **Try It:** Hit Enter after the first paragraph in this doc to get a new
 line. Then, go to the **References** tab, select **Table of Contents**,
 and choose a TOC from the gallery.
-
-![A screenshot that shows selecting a table of contents from the gallery
-of designs.](./images/image002.png){width="3.595754593175853in"
-height="3.380547900262467in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+  style="width:35%;"
+  alt="A screenshot that shows selecting a table of contents from the gallery of designs." />
+</p>
+<!-- ![A screenshot that shows selecting a table of contents from the gallery of designs.](./images/image002.png){width="3.595754593175853in"
+height="3.380547900262467in"} -->
 
 *Voila!* Word found all the headings in this document and added a TOC.
 
@@ -65,9 +85,18 @@ change, just update the TOC.
     Table**, and click **OK** (**Update page numbers only** is selected
     by default).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image003.png?raw=true"
+  style="width:31%;"
+  alt="A screenshot that shows clicking OK in the Update Table of Contents dialog box." />
+</p>
+<!--
 > ![A screenshot that shows clicking OK in the Update Table of Contents
 > dialog box.](./images/image003.png){width="3.168503937007874in"
 > height="1.910285433070866in"}
+-->
 
 Word updated the entry for *Update when things change* from *page 2* to
 *page 3*.
@@ -128,16 +157,33 @@ of change, and Word will do its thing.
 2.  From the list of **Tab Leader** options, select **Line** (last
     choice in the list), and click **OK**.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image004.png?raw=true"
+  style="width:28%;"
+  alt="A screenshot that shows selecting underline as a tab leader in the table of contents." />
+</p>
+<!--
 > ![A screenshot that shows selecting underline as a tab leader in the
 > Table of Contents dialog
 > box.](./images/image004.png){width="2.7776990376202977in"
 > height="3.54in"}
-
+-->
 3.  When you're prompted to replace the TOC, click **Yes**.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.png?raw=true"
+  style="width:30%;"
+  alt="A screenshot that shows clicking 'Yes' to replace the table of contents." />
+</p>
+<!--
 > ![A screenshot that shows clicking Yes to replace the table of
 > contents.](./images/image005.png){width="3.0in"
 > height="1.1022364391951005in"}
+-->
 
 And just like that, Word found your TOC and changed the tab leader from
 dots to an underline.
@@ -176,10 +222,18 @@ sure you select only one TOC entry, including the tab leader and page
 number. Notice that even though the whole TOC may look like it's
 selected, the one entry you select will have darker highlighting.)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  style="width:28%;"
+  alt="A screenshot that shows selecting a level 1 entry in a table of contents." />
+</p>
+<!--
 ![A screenshot that shows selecting a level 1 entry in a table fo
 contents.](./images/image006.png){width="2.851851487314086in"
 height="1.4in"}
-
+-->
 Like the rest of the TOC magic, all the TOC Level 1 entries changed too.
 
 **Under the hood:** Okay, it's not really magic. The TOC entries are
@@ -194,10 +248,18 @@ to update automatically whenever you make a formatting change.
     near the bottom, click **Custom Table of Contents**.
 
 2.  Change **Show levels** to **1** and click **OK**.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.png?raw=true"
+  style="width:25%;"
+  alt="A screenshot that shows selecting 1 as the levels to show in a table of contents." />
+</p>
+<!--
 > ![A screenshot that shows selecting 1 as the levels to show in a table
 > of contents.](./images/image007.png){width="2.4988232720909886in"
 > height="3.54in"}
+-->
 
 3.  When you're prompted to replace the TOC, click **Yes**.
 
