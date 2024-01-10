@@ -926,15 +926,15 @@ pages.**
 
 **Example**:
 
-> &lt;head&gt;
+> <head>
 >
 > &hellip;
 >
->    &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
+>    <title>Web Accessibility Initiative (WAI) - home page</title>
 >
 > &hellip;
 >
-> &lt;/head&gt;
+> </head>
 
 #### Example 2: image text alternatives (&quot;ALT TEXT&quot;)
 
@@ -952,13 +952,13 @@ Check #2**: Every image has alt with appropriate alternative text.**
 the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
-&lt;a href=&quot;http://w3.org&quot;&gt;
-
-  
-&lt;img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
-Web site&quot;&gt;
-
-&lt;/a&gt;
+```
+<a href=&quot;http://w3.org&quot;>
+ 
+<img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
+Web site&quot;>
+</a>
+```
 
 # What is internationalization?
 
@@ -1029,13 +1029,15 @@ your source code, and its value is UTF-8.**
 
 **Example 1**:
 
-> &lt;head&gt;
+```
+> <head>
 >
-> &lt;meta charset=&quot;utf-8&quot;/&gt;
+> <meta charset=&quot;utf-8&quot;/>
 >
 > &hellip;
 >
-> &lt;/head&gt;
+> </head>
+```
 
 ## Example 2: Primary language declaration
 
@@ -1053,13 +1055,15 @@ the language of your content.**
 
 **Example 2**: This indicates that the page is in French.
 
-> &lt;!doctype html&gt;
+```
+> <!doctype html>
 >
-> &lt;html lang=&quot;fr&quot;&gt;
+> <html lang=&quot;fr&quot;>
 >
-> &lt;head&gt;
+> <head>
 >
 > &hellip;
+```
 
 ## Example 3: Cultural bias
 
@@ -1248,17 +1252,19 @@ For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
 time):
 
->    &lt;body&gt;
->       &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
->       &lt;p&gt;
+```
+>    <body>
+>       <h1>A Tale of Two Cities</h1>
+>       <p>
 >          It was the best of times, it was the worst of times, . . . .
->       &lt;/p&gt;
+>       </p>
 >       . . .
->       &lt;p&gt;
+>       <p>
 >          . . . it is a far, far better rest
 >          that I go to than I have ever known.
->       &lt;/p&gt;
->    &lt;/body&gt;
+>       </p>
+>    </body>
+```
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1288,26 +1294,28 @@ Here is another, more generic example:
 -   You can modify the source code in CodePen, and see the results in
     real time.
 
-> &lt;!DOCTYPE html&gt;
->  &lt;html lang=&quot;en&quot;&gt;
->    &lt;head&gt;
->      &lt;title&gt;Your first HTML page&lt;/title&gt;
->      &lt;meta charset=&quot;utf-8&quot;/&gt;
->    &lt;/head&gt;
->   &lt;body&gt;
->   &lt;h1&gt;My home page&lt;/h1&gt;
->    &lt;h2&gt;Who am I?&lt;/h2&gt;
->     &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+```
+> <!DOCTYPE html>
+>  <html lang=&quot;en&quot;>
+>    <head>
+>      <title>Your first HTML page</title>
+>      <meta charset=&quot;utf-8&quot;/>
+>    </head>
+>   <body>
+>   <h1>My home page</h1>
+>    <h2>Who am I?</h2>
+>     <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 > professor at the University of Nice, in France, and I&apos;m also the
-> author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
->     &lt;p&gt;I also play electric guitar and love coding WebAudio
-> applications&hellip;&lt;/p&gt;
->     &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
->      alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
->    &lt;h2&gt;My Hobbies&lt;/h2&gt;
+> author of two MOOCS about HTML5 on W3Cx.</p>
+>     <p>I also play electric guitar and love coding WebAudio
+> applications&hellip;</p>
+>     <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
+>      alt=&quot;Michel Buffa plays rock and roll&quot;>
+>    <h2>My Hobbies</h2>
 > Music, Movies, Video Games, Travelling, Family, etc.
->    &lt;/body&gt;
->   &lt;/html&gt;
+>    </body>
+>   </html>
+```
 
 It&apos;s time to write your first HTML code :-)
 
@@ -1348,18 +1356,21 @@ alert(&apos;Hello, world!&apos;);
 The alert function in JavaScript displays a message to the user which
 they can then dismiss. To show where this would fit into an actual HTML
 document, here's an example of a simple page with some JavaScript:
-> &lt;!DOCTYPE html&gt;
-> &lt;html lang=&quot;en&quot;&gt;
-> &lt;head&gt;
-> &lt;title&gt;Hello&lt;/title&gt;
-> &lt;script&gt;
+
+```
+> <!DOCTYPE html>
+> <html lang=&quot;en&quot;>
+> <head>
+> <title>Hello</title>
+> <script>
 > alert(&apos;Hello, world!&apos;);
-> &lt;/script&gt;
-> &lt;/head&gt;
-> &lt;body&gt;
-> &lt;h1&gt;Hello!&lt;/h1&gt;
-> &lt;/body&gt;
-> &lt;/html&gt;
+> </script>
+> </head>
+> <body>
+> <h1>Hello!</h1>
+> </body>
+> </html>
+```
 
 ## [[Events]](https://cs50.harvard.edu/web/2020/notes/5/#events)
 
@@ -1393,7 +1404,9 @@ To do this, we'll create an HTML button in our page with
 an onclick attribute, which gives the browser instructions for what
 should happen when the button is clicked:
 
-&lt;button onclick=&quot;hello()&quot;&gt;Click Here&lt;/button&gt;
+```
+&lt;button onclick=&quot;hello()&quot;>Click Here&lt;/button>
+```
 
 These changes allow us to wait to run parts of our JavaScript code until
 a certain event occurs.
@@ -1407,52 +1420,45 @@ keywords we can use to assign values in JavaScript:
 
 -   var: used to define a variable globally
 
+```
 > var age = 20;
+```
 
 -   let: used to define a variable that is limited in scope to the
-    > current block such as a function or loop
+    current block such as a function or loop
 
+```
 > let counter = 1;
+```
 
 -   const: used to define a value that will not change
 
+```
 > const PI = 3.14;
+```
 
 For an example of how we can use a variable, let's take a look at a page
 that keeps track of a counter:
 
-> &lt;!DOCTYPE html&gt;
-> &lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;title&gt;Count&lt;/title&gt;
-
-&lt;script&gt;
-
+```
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Count</title>
+<script>
 let counter = 0;
-
 function count() {
-
 counter++;
-
 alert(counter);
-
 }
-
-&lt;/script&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;h1&gt;Hello!&lt;/h1&gt;
-
-&lt;button onclick=&quot;count()&quot;&gt;Count&lt;/button&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<h1>Hello!</h1>
+<button onclick=&quot;count()&quot;>Count</button>
+</body>
+</html>
+```
 
 ![counting](./images/image027.gif){width="6.25in"
 height="5.0625in"}
@@ -1481,47 +1487,29 @@ one below. Notice that in JavaScript, we use === as a stronger
 comparison between two items which also checks that the objects are of
 the same type. We typically want to use === whenever possible.
 
-&lt;!DOCTYPE html&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;title&gt;Count&lt;/title&gt;
-
-&lt;script&gt;
-
+```
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Count</title>
+<script>
 function hello() {
-
 const header = document.querySelector(&apos;h1&apos;);
-
 if (header.innerHTML === &apos;Hello!&apos;) {
-
 header.innerHTML = &apos;Goodbye!&apos;;
-
 }
-
 else {
-
 header.innerHTML = &apos;Hello!&apos;;
-
 }
-
 }
-
-&lt;/script&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;h1&gt;Hello!&lt;/h1&gt;
-
-&lt;button onclick=&quot;hello()&quot;&gt;Click Here&lt;/button&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<h1>Hello!</h1>
+<button onclick=&quot;hello()&quot;>Click Here</button>
+</body>
+</html>
+```
 
 ### HTML Elements
 
@@ -1539,29 +1527,21 @@ elements of the Document Object Model (that developers refer to as the
 As an example, let&apos;s look at a simplified version of the last HTML code
 we showed you:
 
-1.  &lt;!DOCTYPE html&gt;
-
-2.  &lt;html lang=&quot;en&quot;&gt;
-
-3.    &lt;head&gt;
-
-4.     &lt;title&gt;Your first HTML page&lt;/title&gt;
-
-5.     &lt;meta charset=&quot;utf-8&quot;/&gt;
-
-6.    &lt;/head&gt;
-
-7.    &lt;body&gt;
-
-8.     &lt;h1&gt;My home page&lt;/h1&gt;
-
-9.     &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+```
+1.  <!DOCTYPE html>
+2.  <html lang=&quot;en&quot;>
+3.    <head>
+4.     <title>Your first HTML page</title>
+5.     <meta charset=&quot;utf-8&quot;/>
+6.    </head>
+7.    <body>
+8.     <h1>My home page</h1>
+9.     <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
     professor at the University of Nice, in France, and I&apos;m also the
-    author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
-
-10.    &lt;/body&gt;
-
-11. &lt;/html&gt;
+    author of two MOOCS about HTML5 on W3Cx.</p>
+10.    </body>
+11. </html>
+```
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
@@ -1631,7 +1611,9 @@ right after the &quot;&lt;&quot; to indicated that it&apos;s a &quot;close tag&q
 indicate the beginning and end of a paragraph (indicated by the single
 letter &quot;p&quot;) you end up with something like this:
 
-1.  &lt;p&gt;This is my first paragraph!&lt;/p&gt;
+```
+1.  <p>This is my first paragraph!</p>
+```
 
 The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
 starting, I&apos;d better start a new line and maybe indent it&quot;. Then when
@@ -1657,7 +1639,9 @@ Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
-1.  &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/&gt;
+```
+1.  <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/>
+```
 
 &hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
@@ -1670,7 +1654,9 @@ The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional 
 be removed entirely, this will still be [[valid
 HTML5]](http://w3c.github.io/html/syntax.html#void-elements).
 
-1.  &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;&gt;
+```
+1.  <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;>
+```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
@@ -1689,9 +1675,10 @@ inserted in your Web page, and in that example we
 used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
-1.  &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
-
-2.       width=200 alt=&quot;Michel Buffa plays rock&roll&quot;&gt;
+````
+1.  <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+2.       width=200 alt="Michel Buffa plays rock&roll">
+```
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
 as others. Different HTML tags share some common attributes that we&apos;ll
@@ -1752,9 +1739,7 @@ content.
 So, I start with the very common element, a very common tag.
 
 The tag is the notation between &lt; and &gt; signs and the element is the
-conceptual
-
-thing - like, I'm writing a heading.
+conceptual thing - like, I'm writing a heading.
 
 Ok, so &quot;This is my first page&quot;. This is a heading 1, and you&apos;ve got 6
 levels for typing titles.
@@ -1772,12 +1757,9 @@ And if, in the paragraph, if I go to the next line, this doesn&apos;t have
 an effect here.
 
 The only return to the next line I can do is, either write another
-paragraph inside the paragraph,
-
-or I can use also another tag that is useful just for going to the next
-line without letting
-
-some space between paragraphs, it&apos;s called &lt;br&gt;.
+paragraph inside the paragraph, or I can use also another tag that is 
+useful just for going to the next line without letting some space between 
+paragraphs, it&apos;s called &lt;br&gt;.
 
 And &lt;br&gt; in that case, I can go to the next line.
 
@@ -1888,8 +1870,10 @@ is why almost every Web page is a combination of HTML and CSS.
 
 **CSS** • /si-ɛs-ɛs/ • *noun *
 
-> Stands for &quot;**C**ascading **S**tyle **S**heets&quot;. A style sheet
+```
+> Stands for "**C**ascading **S**tyle **S**heets". A style sheet
 > language for describing how to display an HTML document.
+```
 
 #### Let&apos;s look at an example!
 
@@ -1907,21 +1891,16 @@ If you click on the CSS button on the top left of the previous codepen
 example, you will see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:
 
+```
 1.  h1 {
-
 2.      color:red;
-
 3.      background-color:lightGreen;
-
 4.      border:12px solid violet;
-
 5.      padding: 5px;   
-
 6.      border-radius: 15px;
-
 7.      text-align: center;
-
 8.  }
+```
 
 This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
@@ -1945,11 +1924,11 @@ be brown (second rule).
 
 The third rule uses what is called &quot;a multiple selector&quot;:
 
+```
 1.  p, h1, h2 {
-
 2.     font-family: cursive
-
 3.  }
+```
 
 This one says that all p, h1 and h2 will use a cursive font character.
 The &quot;,&quot; means &quot;and also&quot;.
@@ -1963,11 +1942,11 @@ Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
-1.  &lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
-
+```
+1.  <p id="paragraph-1" class="regular-paragraphs">
 2.      Call me Ishmael . . .
-
-3.  &lt;/p&gt;
+3.  </p>
+```
 
 The paragraph above has a unique identifier: the id attribute whose
 value is &quot;paragraph-1&quot; and is part of a class of
@@ -1988,19 +1967,19 @@ example:
 The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:
 
-1.  &lt;h2 **id=&quot;hobbyTitle&quot;**&gt;My Hobbies&lt;/h2&gt;
+```
+1.  <h2 **id="hobbyTitle"**>My Hobbies</h2>
+```
 
 And here is the CSS rule:
 
+```
 1.  **#hobbyTitle** {
-
 2.    font-family: &apos;caveat&apos;;
-
 3.    font-size:40px;
-
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-
 5.  }
+```
 
 Line 1 uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
@@ -2013,43 +1992,37 @@ Google font service
 in order to be able to use it in a font-family CSS property, we included
 its definition using a &lt;link&gt; tag in the HTML part of the document:
 
-1.  &lt;head&gt;
-
-2.    &lt;title&gt;Your first HTML page&lt;/title&gt;
-
-3.    &lt;meta charset=&quot;utf-8&quot;/&gt;
-
-4.    **&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;**
-
-5.  **        rel=&quot;stylesheet&quot;&gt;**
-
-6.  &lt;/head&gt;
+```
+1.  <head>
+2.    <title>Your first HTML page</title>
+3.    <meta charset="utf-8"/>
+4.    **<link href="https://fonts.googleapis.com/css?family=Caveat"**
+5.  **        rel="stylesheet">**
+6.  </head>
+```
 
 The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:
 
+```
 1.  **.funny **{
-
 2.    color:purple;
-
 3.    font-family: &apos;caveat&apos;;
-
 4.  font-size:40px;
-
 5.  }
+```
 
 This rule will change the color, font family and size of two out of
 three paragraphs in the HTML element:
 
+```
 1.  &hellip;
-
-2.  &lt;p class=&quot;funny&quot;&gt;I also play electric guitar and love
-    coding WebAudio applications&hellip;&lt;/p&gt;
-
+2.  <p class="funny">I also play electric guitar and love
+    coding WebAudio applications&hellip;</p>
 3.  &hellip;
-
-4.  &lt;p class=&quot;funny&quot;&gt;Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p>
+```
 
 There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
@@ -2201,21 +2174,15 @@ the button,
 that we are going to do something when you click on it.
 
 In that case, it means call the function named &quot;changeTitle&quot; and the
-function is here defined
-
-between &lt;script&gt; and &lt;/script&gt; elements.
+function is here defined between &lt;script&gt; and &lt;/script&gt; elements.
 
 In this example, the Javascript lies inside the HTML file and the
-function is a piece
-
-of code that can be run on different conditions.
+function is a piece of code that can be run on different conditions.
 
 A click on the button executes these two lines of code here.
 
 So, 1st use: interact with the document object model, interact with the
-HTML elements of the page,
-
-add new ones, modify some existing ones, remove some elements.
+HTML elements of the page, add new ones, modify some existing ones, remove some elements.
 
 It can be also use for interactive for the CSS styles of the page.
 
@@ -2676,20 +2643,20 @@ During module 1, we will give you some basics:
 -   Suggest some regular source code editors to use,
 
 -   How to use online environments that run in the browser, and offer an
-    > &quot;instant preview&quot; of your creations. These tools are generally
-    > not suited for full scale projects, but are really valuable for
-    > testing and learning.
+    &quot;instant preview&quot; of your creations. These tools are generally
+    not suited for full scale projects, but are really valuable for
+    testing and learning.
 
 -   We will present many examples (some short and some bigger ones) that
-    > will show what can be done with JavaScript. We strongly encourage
-    > you to tweak them, look at the code, download them on your hard
-    > disk, etc. Even if you do not understand everything, have a go
-    > at modifying them; further down this page we outline such an
-    > exercise.
+    will show what can be done with JavaScript. We strongly encourage
+    you to tweak them, look at the code, download them on your hard
+    disk, etc. Even if you do not understand everything, have a go
+    at modifying them; further down this page we outline such an
+    exercise.
 
 -   Over the coming weeks we will be revisiting the examples,
-    > and discussing them in greater detail and with fuller
-    > explanations.
+    and discussing them in greater detail and with fuller
+    explanations.
 
 #### SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;
 
@@ -2721,9 +2688,11 @@ things:
 Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:
 
-> &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
+```
+> <script src="https://d3js.org/d3.v3.min.js"></script>
 >
-> &lt;script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
+> <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+```
 
 We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the d3js plotting library that is
@@ -2739,6 +2708,7 @@ home page of the &quot;function plot JavaScript library&quot;.
 Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
+```
 > functionPlot(**{**
 >
 > **       target: &apos;#myFunction&apos;,**
@@ -2758,6 +2728,7 @@ on the CodePen example), we see:
 > **    xAxis: {domain: &lbrack;0, 2&ast;*Math.PI&rbrack;}**
 >
 > **}**);
+```
 
 Ok, the syntax looks strange if you are not used to JavaScript, but I
 bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
@@ -2775,16 +2746,16 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
 To do this:
 
 -   Edit directly the JS code in the embedded example, after a
-    > few seconds, you should see the updated result in the &quot;Results&quot;
-    > tab,
+    few seconds, you should see the updated result in the &quot;Results&quot;
+    tab,
 
 -   &hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
-    > right of the embedded example, then change  the code. Normally you
-    > should see the results of your modifications as soon as you stop
-    > typing (we call this &quot;live coding&quot;). (Here is [[an example of
-    > what you can
-    > obtain]](http://codepen.io/w3devcampus/pen/dvpEPZ) as
-    > a result).
+    right of the embedded example, then change  the code. Normally you
+    should see the results of your modifications as soon as you stop
+    typing (we call this &quot;live coding&quot;). (Here is [[an example of
+    what you can
+    obtain]](http://codepen.io/w3devcampus/pen/dvpEPZ) as
+    a result).
 
 **What can you guess from this example?**
 
@@ -2792,7 +2763,9 @@ To do this:
 
 You can think of this code in this way:
 
+```
 > functionPlot(&hellip;);
+```
 
 Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
 name followed by two parentheses (maybe with something in between)
@@ -2817,31 +2790,18 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 > {
->
 >     **target**: &apos;#myFunction&apos;,
->
 >     **data**: &lbrack;{
->
 >              fn: &apos;sin(x)&apos;,
->
 >              color: &apos;red&apos;
->
 >           }&rbrack;,
->
 >     **grid**: true,
->
 >     **yAxis**: {
->
 >          domain: &lbrack;-1, 1&rbrack;
->
 >     },
->
 >     **xAxis**: {
->
 >          domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
->
 >     }
->
 > }
 ```
 
@@ -2858,11 +2818,8 @@ properties/values inside, separated by a comma. Here is a simple object:
 
 ```
 > {
->
->    givenName: &quot;Michel&quot;,
->
->    familyName: &quot;Buffa&quot;
->
+>    givenName: "Michel",
+>    familyName: "Buffa"
 > }
 ```
 
@@ -2876,24 +2833,24 @@ parameter to the functionPlot(&hellip;) call are in bold.
 They are respectively:
 
 -   **target**: the CSS selector that corresponds to the HTML element
-    > that will contain the plot. Look at the HTML code (&lt;div
-    > id=&quot;**myFunction**&quot;&gt;&lt;/div&gt;), the id value corresponds
-    > to target: &quot;#**myFunction**&quot; in the object.
+    that will contain the plot. Look at the HTML code (&lt;div
+    id=&quot;**myFunction**&quot;&gt;&lt;/div&gt;), the id value corresponds
+    to target: &quot;#**myFunction**&quot; in the object.
 
 -   **data**: this is where we indicate the value of the function(s) to
-    > be plotted. We talk about this in greater detail
-    > below.![coordplane](./images/image043.gif){width="3.125in"
-    > height="2.0in"}
+    be plotted. We talk about this in greater detail
+    below.![coordplane](./images/image043.gif){width="3.125in"
+    height="2.0in"}
 
 -   **grid**: this can be true or false (we call these &quot;boolean
-    > values&quot;) and indicates whether or not we want a grid to be drawn
-    > in the background.
+    values&quot;) and indicates whether or not we want a grid to be drawn
+    in the background.
 
 -   **xAxis**: the value specifies the domain (range) for the x
-    > values&hellip;
+    values&hellip;
 
 -   **yAxis**: the value specifies the domain (range) for the y
-    > values&hellip;
+    values&hellip;
 
 Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
@@ -2906,9 +2863,7 @@ are also objects.
 
 ```
 > xAxis: {
->
 >     domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
->
 > }
 ```
 
@@ -2916,11 +2871,8 @@ The data object is even more complicated:
 
 ```
 > data: &lbrack;{
->
 >    fn: &apos;sin(x)&apos;,
->
 >    color: &apos;red&apos;
->
 > }&rbrack;,
 ```
 
@@ -2940,23 +2892,14 @@ cos(x) to our example, with a different color:
 
 ```
 > data: &lbrack;
->
 >     {
->
 >        fn: &apos;sin(x)&apos;,  // First function
->
 >        color: &apos;red&apos;
->
 >     },
->
 >     {
->
 >        fn: &apos;cos(x)&apos;,  // second function
->
 >        color: &apos;blue&apos;
->
 >     }
->
 > &rbrack;
 ```
 
@@ -2976,14 +2919,14 @@ Just by looking at one example, and without going into the boring
 details, you saw:
 
 -   How to plot a function using a third party library and how to
-    > include it in your code,
+    include it in your code,
 
 -   How to change some parameters without knowing JavaScript in depth,
 
 -   You had a first encounter with concepts such as: &quot;a function
-    > call&quot;, &quot;function parameters&quot;, simple objects, embedded objects
-    > and arrays (we will discuss them as we move through the course,
-    > beginning in week 1 - as you will see very soon!).
+    call&quot;, &quot;function parameters&quot;, simple objects, embedded objects
+    and arrays (we will discuss them as we move through the course,
+    beginning in week 1 - as you will see very soon!).
 
 Not bad ;-)
 
@@ -3001,23 +2944,23 @@ Not bad ;-)
 Let's use this idea of DOM manipulation to improve our counter page:
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Count&lt;/title&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Count</title>
+<script>
 let counter = 0;
 function count() {
 counter++;
 document.querySelector(&apos;h1&apos;).innerHTML = counter;
 }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;0&lt;/h1&gt;
-&lt;button onclick=&quot;count()&quot;&gt;Count&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<h1>0</h1>
+<button onclick="count()">Count</button>
+</body>
+</html>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3144,17 +3087,17 @@ For our counter page, we could have a file called counter.html that
 looks like this:
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Count&lt;/title&gt;
-&lt;script src=&quot;counter.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;0&lt;/h1&gt;
-&lt;button&gt;Count&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Count</title>
+<script src="counter.js"></script>
+</head>
+<body>
+<h1>0</h1>
+<button>Count</button>
+</body>
+</html>
 ```
 
 And a file called counter.js that looks like this:
@@ -3176,45 +3119,45 @@ document.querySelector(&apos;button&apos;).onclick = count;
 Having JavaScript in a separate file is useful for a number of reasons:
 
 -   Visual appeal: Our individual HTML and JavaScript files become more
-    > readable.
+    readable.
 
 -   Access among HTML files: Now we can have multiple HTML files that
-    > all share the same JavaScript.
+    all share the same JavaScript.
 
 -   Collaboration: We can now easily have one person work on the
-    > JavaScript while another works on HTML.
+    JavaScript while another works on HTML.
 
 -   Importing: We are able to import JavaScript libraries that other
-    > people have already written. For
-    > example [[Bootstrap]](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js) has
-    > their own JavaScript library you can include to make your site
-    > more interactive.
+    people have already written. For
+    example [[Bootstrap]](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js) has
+    their own JavaScript library you can include to make your site
+    more interactive.
 
 Let's get started on another example of a page that can be a bit more
 interactive. Below, we'll create a page where a user can type in their
 name to get a custom greeting.
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Hello&lt;/title&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hello</title>
+<script>
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 document.querySelector(&apos;form&apos;).onsubmit = function() {
 const name = document.querySelector(&apos;#name&apos;).value;
 alert(&ast;`Hello, &ast;${name}&ast;`);
 };
 });
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;form&gt;
-&lt;input autofocus id=&quot;name&quot; placeholder=&quot;Name&quot; type=&quot;text&quot;&gt;
-&lt;input type=&quot;submit&quot;&gt;
-&lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<form>
+<input autofocus id="name" placeholder="Name" type="text">
+<input type="submit">
+</form>
+</body>
+</html>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3230,41 +3173,43 @@ height="5.072916666666667in"} -->
 Some notes about the page above:
 
 -   We use the autofocus field in the name input to indicate that the
-    > cursor should be set inside that input as soon as the page is
-    > loaded.
+    cursor should be set inside that input as soon as the page is
+    loaded.
 
 -   We use #name inside of document.querySelector to find an element
-    > with an id of name. We can use all the same selectors in this
-    > function as we could in CSS.
+    with an id of name. We can use all the same selectors in this
+    function as we could in CSS.
 
 -   We use the value attribute of an input field to find what is
-    > currently typed in.
+    currently typed in.
 
 We can do more than just add HTML to our page using JavaScript, we can
 also change the styling of a page! In the page below, we use buttons to
 change the color of our heading.
 
-> &lt;!DOCTYPE html&gt;
-> &lt;html lang=&quot;en&quot;&gt;
-> &lt;head&gt;
-> &lt;title&gt;Colors&lt;/title&gt;
-> &lt;script&gt;
+```
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+> <title>Colors</title>
+> <script>
 > document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 > document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
 > button.onclick = function() {
-> document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
+> document.querySelector("#hello").style.color = button.dataset.color;
 > }
 > });
 > });
-> &lt;/script&gt;
-> &lt;/head&gt;
-> &lt;body&gt;
-> &lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-> &lt;button data-color=&quot;red&quot;&gt;Red&lt;/button&gt;
-> &lt;button data-color=&quot;blue&quot;&gt;Blue&lt;/button&gt;
-> &lt;button data-color=&quot;green&quot;&gt;Green&lt;/button&gt;
-> &lt;/body&gt;
-> &lt;/html&gt;
+> </script>
+> </head>
+> <body>
+> <h1 id="hello">Hello</h1>
+> <button data-color="red">Red</button>
+> <button data-color="blue">Blue</button>
+> <button data-color="green">Green</button>
+> </body>
+> </html>
+```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3279,21 +3224,21 @@ height="5.072916666666667in"} -->
 Some notes on the page above:
 
 -   We change the style of an element using
-    > the style.SOMETHING attribute.
+    the style.SOMETHING attribute.
 
 -   We use the data-SOMETHING attribute to assign data to an HTML
-    > element. We can later access that data in JavaScript using the
-    > element's dataset property.
+    element. We can later access that data in JavaScript using the
+    element's dataset property.
 
 -   We use the querySelectorAll function to get an [[Node
-    > List]](https://www.w3schools.com/js/js_htmldom_nodelist.asp) (similar
-    > to a Python list or a
-    > JavaScript [[array]](https://www.w3schools.com/js/js_arrays.asp))
-    > with all elements that match the query.
+    List]](https://www.w3schools.com/js/js_htmldom_nodelist.asp) (similar
+    to a Python list or a
+    JavaScript [[array]](https://www.w3schools.com/js/js_arrays.asp))
+    with all elements that match the query.
 
 -   The [[forEach]](https://www.w3schools.com/jsref/jsref_foreach.asp) function
-    > in JavaScript takes in another function, and applies that function
-    > to each element in a list or array.
+    in JavaScript takes in another function, and applies that function
+    to each element in a list or array.
 
 ### [[JavaScript Console]](https://cs50.harvard.edu/web/2020/notes/5/#javascript-console)
 
@@ -3328,18 +3273,21 @@ we have an input (or parentheses when there's no input) followed
 by =&gt; followed by some code to be run. For example, we can alter our
 script above to use an anonymous arrow function:
 
-> document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
-> document.querySelectorAll(&apos;button&apos;).forEach(button =&gt; {
-> button.onclick = () =&gt; {
-> document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
+```
+> document.addEventListener(&apos;DOMContentLoaded&apos;, () => {
+> document.querySelectorAll(&apos;button&apos;).forEach(button => {
+> button.onclick = () => {
+> document.querySelector("#hello").style.color = button.dataset.color;
 > }
 > });
 > });
+```
 
 
 We can also have named functions that use arrows, as in this rewriting
 of the count function:
 
+```
 > count = () =&gt; {
 > counter++;
 > document.querySelector(&apos;h1&apos;).innerHTML = counter;
@@ -3347,7 +3295,7 @@ of the count function:
 > alert(&ast;`Count is now &ast;${counter}&ast;`)
 > }
 > }
-
+```
 
 To get an idea about some other events we can use, let's see how we can
 implement our color switcher using a dropdown menu instead of three
@@ -3359,28 +3307,28 @@ case of an event handler, this refers to the object that triggered the
 event.
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Colors&lt;/title&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colors</title>
+<script>
 document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 document.querySelector(&apos;select&apos;).onchange = function() {
 document.querySelector(&apos;#hello&apos;).style.color = this.value;
 }
 });
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-&lt;select&gt;
-&lt;option value=&quot;black&quot;&gt;Black&lt;/option&gt;
-&lt;option value=&quot;red&quot;&gt;Red&lt;/option&gt;
-&lt;option value=&quot;blue&quot;&gt;Blue&lt;/option&gt;
-&lt;option value=&quot;green&quot;&gt;Green&lt;/option&gt;
-&lt;/select&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<h1 id="hello">Hello</h1>
+<select>
+<option value="black">Black</option>
+<option value="red">Red</option>
+<option value="blue">Blue</option>
+<option value="green">Green</option>
+</select>
+</body>
+</html>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3420,45 +3368,45 @@ an unorderd list, but we dont yet add anything to it. Also notice that
 we add a link to tasks.js where we'll write our JavaScript.
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Tasks&lt;/title&gt;
-&lt;script src=&quot;tasks.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Tasks&lt;/h1&gt;
-&lt;ul id=&quot;tasks&quot;&gt;&lt;/ul&gt;
-&lt;form&gt;
-&lt;input id=&quot;task&quot; placeholder = &quot;New Task&quot; type=&quot;text&quot;&gt;
-&lt;input id=&quot;submit&quot; type=&quot;submit&quot;&gt;
-&lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tasks</title>
+<script src="tasks.js"></script>
+</head>
+<body>
+<h1>Tasks</h1>
+<ul id="tasks"></ul>
+<form>
+<input id="task" placeholder = "New Task" type="text">
+<input id="submit" type="submit">
+</form>
+</body>
+</html>
 ```
 
 Now, here's our code which we can keep in tasks.js. A few notes on what
 you'll see below:
 
 -   This code is slightly different from the code in lecture. Here, we
-    > only query for our submit button and input task field once in the
-    > beginning and store those two values in the
-    > variables submit and newTask.
+    only query for our submit button and input task field once in the
+    beginning and store those two values in the
+    variables submit and newTask.
 
 -   We can enable/disable a button by setting its disabled attribute
-    > to false/true.
+    to false/true.
 
 -   In JavaScript, we use .length to find the length of objects such as
-    > strings and arrays.
+    strings and arrays.
 
 -   At the end of the script, we add the line return false. This
-    > prevents the default submission of the form which involves either
-    > reloading the current page or redirecting to a new one.
+    prevents the default submission of the form which involves either
+    reloading the current page or redirecting to a new one.
 
 -   In JavaScript, we can create HTML elements using
-    > the [[createElement]](https://www.w3schools.com/jsref/met_document_createelement.asp) function.
-    > We can then add those elements to the DOM using
-    > the append function.
+    the [[createElement]](https://www.w3schools.com/jsref/met_document_createelement.asp) function.
+    We can then add those elements to the DOM using
+    the append function.
 
 ```
 // Wait for page to load
@@ -3469,8 +3417,8 @@ const newTask = document.querySelector(&apos;#task&apos;);
 // Disable submit button by default:
 submit.disabled = true;
 // Listen for input to be typed into the input field
-newTask.onkeyup = () =&gt; {
-if (newTask.value.length &gt; 0) {
+newTask.onkeyup = () => {
+if (newTask.value.length > 0) {
 submit.disabled = false;
 }
 else {
@@ -3478,7 +3426,7 @@ submit.disabled = true;
 }
 }
 // Listen for submission of form
-document.querySelector(&apos;form&apos;).onsubmit = () =&gt; {
+document.querySelector(&apos;form&apos;).onsubmit = () => {
 // Find the task the user just submitted
 const task = newTask.value;
 // Create a list item for the new task and add the task to it
@@ -3556,11 +3504,11 @@ like a Python dictionary. In order to use local storage, we'll employ
 two key functions:
 
 -   localStorage.getItem(key): This function searches for an entry in
-    > local storage with a given key, and returns the value associated
-    > with that key.
+    local storage with a given key, and returns the value associated
+    with that key.
 
 -   localStorage.setItem(key, value): This function sets and entry in
-    > local storage, associating the key with a new vlaue.
+    local storage, associating the key with a new vlaue.
 
 Let's look at how we can use these new functions to update our counter!
 In the code below,
@@ -3632,9 +3580,9 @@ like this:
 
 ```
 {
-&quot;origin&quot;: &quot;New York&quot;,
-&quot;destination&quot;: &quot;London&quot;,
-&quot;duration&quot;: 415
+"origin": "New York",
+"destination": "London",
+"duration": 415
 }
 ```
 
@@ -3643,15 +3591,15 @@ in the example above. We can also store lists, or even other JavaScript
 Objects:
 
 > {
-> &quot;origin&quot;: {
-> &quot;city&quot;: &quot;New York&quot;,
-> &quot;code&quot;: &quot;JFK&quot;
+> "origin": {
+> "city": "New York",
+> "code": "JFK"
 > },
-> &quot;destination&quot;: {
-> &quot;city&quot;: &quot;London&quot;,
-> &quot;code&quot;: &quot;LHR&quot;
+> "destination": {
+> "city": "London",
+> "code": "LHR"
 > },
-> &quot;duration&quot;: 415
+> "duration": 415
 > }
 
 ### [[Currency Exchange]](https://cs50.harvard.edu/web/2020/notes/5/#currency-exchange)
@@ -3674,14 +3622,14 @@ creating a new HTML file called currency.html and link it to a
 JavaScript file but leave the body empty:
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Currency Exchange&lt;/title&gt;
-&lt;script src=&quot;currency.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Currency Exchange</title>
+<script src="currency.js"></script>
+</head>
+<body></body>
+</html>
 ```
 
 Now, we'll use something
@@ -3703,8 +3651,8 @@ document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 // Send a GET request to the URL
 fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
 // Put response into json form
-.then(response =&gt; response.json())
-.then(data =&gt; {
+.then(response => response.json())
+.then(data => {
 // Log data to the console
 console.log(data);
 });
@@ -3734,8 +3682,8 @@ document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 // Send a GET request to the URL
 fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
 // Put response into json form
-.then(response =&gt; response.json())
-.then(data =&gt; {
+.then(response => response.json())
+.then(data => {
 // Get rate from data
 const rate = data.rates.EUR;
 // Display message on the screen
@@ -3760,20 +3708,20 @@ choose which currency they would like to see. We'll start by altering
 our HTML to allow the user to input a currency:
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-  &lt;head&gt;
-    &lt;title&gt;Currency Exchange&lt;/title&gt;
-    &lt;script src=&quot;currency.js&quot;&gt;&lt;/script&gt;
-  &lt;/head&gt;
-&lt;body&gt;
-  &lt;form&gt;
-    &lt;input id=&quot;currency&quot; placeholder=&quot;Currency&quot; type=&quot;text&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Convert&quot;&gt;
-  &lt;/form&gt;
-  &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Currency Exchange</title>
+    <script src="currency.js"></script>
+  </head>
+<body>
+  <form>
+    <input id="currency" placeholder="Currency" type="text">
+    <input type="submit" value="Convert">
+  </form>
+  <div id="result"></div>
+</body>
+</html>
 ```
 
 Now, we'll make some changes to our JavaScript so it only changes when
@@ -3786,8 +3734,8 @@ We'll also add some error checking here:
       // Send a GET request to the URL
       fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
       // Put response into json form
-      .then(response =&gt; response.json())
-      .then(data =&gt; {
+      .then(response => response.json())
+      .then(data => {
         // Get currency from user input and convert to upper case
         const currency =
         document.querySelector(&apos;#currency&apos;).value.toUpperCase();
@@ -3805,7 +3753,7 @@ We'll also add some error checking here:
         }
       })
       // Catch any errors and log them to the console
-      .catch(error =&gt; {
+      .catch(error => {
         console.log(&apos;Error:&apos;, error);
       });
       // Prevent default submission
