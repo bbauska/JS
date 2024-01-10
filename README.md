@@ -300,7 +300,7 @@ For example, type:
 # Let us know what you think
 
 Please [[give us feedback on this learning
-guide]{.underline}](https://go.microsoft.com/fwlink/?linkid=2027721), so
+guide]](https://go.microsoft.com/fwlink/?linkid=2027721), so
 we can provide content that's truly useful and helpful. Thanks!
 
 ## **Welcome to the JavaScript Introduction course!**
@@ -327,13 +327,13 @@ able to test your skills through numerous interactive exercises and
 practical assignments.
 
 To get started, please read the &quot;[[Course
-information]{.underline}](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/1)&quot;
+information]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/1)&quot;
 section, where you can become oriented to the course structure, the
 schedule, and how things will work in this course. Please take 5 mins to
 introduce yourself in the [[student introduction
-forum]{.underline}](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/2),
+forum]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/2),
 and another 5 minutes to answer our [[welcome
-survey]{.underline}](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/3) :)
+survey]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/8bd22ef29be34bd7a5b1c25f1485f757/241b2b4bdcac485e90e727b3990c6600/3) :)
 
 ### **Course outline**
 
@@ -421,7 +421,7 @@ In **Module 2**, you will learn about conditional
 ### **&quot;JavaScript Introduction&quot; Verified Certificate**
 
 W3C provides a [[W3Cx Verified Certificate for this
-course]{.underline}](https://ecommerce.edx.org/basket/add/?sku=C211DC7) that
+course]](https://ecommerce.edx.org/basket/add/?sku=C211DC7) that
 lets you demonstrate to employers, colleagues, and professional
 organizations that you successfully completed a course that increased
 your mastery of JavaScript. This certificate can be used to highlight
@@ -434,14 +434,14 @@ height="1.3854166666666667in"}
 Once you have a passing score (70% or higher), your certificate will be
 automatically generated and accessible from your progress page -
 read [[more detailed
-info]{.underline}](http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/SFD_certificates.html#certificates-for-self-paced-courses).
+info]](http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/SFD_certificates.html#certificates-for-self-paced-courses).
 Please write
-to [[billing@edx.org]{.underline}](mailto:billing@edx.org) if you
+to [[billing@edx.org]](mailto:billing@edx.org) if you
 encounter an issue with the payment for your certificate.
 
 You can share your purchased Web certificate on Facebook, LinkedIn, and
 Twitter (find more info. in
-this [[page]{.underline}](http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/SFD_certificates.html#receiving-a-certificate)).
+this [[page]](http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/SFD_certificates.html#receiving-a-certificate)).
 
 W3Cx, as non-profit, relies on verified certificates to help fund future
 W3Cx courses for everyone globally.
@@ -454,10 +454,10 @@ height="1.5625in"}
 
 This JavaScript Introduction course is part of the [[Front-End Web
 Developer&quot; (FEWD) Professional
-Certificate]{.underline}](https://www.edx.org/professional-certificate/front-end-web-developer-9) program.
+Certificate]](https://www.edx.org/professional-certificate/front-end-web-developer-9) program.
 To get this FEWD certificate, you will need to successfully pass all 5
 courses that compose that program. Find out more
-on [[w3cx.org]{.underline}](https://w3cx.org/)!
+on [[w3cx.org]](https://w3cx.org/)!
 
 If you already have a verified certificate in one or more of these
 courses, you **do NOT need to re-take that course**.
@@ -465,19 +465,19 @@ courses, you **do NOT need to re-take that course**.
 ### **Additional information:**
 
 -   If you are new to the edX platform, we encourage you to [[check out
-    DemoX]{.underline}](https://www.edx.org/course/demox-edx-demox-1), a
+    DemoX]](https://www.edx.org/course/demox-edx-demox-1), a
     quick walk-through of an edX experience. It will help answer basic
     "how to&apos;s" on taking an edX course. For more detailed info, please
     check the [[edX Learner's
-    Guide]{.underline}](http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/).
+    Guide]](http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/).
 
 -   To get help with a technical problem with the edx platform, click
     &quot;Help&quot; (on the left side of this page) to send a message to the
     edX student support.
 
 -   [[Join our Facebook
-    page]{.underline}](http://www.facebook.com/thew3cx/), and follow us
-    on Twitter ([[&ast;@thew3cx]{.underline}](https://twitter.com/thew3cx)).
+    page]](http://www.facebook.com/thew3cx/), and follow us
+    on Twitter ([[&ast;@thew3cx]](https://twitter.com/thew3cx)).
 
 We sincerely hope that you will enjoy this W3Cx course, designed in
 collaboration with University of Côte d&apos;Azur.
@@ -552,9 +552,9 @@ Week 4: Building Scalable Web Apps with Server-Side JavaScript
 **[[Module 0: Course
 information](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@chapter+block@8bd22ef29be34bd7a5b1c25f1485f757)
 / [Welcome to &quot;JavaScript
-Introduction&quot;](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@sequential+block@241b2b4bdcac485e90e727b3990c6600)]{.underline}**
+Introduction&quot;](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@sequential+block@241b2b4bdcac485e90e727b3990c6600)]**
 
-#### **[During this course, you will learn:]{.underline}**
+#### **[During this course, you will learn:]**
 
 -   How to add JavaScript code in your Web site/Web app, and how to
     debug it.
@@ -572,19 +572,19 @@ Introduction&quot;](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/
 
 You will make good use of your JavaScript skills in the other 2 W3Cx
 courses included in the [[&quot;Front-End Web Developer&quot; W3Cx Professional
-Certificate]{.underline}](https://www.edx.org/professional-certificate/front-end-web-developer-9) program: [[HTML5
+Certificate]](https://www.edx.org/professional-certificate/front-end-web-developer-9) program: [[HTML5
 Coding Essentials and Best
-Practices]{.underline}](https://www.edx.org/course/html5-part-1-html5-coding-essentials-w3cx-html5-1x-2) and [[HTML5:
+Practices]](https://www.edx.org/course/html5-part-1-html5-coding-essentials-w3cx-html5-1x-2) and [[HTML5:
 Apps and
-Games]{.underline}](https://www.edx.org/course/html5-apps-games-w3cx-html5-2x).
+Games]](https://www.edx.org/course/html5-apps-games-w3cx-html5-2x).
 
 Note also that this course is part of [[W3C&apos;s &quot;Front-End Web
 Developer&quot; Professional
-Certificate]{.underline}](https://www.edx.org/professional-certificate/front-end-web-developer-9) and [[Microsoft&apos;s
+Certificate]](https://www.edx.org/professional-certificate/front-end-web-developer-9) and [[Microsoft&apos;s
 Professional Program Certificate in Front-End Web
-Development]{.underline}](https://www.edx.org/microsoft-professional-program-front-end-development).
+Development]](https://www.edx.org/microsoft-professional-program-front-end-development).
 
-## **[Online editor tools]{.underline}**
+## **[Online editor tools]**
 
 To help you practice during the whole duration of the course, you will
 use the following online editor tools. Pretty much all the course&apos;s
@@ -593,21 +593,21 @@ examples will actually use these.
 #### JsBin
 
 ![JS Bin logo](./images/image016.png){width="0.7291666666666666in"
-height="0.7291666666666666in"}[[JsBin]{.underline}](http://jsbin.com/) is
+height="0.7291666666666666in"}[[JsBin]](http://jsbin.com/) is
 an open source collaborative Web development debugging tool. This tool
 is really simple, just open the link to the provided examples, look at
 the code, look at the result, etc. And you can modify the examples as
 you like, you can also modify / clone / save / share them.&ast;
 &ast;
 Tutorials can be found on the Web (such
-as [[http://code.tutsplus.com/tutorials/javascript-tools-of-the-trade-jsbin&ast;--net-36843]{.underline}](http://code.tutsplus.com/tutorials/javascript-tools-of-the-trade-jsbin--net-36843))
+as [[http://code.tutsplus.com/tutorials/javascript-tools-of-the-trade-jsbin&ast;--net-36843]](http://code.tutsplus.com/tutorials/javascript-tools-of-the-trade-jsbin--net-36843))
 or on YouTube.  Keep in mind that it&apos;s always better to be logged in
 (it&apos;s free) if you do not want to lose your contributions/personal
 work.
 
-#### **[CodePen]{.underline}**
+#### **[CodePen]**
 
-[[CodePen]{.underline}](http://codepen.io/) is an HTML, CSS, and
+[[CodePen]](http://codepen.io/) is an HTML, CSS, and
 JavaScript code editor that previews/showcases your code bits in your
 browser. It helps with cross-device testing, real-time remote pair
 programming and teaching.
@@ -617,12 +617,12 @@ require you to download anything and you can access it, along with your
 saved projects from any Web browser. Here&apos;s an article which will be
 of-interest if you use CodePen: [[10 Cool Things You Can Do with CodePen
 and
-JavaScript]{.underline}](https://www.sitepoint.com/cool-things-codepen-javascript/) &lbrack;Chris
+JavaScript]](https://www.sitepoint.com/cool-things-codepen-javascript/) &lbrack;Chris
 Coyier, June 13, 2016&rbrack;.
 
 There are many other handy tools such
-as [[JSFiddle]{.underline}](http://jsfiddle.net/),
-and [[Dabblet]{.underline}](http://dabblet.com/) (Lea Verou&apos;s tool that
+as [[JSFiddle]](http://jsfiddle.net/),
+and [[Dabblet]](http://dabblet.com/) (Lea Verou&apos;s tool that
 we will use extensively in a future CSS course). Please share your
 favorite tool on the discussion forum, and explain why! Share also your
 own code contributions, such as a nice canvas animation, a great looking
@@ -635,40 +635,40 @@ Here is a selection of tools to help debug JavaScript code. The
 instructor will indicate other tools in module 1 of the course.
 
 -   [[Firefox JS
-    debugger]{.underline}](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
+    debugger]](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
     shipped inside Firefox) - all other browsers have integrated
     debuggers as well.
 
--   [[JS Lint]{.underline}](http://www.jslint.com/)  - The JavaScript
+-   [[JS Lint]](http://www.jslint.com/)  - The JavaScript
     Code Quality Tool
 
--   [[CodeBeautify]{.underline}](http://codebeautify.org/jsvalidate)  -
+-   [[CodeBeautify]](http://codebeautify.org/jsvalidate)  -
     JavaScript Validator
 
 -   Check also other[[ JavaScript debugging
-    tools]{.underline}](http://jqueryhouse.com/best-javascript-debugging-tools/)
+    tools]](http://jqueryhouse.com/best-javascript-debugging-tools/)
 
-### **[W3C validators]{.underline}**
+### **[W3C validators]**
 
 For over 15 years, the W3C has been developing and
 hosting [[**free** and **open
-source** tools]{.underline}](http://w3c.github.io/developers/) used
+source** tools]](http://w3c.github.io/developers/) used
 every day by **millions of Web developers and Web designers**. All the
 tools listed below are Web-based, and are available as downloadable
 sources or as free services on the [[W3C Developers
-tools ]{.underline}](http://w3c.github.io/developers/tools/)site.
+tools ]](http://w3c.github.io/developers/tools/)site.
 
 #### W3C Validator
 
-The [[W3C validator]{.underline}](https://validator.w3.org/) checks
+The [[W3C validator]](https://validator.w3.org/) checks
 the [[markup
-validity]{.underline}](http://validator.w3.org/docs/help.html#validation_basics) of
+validity]](http://validator.w3.org/docs/help.html#validation_basics) of
 various Web document formats, such as HTML.
 
 #### CSS Validator
 
 The [[CSS
-validator]{.underline}](https://jigsaw.w3.org/css-validator/) checks
+validator]](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
@@ -678,7 +678,7 @@ height="1.8229166666666667in"}
 
 #### Unicorn
 
-[[Unicorn]{.underline}](http://validator.w3.org/unicorn/) is W3C&apos;s
+[[Unicorn]](http://validator.w3.org/unicorn/) is W3C&apos;s
 unified validator, which helps people improve the quality of their Web
 pages by performing a variety of checks. Unicorn gathers the results of
 the popular HTML and CSS validators, as well as other useful services,
@@ -687,17 +687,17 @@ such as RSS/Atom feeds and http headers.
 ####  Link Checker
 
 The [[W3C Link
-Checker]{.underline}](http://validator.w3.org/checklink) looks for
+Checker]](http://validator.w3.org/checklink) looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use
 valid [[(X)HTML
-Markup]{.underline}](http://validator.w3.org/) and [[CSS]{.underline}](http://jigsaw.w3.org/css-validator/).
+Markup]](http://validator.w3.org/) and [[CSS]](http://jigsaw.w3.org/css-validator/).
 
 #### Internationalization Checker
 
 The [[W3C Internationalization
-Checker]{.underline}](https://validator.w3.org/i18n-checker/) provides
+Checker]](https://validator.w3.org/i18n-checker/) provides
 information about various internationalization-related aspects of your
 page, including the HTTP headers that affect it. It will also report a
 number of  issues and offer advice about how to resolve them.
@@ -705,7 +705,7 @@ number of  issues and offer advice about how to resolve them.
 ### The W3C cheatsheet
 
 The [[W3C
-cheatsheet]{.underline}](http://www.w3.org/2009/cheatsheet/) provides
+cheatsheet]](http://www.w3.org/2009/cheatsheet/) provides
 quick access to useful information from a variety of specifications
 published by W3C. It aims at giving in a very compact and
 mobile-friendly format a compilation of useful knowledge extracted from
@@ -725,7 +725,7 @@ interest.
 
 The W3C cheatsheet is no longer available as an Android app, but remains
 available as a [[pure Web
-application]{.underline}](http://dev.w3.org/2009/cheatsheet/doc/).
+application]](http://dev.w3.org/2009/cheatsheet/doc/).
 
 ### What is W3C?
 
@@ -746,8 +746,8 @@ define key parts of what actually makes the World Wide Web work.
 *Tim Berners-Lee at his desk in CERN, 1994*
 
 [[Tim
-Berners-Lee]{.underline}](http://www.w3.org/People/Berners-Lee/) wrote
-a [[proposal]{.underline}](http://www.w3.org/History/1989/proposal.html) in
+Berners-Lee]](http://www.w3.org/People/Berners-Lee/) wrote
+a [[proposal]](http://www.w3.org/History/1989/proposal.html) in
 1989 for a system called the World Wide Web. He then created the first
 Web browser, server, and Web page. He wrote the first specifications for
 URLs, HTTP, and HTML.
@@ -755,23 +755,23 @@ URLs, HTTP, and HTML.
 In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
 Computer Science &lbrack;MIT/LCS&rbrack; in collaboration
-with [[CERN]{.underline}](http://www.cern.ch/), where the Web originated
+with [[CERN]](http://www.cern.ch/), where the Web originated
 (see information on the [[original CERN
-Server]{.underline}](http://www.w3.org/Daemon/)), with support from
+Server]](http://www.w3.org/Daemon/)), with support from
 DARPA and the [[European
-Commission]{.underline}](http://ec.europa.eu/index_en.htm).
+Commission]](http://ec.europa.eu/index_en.htm).
 
-In April 1995, [[Inria]{.underline}](http://www.inria.fr/) became the
+In April 1995, [[Inria]](http://www.inria.fr/) became the
 first European W3C host, followed by [[Keio University of
-Japan]{.underline}](http://www.keio.ac.jp/) (Shonan Fujisawa Campus) in
-Asia in 1996. In 2003, [[ERCIM]{.underline}](http://www.ercim.org/) took
+Japan]](http://www.keio.ac.jp/) (Shonan Fujisawa Campus) in
+Asia in 1996. In 2003, [[ERCIM]](http://www.ercim.org/) took
 over the role of European W3C Host from Inria. In 2013, W3C
-announced [[Beihang University]{.underline}](http://ev.buaa.edu.cn/) as
+announced [[Beihang University]](http://ev.buaa.edu.cn/) as
 the fourth Host.
 
 In addition to these four Host locations that employ W3C staff, there
 are [[W3C
-Offices]{.underline}](http://www.w3.org/Consortium/Offices/staff) around
+Offices]](http://www.w3.org/Consortium/Offices/staff) around
 the globe that support the developer communities in their regions and
 organize local events. Find the one next to your place!
 
@@ -779,28 +779,28 @@ organize local events. Find the one next to your place!
 
 As of September 2017, W3C is:
 
--   A [[member]{.underline}](http://www.w3.org/Consortium/Member/List)-driven
+-   A [[member]](http://www.w3.org/Consortium/Member/List)-driven
     organization composed of over 460 companies, universities,
     start-ups, etc. from all over the world.
 
 -   44 [[technicals
-    groups]{.underline}](http://www.w3.org/Consortium/activities),
+    groups]](http://www.w3.org/Consortium/activities),
     including Working and Interest Groups where technical specifications
     are discussed and developed.
 
 -   Over 6,025 [[published technical
-    reports]{.underline}](http://www.w3.org/TR/), including 386 Web
+    reports]](http://www.w3.org/TR/), including 386 Web
     standards (or W3C Recommendations) - since January 1st ,1995.
 
 -   About 291 [[Community and Business
-    Groups]{.underline}](https://www.w3.org/community/groups/), where
+    Groups]](https://www.w3.org/community/groups/), where
     developers, designers, and anyone passionate about the Web have a
     place to hold discussions and publish ideas.
 
 -   Near 10,846 active participants constituting the W3C community.
 
 -   A [[technical
-    staff]{.underline}](http://www.w3.org/People/) composed of 67
+    staff]](http://www.w3.org/People/) composed of 67
     people, spread on all five continents.
 
 People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
@@ -808,10 +808,10 @@ this usage is technically incorrect.
 
 The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are [[e-mail ]{.underline}](https://en.wikipedia.org/wiki/Email)and [[ftp]{.underline}](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for
+are [[e-mail ]](https://en.wikipedia.org/wiki/Email)and [[ftp]](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for
 example. One analogy equates the Internet to a road network where the
 Web is a car, the email is a bicycle, etc.  Read [[this
-article]{.underline}](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
+article]](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
 more details about the difference between Internet and the Web.
 
 The W3C community is passionate about creating free and open Web
@@ -830,7 +830,7 @@ height="1.2291666666666667in"}
 On Tuesday 4 April 2017, the ACM, the Association for Computing
 Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director
 of the World Wide Web Consortium, as the recipient of the 2016 [[ACM
-A.M. Turing Award]{.underline}](http://amturing.acm.org/). The Turing
+A.M. Turing Award]](http://amturing.acm.org/). The Turing
 award is recognized as the highest distinction in Computer Science and
 is often referred to as the "Nobel Prize of Computing".
 
@@ -897,7 +897,7 @@ education, employment, government, commerce, health care, recreation,
 and more. When Web pages, Web technologies, Web tools, or Web
 applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the [[W3C
-Accessibility]{.underline}](https://www.w3.org/standards/webdesign/accessibility) overview.
+Accessibility]](https://www.w3.org/standards/webdesign/accessibility) overview.
 
 ### First steps in Web accessibility
 
@@ -907,10 +907,10 @@ example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:
 
 -   [[Tips for Getting Started with Web
-    Accessibility]{.underline}](https://www.w3.org/WAI/gettingstarted/tips/)
+    Accessibility]](https://www.w3.org/WAI/gettingstarted/tips/)
 
 -   [[Easy Checks - A First Review of Web
-    Accessibility]{.underline}](https://www.w3.org/WAI/eval/preliminary)
+    Accessibility]](https://www.w3.org/WAI/eval/preliminary)
 
 #### Example 1: page title
 
@@ -976,7 +976,7 @@ English, because there are 18 characters between the &apos;i&apos; and the
 ![W3C Internationalization Activity
 logo](./images/image024.png){width="1.1145833333333333in"
 height="1.0416666666666667in"}The [[W3C Internationalization
-Activity]{.underline}](http://www.w3.org/International/) works with W3C
+Activity]](http://www.w3.org/International/) works with W3C
 working groups and liaises with other organizations to make it possible
 to use Web technologies with different languages, scripts, and cultures.
 
@@ -1005,7 +1005,7 @@ encoded.
 
 As a content author or developer, you should nowadays always [[choose
 the UTF-8 character
-encoding]{.underline}](http://www.w3.org/International/questions/qa-choosing-encodings) for
+encoding]](http://www.w3.org/International/questions/qa-choosing-encodings) for
 your content or data. This Unicode encoding is a good choice because you
 can use a single encoding to handle any character you are likely to
 meet. This greatly simplifies things.
@@ -1111,19 +1111,19 @@ through the course, so come back and review this page at the end.
     inappropriate cultural bias.
 
 You will find more quick tips on the [[Internationalization quick
-tips]{.underline}](http://www.w3.org/International/quicktips/) page.
+tips]](http://www.w3.org/International/quicktips/) page.
 Remember that these tips do not constitute complete guidelines.
 
 ## Internationalization checker
 
 When you start creating Web pages, you can also run them through the
 W3C&apos;s [[Internationalization
-Checker]{.underline}](https://validator.w3.org/i18n-checker/).  If there
+Checker]](https://validator.w3.org/i18n-checker/).  If there
 are internationalization problems with your page, this checker explains
 what they are and what to do about it.
 
 [[Module 1.1: Introduction to
-JavaScript]{.underline}](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@chapter+block@c383695587a642409d48e3a7d808cf8c)
+JavaScript]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@chapter+block@c383695587a642409d48e3a7d808cf8c)
 
 Hello everyone, welcome to the wonderful world of JavaScript!
 
@@ -1195,7 +1195,7 @@ devtools, and discover how JavaScript is useful.
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.
 
-### **[HTML: Hyper Text Markup language]{.underline}**
+### **[HTML: Hyper Text Markup language]**
 
 #### The &quot;Hyper Text&quot; part: links!
 
@@ -1239,7 +1239,7 @@ so on.
 
 There are many ways to markup a document, but HTML borrows a technique
 from an ancestor language, SGML ([[Standard Generalized Markup
-Language]{.underline}](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)),
+Language]](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)),
 which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) to separate the
 annotations from the regular text.  In HTML these annotations are called
 &quot;tags&quot;.
@@ -1249,25 +1249,15 @@ edit the source code and see the resulting Web page updating in real
 time):
 
 >    &lt;body&gt;
->
 >       &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
->
 >       &lt;p&gt;
->
 >          It was the best of times, it was the worst of times, . . . .
->
 >       &lt;/p&gt;
->
 >       . . .
->
 >       &lt;p&gt;
->
 >          . . . it is a far, far better rest
->
 >          that I go to than I have ever known.
->
 >       &lt;/p&gt;
->
 >    &lt;/body&gt;
 
 If you eliminated everything in between the angle brackets from the
@@ -1299,54 +1289,38 @@ Here is another, more generic example:
     real time.
 
 > &lt;!DOCTYPE html&gt;
->
 >  &lt;html lang=&quot;en&quot;&gt;
->
 >    &lt;head&gt;
->
 >      &lt;title&gt;Your first HTML page&lt;/title&gt;
->
 >      &lt;meta charset=&quot;utf-8&quot;/&gt;
->
 >    &lt;/head&gt;
->
 >   &lt;body&gt;
->
 >   &lt;h1&gt;My home page&lt;/h1&gt;
->
 >    &lt;h2&gt;Who am I?&lt;/h2&gt;
->
 >     &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 > professor at the University of Nice, in France, and I&apos;m also the
 > author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
->
 >     &lt;p&gt;I also play electric guitar and love coding WebAudio
 > applications&hellip;&lt;/p&gt;
->
 >     &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
->
 >      alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
->
 >    &lt;h2&gt;My Hobbies&lt;/h2&gt;
->
 > Music, Movies, Video Games, Travelling, Family, etc.
->
 >    &lt;/body&gt;
->
 >   &lt;/html&gt;
 
 It&apos;s time to write your first HTML code :-)
 
 You can use a source code editor like [[Sublime
-Text]{.underline}](https://www.sublimetext.com/), [[Atom]{.underline}](https://atom.io/), [[Brackets]{.underline}](http://brackets.io/) or
+Text]](https://www.sublimetext.com/), [[Atom]](https://atom.io/), [[Brackets]](http://brackets.io/) or
 any lightweight text editor. You can also use more &quot;professional&quot;
 tools such as [[Visual
-Studio]{.underline}](https://code.visualstudio.com/), [[NetBeans]{.underline}](http://netbeans.org/), [[Eclipse]{.underline}](https://eclipse.org/downloads/), [[WebStorm]{.underline}](https://www.jetbrains.com/webstorm),
+Studio]](https://code.visualstudio.com/), [[NetBeans]](http://netbeans.org/), [[Eclipse]](https://eclipse.org/downloads/), [[WebStorm]](https://www.jetbrains.com/webstorm),
 etc.
 
 To try out the simple examples from this course, I&apos;d suggest using an
 online IDE such
-as [[jsbin.com]{.underline}](http://jsbin.com/), [[codepen.io]{.underline}](http://codepen.io/), [[plunker]{.underline}](https://plnkr.co/),
+as [[jsbin.com]](http://jsbin.com/), [[codepen.io]](http://codepen.io/), [[plunker]](https://plnkr.co/),
 etc.
 
 During the course, we will show you how to test out simple code snippets
@@ -1374,36 +1348,24 @@ alert(&apos;Hello, world!&apos;);
 The alert function in JavaScript displays a message to the user which
 they can then dismiss. To show where this would fit into an actual HTML
 document, here's an example of a simple page with some JavaScript:
+> &lt;!DOCTYPE html&gt;
+> &lt;html lang=&quot;en&quot;&gt;
+> &lt;head&gt;
+> &lt;title&gt;Hello&lt;/title&gt;
+> &lt;script&gt;
+> alert(&apos;Hello, world!&apos;);
+> &lt;/script&gt;
+> &lt;/head&gt;
+> &lt;body&gt;
+> &lt;h1&gt;Hello!&lt;/h1&gt;
+> &lt;/body&gt;
+> &lt;/html&gt;
 
-&lt;!DOCTYPE html&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;title&gt;Hello&lt;/title&gt;
-
-&lt;script&gt;
-
-alert(&apos;Hello, world!&apos;);
-
-&lt;/script&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;h1&gt;Hello!&lt;/h1&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
-
-## [[Events]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#events)
+## [[Events]](https://cs50.harvard.edu/web/2020/notes/5/#events)
 
 **One feature of JavaScript that makes it helpful for web programming is
 that it supports [[Event-Driven
-Programming]{.underline}](https://medium.com/@vsvaibhav2016/introduction-to-event-driven-programming-28161b79c223).**
+Programming]](https://medium.com/@vsvaibhav2016/introduction-to-event-driven-programming-28161b79c223).**
 
 > Event-Driven Programming is a programming paradigm that centers around
 > the detection of events, and actions that should be taken when an
@@ -1413,17 +1375,18 @@ An event can be almost anything including a button being clicked, the
 cursor being moved, a response being typed, or a page being loaded. Just
 about everything a user does to interact with a web page can be thought
 of as an event. In JavaScript, we use [[Event
-Listeners]{.underline}](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) that
+Listeners]](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) that
 wait for certain events to occur, and then execute some code.
 
 Let's begin by turning our JavaScript from above into
-a [[function]{.underline}](https://www.w3schools.com/js/js_functions.asp) called hello:
+a [[function]](https://www.w3schools.com/js/js_functions.asp) called hello:
 
-function hello() {
 
-alert(&apos;Hello, world!&apos;)
-
-}
+> function hello() {
+> 
+> alert(&apos;Hello, world!&apos;)
+> 
+> }
 
 Now, let's work on running this function whenever a button is clicked.
 To do this, we'll create an HTML button in our page with
@@ -1435,7 +1398,7 @@ should happen when the button is clicked:
 These changes allow us to wait to run parts of our JavaScript code until
 a certain event occurs.
 
-## [[Variables]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#variables)
+## [[Variables]](https://cs50.harvard.edu/web/2020/notes/5/#variables)
 
 JavaScript is a programming language just like Python, C, or any other
 language you've worked with before, meaning it has many of the same
@@ -1444,23 +1407,22 @@ keywords we can use to assign values in JavaScript:
 
 -   var: used to define a variable globally
 
-var age = 20;
+> var age = 20;
 
 -   let: used to define a variable that is limited in scope to the
     > current block such as a function or loop
 
-let counter = 1;
+> let counter = 1;
 
 -   const: used to define a value that will not change
 
-const PI = 3.14;
+> const PI = 3.14;
 
 For an example of how we can use a variable, let's take a look at a page
 that keeps track of a counter:
 
-&lt;!DOCTYPE html&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
+> &lt;!DOCTYPE html&gt;
+> &lt;html lang=&quot;en&quot;&gt;
 
 &lt;head&gt;
 
@@ -1511,7 +1473,7 @@ found, we can change its innerHTML property:
 heading.innerHTML = &apos;Goodbye!&apos;;
 
 Just as in Python, we can also take advantage
-of [[conditions]{.underline}](https://www.w3schools.com/js/js_if_else.asp) in
+of [[conditions]](https://www.w3schools.com/js/js_if_else.asp) in
 JavaScript. For example, let's say rather than always changing our
 header to Goodbye!, we wish to toggle back and forth
 between Hello! and Goodbye!. Our page might then look something like the
@@ -1689,7 +1651,7 @@ height="3.529166666666667in"}
 Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
 W3Cx [[HTML5&CSS
-Fundamentals]{.underline}](https://www.edx.org/course/html5-introduction-w3cx-html5-0x-0) course,
+Fundamentals]](https://www.edx.org/course/html5-introduction-w3cx-html5-0x-0) course,
 but we generally refer to the strange ones as &quot;self closing&quot; tags.  
 Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you
@@ -1706,7 +1668,7 @@ needs is declared in an &quot;attribute&quot;.
 
 The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional and can
 be removed entirely, this will still be [[valid
-HTML5]{.underline}](http://w3c.github.io/html/syntax.html#void-elements).
+HTML5]](http://w3c.github.io/html/syntax.html#void-elements).
 
 1.  &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;&gt;
 
@@ -1718,7 +1680,7 @@ menuitem, meta, param, source, track, wbr.
 
 Most of what you can learn about HTML attributes is presented [[in the
 three W3Cx MOOCs about
-HTML5]{.underline}](https://www.edx.org/school/w3cx) (fundamentals,
+HTML5]](https://www.edx.org/school/w3cx) (fundamentals,
 coding essentials, and advanced techniques), but we can introduce the
 idea briefly in this JavaScript course. Basically, a given element on
 your Web page can be distinguished by any number of unique or common
@@ -1871,7 +1833,7 @@ I display the image and i&apos;ve got the URL, here, in the address bar.
 
 I just copy and past it and i&apos;ve got Leonardo Di Caprio in my document.
 
-**[CSS is for Style]{.underline}**
+**[CSS is for Style]**
 
 Hi!
 
@@ -2047,7 +2009,7 @@ attribute id=&quot;hobbyTitle&quot;.
 
 In that case we use a funny char font called &apos;caveat&apos; we took from the
 Google font service
-(see [[fonts.google.com]{.underline}](https://fonts.google.com/)), and
+(see [[fonts.google.com]](https://fonts.google.com/)), and
 in order to be able to use it in a font-family CSS property, we included
 its definition using a &lt;link&gt; tag in the HTML part of the document:
 
@@ -2092,7 +2054,7 @@ three paragraphs in the HTML element:
 There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
 W3Cx [[CSS Basics and HTML5&CSS
-Fundamentals]{.underline}](https://www.edx.org/school/w3cx) courses to
+Fundamentals]](https://www.edx.org/school/w3cx) courses to
 learn more about CSS and about HTML5 basics.
 
 #### Where can we put the CSS rules: In the HTML file? In another file? 
@@ -2106,7 +2068,7 @@ this example:
 This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
 this ([[open this example in
-Plunker]{.underline}](https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview))
+Plunker]](https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview))
 
 ![Snapshot of a code editor showing a separate css
 file](./images/image031.jpg){width="6.5in" height="2.3125in"}
@@ -2114,7 +2076,7 @@ file](./images/image031.jpg){width="6.5in" height="2.3125in"}
 Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it will hide all the
 plumbery for you (except the more complete ones such
-as [[plunker]{.underline}](https://plnkr.co/) or [[c9.io]{.underline}](https://c9.io/) that
+as [[plunker]](https://plnkr.co/) or [[c9.io]](https://c9.io/) that
 will enable you to manage files in the cloud).
 
 ### Live coding video: mixing HTML and CSS
@@ -2192,7 +2154,7 @@ CSS rule.
 So, to sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.
 
-[JavaScript is the Interactive Glue]{.underline}
+[JavaScript is the Interactive Glue]
 
 ### Live coding video: JavaScript is the interactive glue between HTML and CSS
 
@@ -2340,16 +2302,16 @@ a Web document.
 Notice that in these examples, the JavaScript code is located in the
 HTML of the document.
 
-**[History of JavaScript]{.underline}**
+**[History of JavaScript]**
 
 JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
-at [[Netscape]{.underline}](https://en.wikipedia.org/wiki/Netscape) (the
-ancestor of [[Mozilla]{.underline}](https://www.mozilla.org/)). At that
+at [[Netscape]](https://en.wikipedia.org/wiki/Netscape) (the
+ancestor of [[Mozilla]](https://www.mozilla.org/)). At that
 time, Netscape, in association with Sun MicroSystems, provided popular
 server and client-oriented solutions ([[Netscape
-Navigator]{.underline}](https://en.wikipedia.org/wiki/Netscape_Navigator),
+Navigator]](https://en.wikipedia.org/wiki/Netscape_Navigator),
 ancestor
-of [[Firefox]{.underline}](https://en.wikipedia.org/wiki/Firefox)) which
+of [[Firefox]](https://en.wikipedia.org/wiki/Firefox)) which
 depended on Java. (Sun Microsystems,  the company that created the Java
 programming language, no longer exists, having been bought by Oracle
 Corporation in 2009.)
@@ -2371,7 +2333,7 @@ course from Java, leave the Java thinking behind!
 
 JavaScript quickly became a success following its first
 appearance in [[Netscape Navigator 2 in March
-1996]{.underline}](http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/), and
+1996]](http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/), and
 it was quickly integrated into other popular browsers. Microsoft also
 created its own version named JScript (and shipped it with Internet
 Explorer 3 in 1996).
@@ -2392,8 +2354,8 @@ did not exist at this time!**
 ![ecma logo](./images/image038.gif){width="1.5520833333333333in"
 height="0.6458333333333334in"}Towards the end of 1996, JavaScript was
 standardized
-by [[ECMA]{.underline}](https://en.wikipedia.org/wiki/Ecma_International) as
-the [[EcmaScript]{.underline}](https://en.wikipedia.org/wiki/ECMAScript) standard. **So
+by [[ECMA]](https://en.wikipedia.org/wiki/Ecma_International) as
+the [[EcmaScript]](https://en.wikipedia.org/wiki/ECMAScript) standard. **So
 no matter whether you see it called JavaScript or EcmaScript, don&apos;t
 worry, it&apos;s the same thing.** EcmaScript has continued to be released
 right up to the present day.
@@ -2414,11 +2376,11 @@ programming language to be approved by ECMA International, the standards
 group responsible for vetting and approving different versions of the
 language. In June 2015, ECMA International [[approved the 6th edition of
 the
-language]{.underline}](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).
+language]](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).
 The name, ES2015, is used because the latest version of JavaScript is
 identified as the 2015 version of ECMAScript (the alternative name for
 JavaScript). [[Read this blog post about all these naming
-incongruities!]{.underline}](http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/)
+incongruities!]](http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/)
 
 Up until relatively recently, ES2015 was referred to as ES6 and before
 that, Harmony. Moving forward, ES suffixed with the year of the latest
@@ -2455,7 +2417,7 @@ versions (with the exception of Firefox) is rather weak.
 First of all, this is an intro course! Not all features of JavaScript
 need to be covered, in particular the ones that you cannot run in your
 browser without using advanced tools (there are tools, such
-as [[Babel]{.underline}](https://babeljs.io/),  that can turn ES2016
+as [[Babel]](https://babeljs.io/),  that can turn ES2016
 source code into ES5 code that can be run in nearly any browser, but
 they are tricky to use and not for beginners).
 
@@ -2498,21 +2460,21 @@ JavaScript is an interpreted (or just-in-time compiled) language, which
 means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:
 
--   [[SpiderMonkey]{.underline}](https://developer.mozilla.org/fr/docs/SpiderMonkey) (included
+-   [[SpiderMonkey]](https://developer.mozilla.org/fr/docs/SpiderMonkey) (included
     > in Mozilla Firefox)
 
--   [[JavaScriptCore]{.underline}](https://developer.apple.com/reference/javascriptcore) (included
+-   [[JavaScriptCore]](https://developer.apple.com/reference/javascriptcore) (included
     > in Apple Safari)
 
 -   [[Chrome
-    > V8]{.underline}](https://developers.google.com/v8/) (included in
+    > V8]](https://developers.google.com/v8/) (included in
     > Google Chrome, in the Node.js server)
 
--   [[Chakra]{.underline}](https://github.com/Microsoft/ChakraCore) (included
+-   [[Chakra]](https://github.com/Microsoft/ChakraCore) (included
     > in Microsoft Internet Explorer and now in the Microsoft Edge
     > browser)
 
-**[The Best Way to Learn JavaScript]{.underline}**
+**[The Best Way to Learn JavaScript]**
 
 So, what it the best method for learning JavaScript?
 
@@ -2697,7 +2659,7 @@ comma.
 And we also had a first encounter with what we call arrays, that are
 elements separated by commas inside brackets.
 
-### **[What is the best method to learn JavaScript?]{.underline}**
+### **[What is the best method to learn JavaScript?]**
 
 #### FIRST: learn by looking at and tweaking the code in the examples
 
@@ -2766,12 +2728,12 @@ document of some external JavaScript code:
 We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the d3js plotting library that is
 apparently located
-at [[https://d3js.org]{.underline}](https://d3js.org/) (try to visit the
+at [[https://d3js.org]](https://d3js.org/) (try to visit the
 site), and another from github (a famous repository for open source
 contributions), and located in the github account of a person named
 &quot;mauriciopoppe&quot;, the repository is named &quot;function plot&quot;. A rapid
 search will give [[this
-URL]{.underline}](http://mauriciopoppe.github.io/function-plot/) as the
+URL]](http://mauriciopoppe.github.io/function-plot/) as the
 home page of the &quot;function plot JavaScript library&quot;.
 
 Then, looking at the JavaScript code of the example (click the JS button
@@ -2821,12 +2783,12 @@ To do this:
     > should see the results of your modifications as soon as you stop
     > typing (we call this &quot;live coding&quot;). (Here is [[an example of
     > what you can
-    > obtain]{.underline}](http://codepen.io/w3devcampus/pen/dvpEPZ) as
+    > obtain]](http://codepen.io/w3devcampus/pen/dvpEPZ) as
     > a result).
 
 **What can you guess from this example?**
 
-**[A function call]{.underline}**
+**[A function call]**
 
 You can think of this code in this way:
 
@@ -2883,7 +2845,7 @@ you tweaked). They are in bold in the source code we saw earlier:
 > }
 ```
 
-**[JavaScript object]{.underline}**
+**[JavaScript object]**
 
 In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;,
 &quot;3.14&quot;, and you may also encounter more &quot;structured&quot; values that we
@@ -3034,7 +2996,7 @@ Not bad ;-)
 </p>
 <!-- ![toggle](./images/image045.gif){width="6.25in" height="5.0625in"} -->
 
-## [[DOM Manipulation]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#dom-manipulation)
+## [[DOM Manipulation]](https://cs50.harvard.edu/web/2020/notes/5/#dom-manipulation)
 
 Let's use this idea of DOM manipulation to improve our counter page:
 
@@ -3071,7 +3033,7 @@ We can make this page even more interesting by displaying an alert every
 time the counter gets to a multiple of ten. In this alert, we'll want to
 format a string to customize the message, which in JavaScript we can do
 using [[template
-literals]{.underline}](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
+literals]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
 Template literals requre that there are backticks (&ast;`) around the entire
 expression and a &ast;$ and curly braces around any substitutions. For
 example, let's change our count function
@@ -3133,7 +3095,7 @@ is because it takes a small bit of time for the page to load, and our
 JavaScript code ran before the button had been rendered. To account for
 this, we can specify that code will run only after the page has loaded
 using
-the [[addEventListener]{.underline}](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) function.
+the [[addEventListener]](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) function.
 This function takes in two arguments:
 
 1.  An event to listen for (eg: &apos;click&apos;)
@@ -3150,7 +3112,7 @@ document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 ```
 
 In the example above, we've used
-an [[anonymous]{.underline}](https://www.w3schools.com/js/js_function_definition.asp) function,
+an [[anonymous]](https://www.w3schools.com/js/js_function_definition.asp) function,
 which is a function that is never given a name. Putting all of this
 together, our JavaScript now looks like this:
 
@@ -3224,7 +3186,7 @@ Having JavaScript in a separate file is useful for a number of reasons:
 
 -   Importing: We are able to import JavaScript libraries that other
     > people have already written. For
-    > example [[Bootstrap]{.underline}](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js) has
+    > example [[Bootstrap]](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js) has
     > their own JavaScript library you can include to make your site
     > more interactive.
 
@@ -3282,29 +3244,27 @@ We can do more than just add HTML to our page using JavaScript, we can
 also change the styling of a page! In the page below, we use buttons to
 change the color of our heading.
 
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Colors&lt;/title&gt;
-&lt;script&gt;
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
-button.onclick = function() {
-document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
-}
-});
-});
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-&lt;button data-color=&quot;red&quot;&gt;Red&lt;/button&gt;
-&lt;button data-color=&quot;blue&quot;&gt;Blue&lt;/button&gt;
-&lt;button data-color=&quot;green&quot;&gt;Green&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
+> &lt;!DOCTYPE html&gt;
+> &lt;html lang=&quot;en&quot;&gt;
+> &lt;head&gt;
+> &lt;title&gt;Colors&lt;/title&gt;
+> &lt;script&gt;
+> document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+> document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
+> button.onclick = function() {
+> document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
+> }
+> });
+> });
+> &lt;/script&gt;
+> &lt;/head&gt;
+> &lt;body&gt;
+> &lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
+> &lt;button data-color=&quot;red&quot;&gt;Red&lt;/button&gt;
+> &lt;button data-color=&quot;blue&quot;&gt;Blue&lt;/button&gt;
+> &lt;button data-color=&quot;green&quot;&gt;Green&lt;/button&gt;
+> &lt;/body&gt;
+> &lt;/html&gt;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3326,16 +3286,16 @@ Some notes on the page above:
     > element's dataset property.
 
 -   We use the querySelectorAll function to get an [[Node
-    > List]{.underline}](https://www.w3schools.com/js/js_htmldom_nodelist.asp) (similar
+    > List]](https://www.w3schools.com/js/js_htmldom_nodelist.asp) (similar
     > to a Python list or a
-    > JavaScript [[array]{.underline}](https://www.w3schools.com/js/js_arrays.asp))
+    > JavaScript [[array]](https://www.w3schools.com/js/js_arrays.asp))
     > with all elements that match the query.
 
--   The [[forEach]{.underline}](https://www.w3schools.com/jsref/jsref_foreach.asp) function
+-   The [[forEach]](https://www.w3schools.com/jsref/jsref_foreach.asp) function
     > in JavaScript takes in another function, and applies that function
     > to each element in a list or array.
 
-### [[JavaScript Console]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#javascript-console)
+### [[JavaScript Console]](https://cs50.harvard.edu/web/2020/notes/5/#javascript-console)
 
 The console is a useful tool for testing out small bits of code and
 debugging. You can write and run JavaScript code in the console, which
@@ -3359,43 +3319,41 @@ Which gives us this in the console:
 <!-- ![node list](./images/image051.png){width="6.5in"
 height="4.674305555555556in"} -->
 
-### [[Arrow Functions]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#arrow-functions)
+### [[Arrow Functions]](https://cs50.harvard.edu/web/2020/notes/5/#arrow-functions)
 
 In addition to the traditional function notation we've seen already,
 JavaScript now gives us the ability to use [[Arrow
-Functions]{.underline}](https://www.w3schools.com/js/js_arrow_function.asp) where
+Functions]](https://www.w3schools.com/js/js_arrow_function.asp) where
 we have an input (or parentheses when there's no input) followed
 by =&gt; followed by some code to be run. For example, we can alter our
 script above to use an anonymous arrow function:
 
-```
-document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
-document.querySelectorAll(&apos;button&apos;).forEach(button =&gt; {
-button.onclick = () =&gt; {
-document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
-}
-});
-});
-```
+> document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
+> document.querySelectorAll(&apos;button&apos;).forEach(button =&gt; {
+> button.onclick = () =&gt; {
+> document.querySelector(&quot;#hello&quot;).style.color = button.dataset.color;
+> }
+> });
+> });
+
 
 We can also have named functions that use arrows, as in this rewriting
 of the count function:
 
-```
-count = () =&gt; {
-counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
-if (counter % 10 === 0) {
-alert(&ast;`Count is now &ast;${counter}&ast;`)
-}
-}
-```
+> count = () =&gt; {
+> counter++;
+> document.querySelector(&apos;h1&apos;).innerHTML = counter;
+> if (counter % 10 === 0) {
+> alert(&ast;`Count is now &ast;${counter}&ast;`)
+> }
+> }
+
 
 To get an idea about some other events we can use, let's see how we can
 implement our color switcher using a dropdown menu instead of three
 separate buttons. We can detect changes in a select element using
 the onchange attribute. In
-JavaScript, [[this]{.underline}](https://www.w3schools.com/js/js_this.asp) is
+JavaScript, [[this]](https://www.w3schools.com/js/js_this.asp) is
 a keyword that changes based on the context in which it's used. In the
 case of an event handler, this refers to the object that triggered the
 event.
@@ -3436,7 +3394,7 @@ document.querySelector(&apos;#hello&apos;).style.color = this.value;
 height="5.40625in"} -->
 
 There are many
-other [[events]{.underline}](https://www.w3schools.com/js/js_events.asp) we
+other [[events]](https://www.w3schools.com/js/js_events.asp) we
 can detect in JavaScript including the common ones below:
 
 -   onclick
@@ -3453,7 +3411,7 @@ can detect in JavaScript including the common ones below:
 
 -   ...
 
-### [[TODO List]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#todo-list)
+### [[TODO List]](https://cs50.harvard.edu/web/2020/notes/5/#todo-list)
 
 To put together a few of the things we've learned in this lecture, let's
 work on making a TODO list entirely in JavaScript. We'll start by
@@ -3498,7 +3456,7 @@ you'll see below:
     > reloading the current page or redirecting to a new one.
 
 -   In JavaScript, we can create HTML elements using
-    > the [[createElement]{.underline}](https://www.w3schools.com/jsref/met_document_createelement.asp) function.
+    > the [[createElement]](https://www.w3schools.com/jsref/met_document_createelement.asp) function.
     > We can then add those elements to the DOM using
     > the append function.
 
@@ -3548,14 +3506,14 @@ return false;
 <!-- ![Tasks demo](./images/image053.gif){width="6.25in"
 height="5.885416666666667in"} -->
 
-## [[Intervals]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#intervals)
+## [[Intervals]](https://cs50.harvard.edu/web/2020/notes/5/#intervals)
 
 In addition to specifying that functions run when an event is triggered,
 we can also set functions to run after a set amount of time. For
 example, let's return to our counter page's script, and add an interval
 so even if the user doesn't click anything, the counter increments every
 second. To do this, we use
-the [[setInterval]{.underline}](https://www.w3schools.com/jsref/met_win_setinterval.asp) function,
+the [[setInterval]](https://www.w3schools.com/jsref/met_win_setinterval.asp) function,
 which takes as argument a function to be run, and a time (in
 milliseconds) between function runs.
 
@@ -3581,7 +3539,7 @@ setInterval(count, 1000);
 <!-- ![count auto](./images/image054.gif){width="6.25in"
 height="5.885416666666667in"} -->
 
-## [[Local Storage]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#local-storage)
+## [[Local Storage]](https://cs50.harvard.edu/web/2020/notes/5/#local-storage)
 
 One thing to notice about all of our sites so far is that every time we
 reload the page, all of our information is lost. The heading color goes
@@ -3591,7 +3549,7 @@ be able to store information that we can use when a user returns to the
 site.
 
 One way we can do this is by using [[Local
-Storage]{.underline}](https://www.w3schools.com/jsref/prop_win_localstorage.asp),
+Storage]](https://www.w3schools.com/jsref/prop_win_localstorage.asp),
 or storing information on the user's web browser that we can access
 later. This information is stored as a set of key-value pairs, almost
 like a Python dictionary. In order to use local storage, we'll employ
@@ -3630,22 +3588,20 @@ document.querySelector(&apos;button&apos;).onclick = count;
 });
 ```
 
-## [[APIs]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#apis)
+## [[APIs]](https://cs50.harvard.edu/web/2020/notes/5/#apis)
 
-### [[JavaScript Objects]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#javascript-objects)
+### [[JavaScript Objects]](https://cs50.harvard.edu/web/2020/notes/5/#javascript-objects)
 
 A [[JavaScript
-Object]{.underline}](https://www.w3schools.com/js/js_objects.asp) is
+Object]](https://www.w3schools.com/js/js_objects.asp) is
 very similar to a Python dictionary, as it allows us to store key-value
 pairs. For example, I could create a JavaScript Object representing
 Harry Potter:
 
-```
-let person = {
-first: &apos;Harry&apos;,
-last: &apos;Potter&apos;
-};
-```
+> let person = {
+> first: &apos;Harry&apos;,
+> last: &apos;Potter&apos;
+> };
 
 I can then access or change parts of this object using either bracket or
 dot notation:
@@ -3662,7 +3618,7 @@ height="3.920931758530184in"} -->
 
 **One way in which JavaScript Objects are really useful is in
 transferring data from one site to another, particularly when
-using [[APIs]{.underline}](https://www.mulesoft.com/resources/api/what-is-an-api)**
+using [[APIs]](https://www.mulesoft.com/resources/api/what-is-an-api)**
 
 > An API, or Application Programming Interface, is a structured form
 > communication between two different applications.
@@ -3670,7 +3626,7 @@ using [[APIs]{.underline}](https://www.mulesoft.com/resources/api/what-is-an-ap
 For example, we may want our application to get information from Google
 Maps, Amazon, or some weather service. We can do this by making calls to
 a service's API, which will return structured data to us, often
-in [[JSON]{.underline}](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript
+in [[JSON]](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript
 Object Notation) form. For example, a flight in JSON form might look
 like this:
 
@@ -3686,30 +3642,28 @@ The values within a JSON do not have to just be strings and numbers as
 in the example above. We can also store lists, or even other JavaScript
 Objects:
 
-```
-{
-&quot;origin&quot;: {
-&quot;city&quot;: &quot;New York&quot;,
-&quot;code&quot;: &quot;JFK&quot;
-},
-&quot;destination&quot;: {
-&quot;city&quot;: &quot;London&quot;,
-&quot;code&quot;: &quot;LHR&quot;
-},
-&quot;duration&quot;: 415
-}
-```
+> {
+> &quot;origin&quot;: {
+> &quot;city&quot;: &quot;New York&quot;,
+> &quot;code&quot;: &quot;JFK&quot;
+> },
+> &quot;destination&quot;: {
+> &quot;city&quot;: &quot;London&quot;,
+> &quot;code&quot;: &quot;LHR&quot;
+> },
+> &quot;duration&quot;: 415
+> }
 
-### [[Currency Exchange]{.underline}](https://cs50.harvard.edu/web/2020/notes/5/#currency-exchange)
+### [[Currency Exchange]](https://cs50.harvard.edu/web/2020/notes/5/#currency-exchange)
 
 To show how we can use APIs in our applications, let's work on building
 an application where we can find exchange rates between two currencies.
 Throughout the exercise, we'll be using the [[European Central Bank's
-Exchange Rate API]{.underline}](https://exchangeratesapi.io/). By
+Exchange Rate API]](https://exchangeratesapi.io/). By
 visiting their website, you'll see the API's documentation, which is
 generally a good place to start when you wish to use an API. We can test
 this api by visiting the
-URL: [[https://api.exchangeratesapi.io/latest?base=USD]{.underline}](https://api.exchangeratesapi.io/latest?base=USD).
+URL: [[https://api.exchangeratesapi.io/latest?base=USD]](https://api.exchangeratesapi.io/latest?base=USD).
 When you visit this page, you'll see the exchange rate between the U.S.
 Dollar and many other currencies, written in JSON form. You can also
 change the GET parameter in the URL from USD to any other currency code
@@ -3731,13 +3685,13 @@ JavaScript file but leave the body empty:
 ```
 
 Now, we'll use something
-called [[AJAX]{.underline}](https://www.w3schools.com/js/js_ajax_intro.asp),
+called [[AJAX]](https://www.w3schools.com/js/js_ajax_intro.asp),
 or Asynchronous JavaScript And XML, which allows us to access
 information from external pages even after our page has loaded. In order
 to do this, we'll use
-the [[fetch]{.underline}](https://javascript.info/fetch) function which
+the [[fetch]](https://javascript.info/fetch) function which
 will allow us to send an HTTP request. The fetch function returns
-a [[promise]{.underline}](https://web.dev/promises/). We won't talk
+a [[promise]](https://web.dev/promises/). We won't talk
 about the details of what a promise is here, but we can think of it as a
 value that will come through at some point, but not necessarily right
 away. We deal with promises by giving them a .then attribute describing
@@ -3871,3 +3825,5 @@ We'll also add some error checking here:
 
 That's all for this lecture! Next time, we'll work on using JavaScript
 to create even more engaging user interfaces!
+
+NOT the end.  So much more once Edx allows auditing again.  Cheap bastards!
