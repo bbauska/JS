@@ -734,7 +734,7 @@ description of the link target.
 </a>
 ```
 
-# What is internationalization?
+## What is internationalization?
 
 Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
@@ -1480,7 +1480,7 @@ inserted in your Web page, and in that example we
 used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
-````
+```
 1.  <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
 2.       width=200 alt="Michel Buffa plays rock&roll">
 ```
