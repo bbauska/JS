@@ -422,7 +422,7 @@ height="1.8229166666666667in"} -->
 
 #### Unicorn
 
-[[Unicorn]](http://validator.w3.org/unicorn/) is W3C&apos;s
+[<a href="http://validator.w3.org/unicorn/">Unicorn</a>]( is W3C&apos;s
 unified validator, which helps people improve the quality of their Web
 pages by performing a variety of checks. Unicorn gathers the results of
 the popular HTML and CSS validators, as well as other useful services,
@@ -430,18 +430,16 @@ such as RSS/Atom feeds and http headers.
 
 ####  Link Checker
 
-The [[W3C Link
-Checker]](http://validator.w3.org/checklink) looks for
+The [<a href="http://validator.w3.org/checklink">W3C Link Checker]</a> looks for 
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use
-valid [[(X)HTML
-Markup]](http://validator.w3.org/) and [[CSS]](http://jigsaw.w3.org/css-validator/).
+valid [<a href="http://validator.w3.org/</a> and [<a href="http://jigsaw.w3.org/css-validator/">CSS]</a>(X)HTML
+Markup]</a>.
 
 #### Internationalization Checker
 
-The [[W3C Internationalization
-Checker]](https://validator.w3.org/i18n-checker/) provides
+The [<a href="https://validator.w3.org/i18n-checker/">W3C Internationalization Checker]</a> provides
 information about various internationalization-related aspects of your
 page, including the HTTP headers that affect it. It will also report a
 number of  issues and offer advice about how to resolve them.
@@ -475,8 +473,7 @@ specifications, and further details on those when selecting the one of
 interest.
 
 The W3C cheatsheet is no longer available as an Android app, but remains
-available as a [[pure Web
-application]](http://dev.w3.org/2009/cheatsheet/doc/).
+available as a [<a href="http://dev.w3.org/2009/cheatsheet/doc/">pure Web application</a>].
 
 ### What is W3C?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -489,7 +486,8 @@ application]](http://dev.w3.org/2009/cheatsheet/doc/).
 <!-- ![W3C logo](./images/image019.png){width="4.25in"
 height="0.6979166666666666in"} -->
 
-##### As steward of global Web standards, W3C&apos;s mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
+##### As steward of global Web standards, W3C&apos;s mission is to safeguard the 
+openness, accessibility, and freedom of the World Wide Web from a technical perspective.
 
 W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
@@ -551,13 +549,11 @@ As of September 2017, W3C is:
     including Working and Interest Groups where technical specifications
     are discussed and developed.
 
--   Over 6,025 [[published technical
-    reports]](http://www.w3.org/TR/), including 386 Web
-    standards (or W3C Recommendations) - since January 1st ,1995.
+-   Over 6,025 [<a href="http://www.w3.org/TR/">published technical reports]</a>, 
+    including 386 Web standards (or W3C Recommendations) - since January 1st ,1995.
 
--   About 291 [[Community and Business
-    Groups]](https://www.w3.org/community/groups/), where
-    developers, designers, and anyone passionate about the Web have a
+-   About 291 <a href="https://www.w3.org/community/groups/">[Community and Business
+    Groups]</a>, where developers, designers, and anyone passionate about the Web have a
     place to hold discussions and publish ideas.
 
 -   Near 10,846 active participants constituting the W3C community.
@@ -571,11 +567,12 @@ this usage is technically incorrect.
 
 The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are [[e-mail ]](https://en.wikipedia.org/wiki/Email)and [[ftp]](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for
+are <a href="https://en.wikipedia.org/wiki/Email">[e-mail ]</a>and 
+<a href="https://en.wikipedia.org/wiki/">[ftp]</a> File_Transfer_Protocol) for
 example. One analogy equates the Internet to a road network where the
-Web is a car, the email is a bicycle, etc.  Read [[this
-article]](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
-more details about the difference between Internet and the Web.
+Web is a car, the email is a bicycle, etc.  Read 
+[<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335">[this
+article]</a> for more details about the difference between Internet and the Web.
 
 The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
@@ -673,8 +670,9 @@ The Web is an increasingly important resource in many aspects of life:
 education, employment, government, commerce, health care, recreation,
 and more. When Web pages, Web technologies, Web tools, or Web
 applications are badly designed, they can create barriers that exclude
-people from using the Web. More information is available in the [[W3C
-Accessibility]](https://www.w3.org/standards/webdesign/accessibility) overview.
+people from using the Web. More information is available in the 
+<a href="https://www.w3.org/standards/webdesign/accessibility" 
+target="_blank" rel="noopener noreferrer">[W3C Accessibility]</a> overview.
 
 ### First steps in Web accessibility
 
@@ -683,11 +681,12 @@ implement and check right away, even when you are new to this topic. Two
 example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:
 
--   [[Tips for Getting Started with Web
-    Accessibility]](https://www.w3.org/WAI/gettingstarted/tips/)
-
--   [[Easy Checks - A First Review of Web
-    Accessibility]](https://www.w3.org/WAI/eval/preliminary)
+<ul>
+  <li>[<a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" 
+    rel="noopener noreferrer">[Tips for Getting Started with Web Accessibility]</a></li>
+  <li>[<a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" 
+    rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility]</a></li>
+</ul>
 
 #### Example 1: page title
 
@@ -894,20 +893,19 @@ through the course, so come back and review this page at the end.
     people from diverse cultures, check for translatability and
     inappropriate cultural bias.
 
-You will find more quick tips on the [[Internationalization quick
-tips]](http://www.w3.org/International/quicktips/) page.
+You will find more quick tips on the <a href="http://www.w3.org/International/quicktips/" >Internationalization quick
+tips</a> page.
 Remember that these tips do not constitute complete guidelines.
 
 ### Internationalization checker
 
 When you start creating Web pages, you can also run them through the
-W3C&apos;s [[Internationalization
-Checker]](https://validator.w3.org/i18n-checker/).  If there
-are internationalization problems with your page, this checker explains
-what they are and what to do about it.
+W3C&apos;s <a href="https://validator.w3.org/i18n-checker/" target="_blank" 
+rel="noopener noreferrer">[Internationalization Checker]</a>.  If there are internationalization 
+problems with your page, this checker explains what they are and what to do about it.
 
-[[Module 1.1: Introduction to
-JavaScript]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@chapter+block@c383695587a642409d48e3a7d808cf8c)
+<a href="https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/course/#block-v1:W3Cx+JS.0x+3T2017+type@chapter+block@c383695587a642409d48e3a7d808cf8c" 
+target="_blank" rel="noopener noreferrer">[Module 1.1: Introduction to JavaScript]</a>
 
 Hello everyone, welcome to the wonderful world of JavaScript!
 
@@ -1029,11 +1027,9 @@ and end, which part is the title, which things should be emphasized and
 so on.
 
 There are many ways to markup a document, but HTML borrows a technique
-from an ancestor language, SGML ([[Standard Generalized Markup
-Language]](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)),
-which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) to separate the
-annotations from the regular text.  In HTML these annotations are called
-&quot;tags&quot;.
+from an ancestor language, SGML ([<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup
+Language</a>]), which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) to separate the
+annotations from the regular text.  In HTML these annotations are called &quot;tags&quot;.
 
 For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
@@ -1083,25 +1079,24 @@ Here is another, more generic example:
 
 ```
 <!DOCTYPE html>
- <html lang=&quot;en&quot;>
-   <head>
-     <title>Your first HTML page</title>
-     <meta charset=&quot;utf-8&quot;/>
-   </head>
+<html lang=&quot;en&quot;>
+  <head>
+    <title>Your first HTML page</title>
+    <meta charset=&quot;utf-8&quot;/>
+  </head>
   <body>
-  <h1>My home page</h1>
-   <h2>Who am I?</h2>
+    <h1>My home page</h1>
+    <h2>Who am I?</h2>
     <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-professor at the University of Nice, in France, and I&apos;m also the
-author of two MOOCS about HTML5 on W3Cx.</p>
-    <p>I also play electric guitar and love coding WebAudio
-applications&hellip;</p>
+      professor at the University of Nice, in France, and I&apos;m also the
+      author of two MOOCS about HTML5 on W3Cx.</p>
+    <p>I also play electric guitar and love coding WebAudio applications&hellip;</p>
     <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
-     alt=&quot;Michel Buffa plays rock and roll&quot;>
-   <h2>My Hobbies</h2>
-Music, Movies, Video Games, Travelling, Family, etc.
-   </body>
-  </html>
+      alt=&quot;Michel Buffa plays rock and roll&quot;>
+    <h2>My Hobbies</h2>
+      Music, Movies, Video Games, Travelling, Family, etc.
+  </body>
+</html>
 ```
 
 It&apos;s time to write your first HTML code :-)
