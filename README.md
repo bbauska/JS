@@ -1344,7 +1344,7 @@ its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
 ```
-1.  <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/>
+1.  <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 ```
 
 &hellip; then you should know that the slash at the end of the open tag is
@@ -1359,7 +1359,7 @@ be removed entirely, this will still be [[valid
 HTML5]](http://w3c.github.io/html/syntax.html#void-elements).
 
 ```
-1.  <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;>
+1.  <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
 ```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
@@ -1679,7 +1679,7 @@ And here is the CSS rule:
 
 ```
 1.  **#hobbyTitle** {
-2.    font-family: &apos;caveat&apos;;
+2.    font-family: 'caveat';
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 5.  }
@@ -1712,7 +1712,7 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 ```
 1.  **.funny **{
 2.    color:purple;
-3.    font-family: &apos;caveat&apos;;
+3.    font-family: 'caveat';
 4.  font-size:40px;
 5.  }
 ```
@@ -2415,13 +2415,13 @@ on the CodePen example), we see:
 ```
 functionPlot(**{**
 >
-**       target: &apos;#myFunction&apos;,**
+**       target: '#myFunction',**
 >
 **       data: &lbrack;{**
 >
-**       fn: &apos;sin(x)&apos;,**
+**       fn: 'sin(x)',**
 >
-**       color: &apos;red&apos;**
+**       color: 'red'**
 >
 **    }&rbrack;,**
 >
@@ -2494,10 +2494,10 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 {
-    **target**: &apos;#myFunction&apos;,
+    **target**: '#myFunction',
     **data**: &lbrack;{
-             fn: &apos;sin(x)&apos;,
-             color: &apos;red&apos;
+             fn: 'sin(x)',
+             color: 'red'
           }&rbrack;,
     **grid**: true,
     **yAxis**: {
@@ -2575,8 +2575,8 @@ The data object is even more complicated:
 
 ```
 data: &lbrack;{
-   fn: &apos;sin(x)&apos;,
-   color: &apos;red&apos;
+   fn: 'sin(x)',
+   color: 'red'
 }&rbrack;,
 ```
 
@@ -2597,12 +2597,12 @@ cos(x) to our example, with a different color:
 ```
 data: &lbrack;
     {
-       fn: &apos;sin(x)&apos;,  // First function
-       color: &apos;red&apos;
+       fn: 'sin(x)',  // First function
+       color: 'red'
     },
     {
-       fn: &apos;cos(x)&apos;,  // second function
-       color: &apos;blue&apos;
+       fn: 'cos(x)',  // second function
+       color: 'blue'
     }
 &rbrack;
 ```
@@ -2656,7 +2656,7 @@ Let's use this idea of DOM manipulation to improve our counter page:
 let counter = 0;
 function count() {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 }
 </script>
 </head>
@@ -2688,7 +2688,7 @@ example, let's change our count function
 ```
 function count() {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 if (counter % 10 === 0) {
 alert(&ast;`Count is now &ast;${counter}&ast;`)
 }
@@ -2713,7 +2713,7 @@ the onclick attribute of a button on the page, and removing
 the onclick attribute from within the button tag.
 
 ```
-document.querySelector(&apos;button&apos;).onclick = count;
+document.querySelector('button').onclick = count;
 ```
 
 One thing to notice about what we've just done is that we're not calling
@@ -2753,7 +2753,7 @@ We can use the function to only run the code once all content has
 loaded:
 
 ```
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.addEventListener('DOMContentLoaded', function() {
 // Some code here
 });
 ```
@@ -2767,13 +2767,13 @@ together, our JavaScript now looks like this:
 let counter = 0;
 function count() {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 if (counter % 10 === 0) {
 alert(&ast;`Count is now &ast;${counter}&ast;`)
 }
 }
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelector(&apos;button&apos;).onclick = count;
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelector('button').onclick = count;
 });
 ```
 
@@ -2810,13 +2810,13 @@ And a file called counter.js that looks like this:
 let counter = 0;
 function count() {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 if (counter % 10 === 0) {
 alert(&ast;`Count is now &ast;${counter}&ast;`)
 }
 }
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelector(&apos;button&apos;).onclick = count;
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelector('button').onclick = count;
 });
 ```
 
@@ -2847,9 +2847,9 @@ name to get a custom greeting.
 <head>
 <title>Hello</title>
 <script>
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelector(&apos;form&apos;).onsubmit = function() {
-const name = document.querySelector(&apos;#name&apos;).value;
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelector('form').onsubmit = function() {
+const name = document.querySelector('#name').value;
 alert(&ast;`Hello, &ast;${name}&ast;`);
 };
 });
@@ -2897,8 +2897,8 @@ change the color of our heading.
 <head>
 <title>Colors</title>
 <script>
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelectorAll('button').forEach(function(button) {
 button.onclick = function() {
 document.querySelector("#hello").style.color = button.dataset.color;
 }
@@ -2978,8 +2978,8 @@ by =&gt; followed by some code to be run. For example, we can alter our
 script above to use an anonymous arrow function:
 
 ```
-document.addEventListener(&apos;DOMContentLoaded&apos;, () => {
-document.querySelectorAll(&apos;button&apos;).forEach(button => {
+document.addEventListener('DOMContentLoaded', () => {
+document.querySelectorAll('button').forEach(button => {
 button.onclick = () => {
 document.querySelector("#hello").style.color = button.dataset.color;
 }
@@ -2994,7 +2994,7 @@ of the count function:
 ```
 count = () =&gt; {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 if (counter % 10 === 0) {
 alert(&ast;`Count is now &ast;${counter}&ast;`)
 }
@@ -3016,9 +3016,9 @@ event.
 <head>
 <title>Colors</title>
 <script>
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelector(&apos;select&apos;).onchange = function() {
-document.querySelector(&apos;#hello&apos;).style.color = this.value;
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelector('select').onchange = function() {
+document.querySelector('#hello').style.color = this.value;
 }
 });
 </script>
@@ -3114,10 +3114,10 @@ you'll see below:
 
 ```
 // Wait for page to load
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.addEventListener('DOMContentLoaded', function() {
 // Select the submit button and input to be used later
-const submit = document.querySelector(&apos;#submit&apos;);
-const newTask = document.querySelector(&apos;#task&apos;);
+const submit = document.querySelector('#submit');
+const newTask = document.querySelector('#task');
 // Disable submit button by default:
 submit.disabled = true;
 // Listen for input to be typed into the input field
@@ -3130,16 +3130,16 @@ submit.disabled = true;
 }
 }
 // Listen for submission of form
-document.querySelector(&apos;form&apos;).onsubmit = () => {
+document.querySelector('form').onsubmit = () => {
 // Find the task the user just submitted
 const task = newTask.value;
 // Create a list item for the new task and add the task to it
-const li = document.createElement(&apos;li&apos;);
+const li = document.createElement('li');
 li.innerHTML = task;
 // Add new element to our unordered list:
-document.querySelector(&apos;#tasks&apos;).append(li);
+document.querySelector('#tasks').append(li);
 // Clear out input field:
-newTask.value = &apos;&apos;;
+newTask.value = '';
 // Disable the submit button again:
 submit.disabled = true;
 // Stop form from submitting
@@ -3173,10 +3173,10 @@ milliseconds) between function runs.
 let counter = 0;
 function count() {
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 }
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-document.querySelector(&apos;button&apos;).onclick = count;
+document.addEventListener('DOMContentLoaded', function() {
+document.querySelector('button').onclick = count;
 setInterval(count, 1000);
 });
 ```
@@ -3219,24 +3219,24 @@ In the code below,
 
 ```
 // Check if there is already a value in local storage
-if (!localStorage.getItem(&apos;counter&apos;)) {
+if (!localStorage.getItem('counter')) {
 // If not, set the counter to 0 in local storage
-localStorage.setItem(&apos;counter&apos;, 0);
+localStorage.setItem('counter', 0);
 }
 function count() {
 // Retrieve counter value from local storage
-let counter = localStorage.getItem(&apos;counter&apos;);
+let counter = localStorage.getItem('counter');
 // update counter
 counter++;
-document.querySelector(&apos;h1&apos;).innerHTML = counter;
+document.querySelector('h1').innerHTML = counter;
 // Store counter in local storage
-localStorage.setItem(&apos;counter&apos;, counter);
+localStorage.setItem('counter', counter);
 }
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.addEventListener('DOMContentLoaded', function() {
 // Set heading to the current value inside local storage
-document.querySelector(&apos;h1&apos;).innerHTML =
-localStorage.getItem(&apos;counter&apos;);
-document.querySelector(&apos;button&apos;).onclick = count;
+document.querySelector('h1').innerHTML =
+localStorage.getItem('counter');
+document.querySelector('button').onclick = count;
 });
 ```
 
@@ -3252,8 +3252,8 @@ Harry Potter:
 
 ```
 let person = {
-first: &apos;Harry&apos;,
-last: &apos;Potter&apos;
+first: 'Harry',
+last: 'Potter'
 };
 ```
 
@@ -3355,9 +3355,9 @@ what should be done when we get a response. The code snippet below will
 log our response to the console.
 
 ```
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.addEventListener('DOMContentLoaded', function() {
 // Send a GET request to the URL
-fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
+fetch('https://api.exchangeratesapi.io/latest?base=USD')
 // Put response into json form
 .then(response => response.json())
 .then(data => {
@@ -3386,16 +3386,16 @@ Rather than simply logging this data, we can use JavaScript to display a
 message to the screen, as in the code below:
 
 ```
-document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.addEventListener('DOMContentLoaded', function() {
 // Send a GET request to the URL
-fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
+fetch('https://api.exchangeratesapi.io/latest?base=USD')
 // Put response into json form
 .then(response => response.json())
 .then(data => {
 // Get rate from data
 const rate = data.rates.EUR;
 // Display message on the screen
-document.querySelector(&apos;body&apos;).innerHTML = &ast;`1 USD is equal to
+document.querySelector('body').innerHTML = &ast;`1 USD is equal to
 &ast;${rate.toFixed(3)} EUR.&ast;`;
 });
 });
@@ -3437,32 +3437,32 @@ the form is submitted, and so it takes into account the user's input.
 We'll also add some error checking here:
 
 ```
-  document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-    document.querySelector(&apos;form&apos;).onsubmit = function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('form').onsubmit = function() {
       // Send a GET request to the URL
-      fetch(&apos;https://api.exchangeratesapi.io/latest?base=USD&apos;)
+      fetch('https://api.exchangeratesapi.io/latest?base=USD')
       // Put response into json form
       .then(response => response.json())
       .then(data => {
         // Get currency from user input and convert to upper case
         const currency =
-        document.querySelector(&apos;#currency&apos;).value.toUpperCase();
+        document.querySelector('#currency').value.toUpperCase();
         // Get rate from data
         const rate = data.rates&lbrack;currency&rbrack;;
         // Check if currency is valid:
         if (rate !== undefined) {
           // Display exchange on the screen
-          document.querySelector(&apos;#result&apos;).innerHTML = &ast;`1 USD is equal to
+          document.querySelector('#result').innerHTML = &ast;`1 USD is equal to
             &ast;${rate.toFixed(3)} &ast;${currency}.&ast;`;
         }
         else {
           // Display error on the screen
-          document.querySelector(&apos;#result&apos;).innerHTML = &apos;Invalid Currency.&apos;;
+          document.querySelector('#result').innerHTML = 'Invalid Currency.';
         }
       })
       // Catch any errors and log them to the console
       .catch(error => {
-        console.log(&apos;Error:&apos;, error);
+        console.log('Error:', error);
       });
       // Prevent default submission
       return false;
