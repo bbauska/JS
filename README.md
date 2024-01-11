@@ -1,4 +1,4 @@
----
+ ---
 JavaScript: Brian's JavaScript Tutorial
 ---
 
@@ -2981,12 +2981,12 @@ looks like this:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Count</title>
-<script src="counter.js"></script>
+  <title>Count</title>
+  <script src="counter.js"></script>
 </head>
 <body>
-<h1>0</h1>
-<button>Count</button>
+  <h1>0</h1>
+  <button>Count</button>
 </body>
 </html>
 ```
@@ -2995,16 +2995,16 @@ And a file called counter.js that looks like this:
 
 ```
 let counter = 0;
-function count() {
-counter++;
-document.querySelector('h1').innerHTML = counter;
-if (counter % 10 === 0) {
-alert(&ast;`Count is now &ast;${counter}&ast;`)
-}
-}
-document.addEventListener('DOMContentLoaded', function() {
-document.querySelector('button').onclick = count;
-});
+  function count() {
+    counter++;
+    document.querySelector('h1').innerHTML = counter;
+    if (counter % 10 === 0) {
+      alert(&ast;`Count is now &ast;${counter}&ast;`)
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('button').onclick = count;
+  });
 ```
 
 Having JavaScript in a separate file is useful for a number of reasons:
@@ -3032,21 +3032,21 @@ name to get a custom greeting.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Hello</title>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-document.querySelector('form').onsubmit = function() {
-const name = document.querySelector('#name').value;
-alert(&ast;`Hello, &ast;${name}&ast;`);
-};
-});
-</script>
+  <title>Hello</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector('form').onsubmit = function() {
+        const name = document.querySelector('#name').value;
+        alert(&ast;`Hello, &ast;${name}&ast;`);
+      };
+    });
+  </script>
 </head>
 <body>
-<form>
-<input autofocus id="name" placeholder="Name" type="text">
-<input type="submit">
-</form>
+  <form>
+    <input autofocus id="name" placeholder="Name" type="text">
+    <input type="submit">
+  </form>
 </body>
 </html>
 ```
@@ -3081,23 +3081,23 @@ change the color of our heading.
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Colors</title>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-document.querySelectorAll('button').forEach(function(button) {
-button.onclick = function() {
-document.querySelector("#hello").style.color = button.dataset.color;
-}
-});
-});
-</script>
+  <head>
+  <title>Colors</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('button').forEach(function(button) {
+        button.onclick = function() {
+          document.querySelector("#hello").style.color = button.dataset.color;
+        }
+      });
+    });
+  </script>
 </head>
 <body>
-<h1 id="hello">Hello</h1>
-<button data-color="red">Red</button>
-<button data-color="blue">Blue</button>
-<button data-color="green">Green</button>
+  <h1 id="hello">Hello</h1>
+  <button data-color="red">Red</button>
+  <button data-color="blue">Blue</button>
+  <button data-color="green">Green</button>
 </body>
 </html>
 ```
@@ -3166,11 +3166,11 @@ script above to use an anonymous arrow function:
 
 ```
 document.addEventListener('DOMContentLoaded', () => {
-document.querySelectorAll('button').forEach(button => {
-button.onclick = () => {
-document.querySelector("#hello").style.color = button.dataset.color;
-}
-});
+  document.querySelectorAll('button').forEach(button => {
+    button.onclick = () => {
+      document.querySelector("#hello").style.color = button.dataset.color;
+    }
+  });
 });
 ```
 
@@ -3200,25 +3200,25 @@ event.
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Colors</title>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-document.querySelector('select').onchange = function() {
-document.querySelector('#hello').style.color = this.value;
-}
-});
-</script>
-</head>
-<body>
-<h1 id="hello">Hello</h1>
-<select>
-<option value="black">Black</option>
-<option value="red">Red</option>
-<option value="blue">Blue</option>
-<option value="green">Green</option>
-</select>
-</body>
+  <head>
+    <title>Colors</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('select').onchange = function() {
+          document.querySelector('#hello').style.color = this.value;
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <h1 id="hello">Hello</h1>
+    <select>
+      <option value="black">Black</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </select>
+  </body>
 </html>
 ```
 
@@ -3261,18 +3261,18 @@ we add a link to tasks.js where we'll write our JavaScript.
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Tasks</title>
-<script src="tasks.js"></script>
-</head>
-<body>
-<h1>Tasks</h1>
-<ul id="tasks"></ul>
-<form>
-<input id="task" placeholder = "New Task" type="text">
-<input id="submit" type="submit">
-</form>
-</body>
+  <head>
+    <title>Tasks</title>
+    <script src="tasks.js"></script>
+  </head>
+  <body>
+    <h1>Tasks</h1>
+    <ul id="tasks"></ul>
+    <form>
+      <input id="task" placeholder = "New Task" type="text">
+      <input id="submit" type="submit">
+    </form>
+  </body>
 </html>
 ```
 
@@ -3302,36 +3302,36 @@ you'll see below:
 ```
 // Wait for page to load
 document.addEventListener('DOMContentLoaded', function() {
-// Select the submit button and input to be used later
-const submit = document.querySelector('#submit');
-const newTask = document.querySelector('#task');
-// Disable submit button by default:
-submit.disabled = true;
-// Listen for input to be typed into the input field
-newTask.onkeyup = () => {
-if (newTask.value.length > 0) {
-submit.disabled = false;
-}
-else {
-submit.disabled = true;
-}
-}
-// Listen for submission of form
-document.querySelector('form').onsubmit = () => {
-// Find the task the user just submitted
-const task = newTask.value;
-// Create a list item for the new task and add the task to it
-const li = document.createElement('li');
-li.innerHTML = task;
-// Add new element to our unordered list:
-document.querySelector('#tasks').append(li);
-// Clear out input field:
-newTask.value = '';
-// Disable the submit button again:
-submit.disabled = true;
-// Stop form from submitting
-return false;
-}
+  // Select the submit button and input to be used later
+  const submit = document.querySelector('#submit');
+  const newTask = document.querySelector('#task');
+  // Disable submit button by default:
+  submit.disabled = true;
+  // Listen for input to be typed into the input field
+  newTask.onkeyup = () => {
+    if (newTask.value.length > 0) {
+      submit.disabled = false;
+    }
+    else {
+      submit.disabled = true;
+    }
+  }
+  // Listen for submission of form
+  document.querySelector('form').onsubmit = () => {
+    // Find the task the user just submitted
+    const task = newTask.value;
+    // Create a list item for the new task and add the task to it
+    const li = document.createElement('li');
+    li.innerHTML = task;
+    // Add new element to our unordered list:
+    document.querySelector('#tasks').append(li);
+    // Clear out input field:
+    newTask.value = '';
+    // Disable the submit button again:
+    submit.disabled = true;
+    // Stop form from submitting
+    return false;
+  }
 });
 ```
 
@@ -3359,12 +3359,12 @@ milliseconds) between function runs.
 ```
 let counter = 0;
 function count() {
-counter++;
-document.querySelector('h1').innerHTML = counter;
+  counter++;
+  document.querySelector('h1').innerHTML = counter;
 }
 document.addEventListener('DOMContentLoaded', function() {
-document.querySelector('button').onclick = count;
-setInterval(count, 1000);
+  document.querySelector('button').onclick = count;
+  setInterval(count, 1000);
 });
 ```
 
@@ -3407,23 +3407,23 @@ In the code below,
 ```
 // Check if there is already a value in local storage
 if (!localStorage.getItem('counter')) {
-// If not, set the counter to 0 in local storage
-localStorage.setItem('counter', 0);
+  // If not, set the counter to 0 in local storage
+  localStorage.setItem('counter', 0);
 }
 function count() {
-// Retrieve counter value from local storage
-let counter = localStorage.getItem('counter');
-// update counter
-counter++;
-document.querySelector('h1').innerHTML = counter;
-// Store counter in local storage
-localStorage.setItem('counter', counter);
+  // Retrieve counter value from local storage
+  let counter = localStorage.getItem('counter');
+  // update counter
+  counter++;
+  document.querySelector('h1').innerHTML = counter;
+  // Store counter in local storage
+  localStorage.setItem('counter', counter);
 }
 document.addEventListener('DOMContentLoaded', function() {
-// Set heading to the current value inside local storage
-document.querySelector('h1').innerHTML =
-localStorage.getItem('counter');
-document.querySelector('button').onclick = count;
+  // Set heading to the current value inside local storage
+  document.querySelector('h1').innerHTML =
+  localStorage.getItem('counter');
+  document.querySelector('button').onclick = count;
 });
 ```
 
@@ -3439,8 +3439,8 @@ Harry Potter:
 
 ```
 let person = {
-first: 'Harry',
-last: 'Potter'
+  first: 'Harry',
+  last: 'Potter'
 };
 ```
 
@@ -3473,9 +3473,9 @@ like this:
 
 ```
 {
-"origin": "New York",
-"destination": "London",
-"duration": 415
+  "origin": "New York",
+  "destination": "London",
+  "duration": 415
 }
 ```
 
@@ -3485,15 +3485,15 @@ Objects:
 
 ```
 {
-"origin": {
-"city": "New York",
-"code": "JFK"
+  "origin": {
+  "city": "New York",
+  "code": "JFK"
 },
-"destination": {
-"city": "London",
-"code": "LHR"
+  "destination": {
+  "city": "London",
+  "code": "LHR"
 },
-"duration": 415
+  "duration": 415
 }
 ```
 
@@ -3519,11 +3519,11 @@ JavaScript file but leave the body empty:
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Currency Exchange</title>
-<script src="currency.js"></script>
-</head>
-<body></body>
+  <head>
+    <title>Currency Exchange</title>
+    <script src="currency.js"></script>
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -3543,14 +3543,14 @@ log our response to the console.
 
 ```
 document.addEventListener('DOMContentLoaded', function() {
-// Send a GET request to the URL
-fetch('https://api.exchangeratesapi.io/latest?base=USD')
-// Put response into json form
-.then(response => response.json())
-.then(data => {
-// Log data to the console
-console.log(data);
-});
+  // Send a GET request to the URL
+  fetch('https://api.exchangeratesapi.io/latest?base=USD')
+  // Put response into json form
+  .then(response => response.json())
+  .then(data => {
+    // Log data to the console
+    console.log(data);
+  });
 });
 ```
 
