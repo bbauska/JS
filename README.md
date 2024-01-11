@@ -15,295 +15,11 @@ JavaScript: Brian's JavaScript Tutorial
   alt="." />
 </p>
 
-You don't need to wait until your pages are finalized; inserting a table
-of contents can be an
-
 > *This doc isn't just for reading, it's for trying too. Watch for the
 > **Try it** text in red throughout this document so you can learn by
 > doing.*
 
-# 
-
-Contents
-
-[Insert a table of contents 1](#insert-a-table-of-contents)
-
-[Update when things change 2](#update-when-things-change)
-
-[Dive deeper than Heading 1 3](#dive-deeper-than-heading-1)
-
-[Customize your TOC 3](#customize-your-toc)
-
-[Remove a TOC 4](#remove-a-toc)
-
-[Explore more 5](#explore-more)
-
-> [Change text formatting of the TOC entries
-> 5](#change-text-formatting-of-the-toc-entries)
->
-> [Change the number of TOC levels 6](#change-the-number-of-toc-levels)
-
-[Get help in Word 7](#get-help-in-word)
-
-[Let us know what you think 7](#let-us-know-what-you-think)
-
-# 
-
-# Insert a table of contents
-
-To add a TOC (short for *table of contents*), just decide where you want
-it. Word will do the heavy lifting.
-
-**Try It:** Hit Enter after the first paragraph in this doc to get a new
-line. Then, go to the **References** tab, select **Table of Contents**,
-and choose a TOC from the gallery.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
-  style="width:35%;"
-  alt="A screenshot that shows selecting a table of contents from the gallery of designs." />
-</p>
-<!-- ![A screenshot that shows selecting a table of contents from the gallery of designs.](./images/image002.png){width="3.595754593175853in"
-height="3.380547900262467in"} -->
-
-*Voila!* Word found all the headings in this document and added a TOC.
-
-# Update when things change
-
-The heavy lifting doesn't stop with creating a TOC. Word is smart enough
-to keep track of where things are, so you don't have to. When things
-change, just update the TOC.
-
-**Try It:** Update your TOC.
-
-1.  Place your cursor after the paragraph that ends with, "When things
-    change, just update the TOC" (above), and then hit Ctrl+Enter to
-    push this section onto page 3.
-
-2.  Go to your TOC and click anywhere in it. Then click **Update
-    Table**, and click **OK** (**Update page numbers only** is selected
-    by default).
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
-  style="width:31%;"
-  alt="A screenshot that shows clicking OK in the Update Table of Contents dialog box." />
-</p>
-<!--
-> ![A screenshot that shows clicking OK in the Update Table of Contents
-> dialog box.](./images/image003.png){width="3.168503937007874in"
-> height="1.910285433070866in"}
--->
-
-Word updated the entry for *Update when things change* from *page 2* to
-*page 3*.
-
-Use styles for headings
-
-The TOC magic is in the styles that are used to format headings. The
-heading for this section, *Use styles for headings*, might look like a
-heading, but it doesn't act like one. It's formatted in pieces (font
-size, underline) instead of being formatted with a style. See how it's
-not in the TOC you added? To add a heading to a TOC, it needs to be
-formatted with the Heading 1 style.
-
-**Try It:** Update the style, and then update the TOC.
-
-1.  Click in the heading above (*Use styles for headings*)---be sure to
-    just click, don't select anything.
-
-2.  On the **Home** tab, find **Styles**, and click **Heading 1**
-    (keyboard shortcut: Alt+Ctrl+1).
-
-3.  Update your TOC like you did before, but this time, select **Update
-    entire table** (instead of **Update page numbers only**) since more
-    than the page numbers changed.
-
-Now Word knows that paragraph is a heading, and includes it in the TOC.
-
-# Dive deeper than Heading 1
-
-Want more levels in your TOC? That's where the rest of the Heading
-styles come in. Mark subheadings in your document with Heading 2,
-lower-level headings with Heading 3, and so on.
-
-**Try It:** Apply **Heading 2** to the paragraph below (*Add a Level 2
-TOC entry*), and then update your TOC like you did before. Remember to
-update the entire table!
-
-Add a Level 2 TOC entry
-
-**Under the hood**: Heading styles hold formatting, font, size, color,
-and more. They also hold a paragraph format known as an *outline level*,
-which is picked up by the TOC.
-
-# Customize your TOC
-
-The space between an entry and its page number in a TOC is known as a
-*tab leader*. By default, Word makes the tab leader a row of dots (dot
-leader), but you can easily switch to something else, like an underline.
-You don't need to start over---you don't even need to select the TOC.
-Word knows where it is. Just use the Custom TOC option to make this type
-of change, and Word will do its thing.
-
-**Try It:** Change the dot leader to an underline.
-
-1.  On the **References** tab, click **Table of Contents**, and then
-    near the bottom, click **Custom Table of Contents**.
-
-2.  From the list of **Tab Leader** options, select **Line** (last
-    choice in the list), and click **OK**.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image004.png?raw=true"
-  style="width:28%;"
-  alt="A screenshot that shows selecting underline as a tab leader in the table of contents." />
-</p>
-<!--
-> ![A screenshot that shows selecting underline as a tab leader in the
-> Table of Contents dialog
-> box.](./images/image004.png){width="2.7776990376202977in"
-> height="3.54in"}
--->
-3.  When you're prompted to replace the TOC, click **Yes**.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image005.png?raw=true"
-  style="width:30%;"
-  alt="A screenshot that shows clicking 'Yes' to replace the table of contents." />
-</p>
-<!--
-> ![A screenshot that shows clicking Yes to replace the table of
-> contents.](./images/image005.png){width="3.0in"
-> height="1.1022364391951005in"}
--->
-
-And just like that, Word found your TOC and changed the tab leader from
-dots to an underline.
-
-# Remove a TOC
-
-You can't delete a TOC like you can a picture or other things in a doc.
-Well, you can, but if you do it too many times, your TOC can get out of
-whack. Remember the heavy lifting Word does for you? All the scaffolding
-needs to be removed too. Tell Word to remove the TOC, and Word will
-clean up after itself.
-
-**Try It:** On the **References** tab, click **Table of Contents**, and
-then near the bottom, click **Remove Table of Contents**.
-
-*Poof!* The TOC, and the stuff to make it work, are gone from the
-document. But you can add your TOC back any time, in any location. Word
-will remember everything you did---even your change to the tab leader.
-
-**Under the hood:** The stuff Word removes is a collection of hidden
-bookmarks that keep track of the heading text and page number shown in
-the TOC.
-
-# Explore more 
-
-If you want to customize your TOC even more, give these a try. (If you
-didn't add your TOC back, do that now. You can add it above this section
-if you'd like. Or, if removing it is the last thing you did, press
-Ctrl+Z to undo.)
-
-## Change text formatting of the TOC entries
-
-**Try it:** In your TOC, select an entire Level 1 entry and make a
-formatting change. For example, change the font color to blue. (Make
-sure you select only one TOC entry, including the tab leader and page
-number. Notice that even though the whole TOC may look like it's
-selected, the one entry you select will have darker highlighting.)
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image006.png?raw=true"
-  style="width:28%;"
-  alt="A screenshot that shows selecting a level 1 entry in a table of contents." />
-</p>
-<!--
-![A screenshot that shows selecting a level 1 entry in a table fo
-contents.](./images/image006.png){width="2.851851487314086in"
-height="1.4in"}
--->
-Like the rest of the TOC magic, all the TOC Level 1 entries changed too.
-
-**Under the hood:** Okay, it's not really magic. The TOC entries are
-assigned to a style (TOC 1, TOC 2, and so on), and those styles are set
-to update automatically whenever you make a formatting change.
-
-## Change the number of TOC levels
-
-**Try it:** Include only Heading 1 headings in your TOC, no subheadings.
-
-1.  On the **References** tab, click **Table of Contents**, and then
-    near the bottom, click **Custom Table of Contents**.
-
-2.  Change **Show levels** to **1** and click **OK**.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image007.png?raw=true"
-  style="width:25%;"
-  alt="A screenshot that shows selecting 1 as the levels to show in a table of contents." />
-</p>
-<!--
-> ![A screenshot that shows selecting 1 as the levels to show in a table
-> of contents.](./images/image007.png){width="2.4988232720909886in"
-> height="3.54in"}
--->
-
-3.  When you're prompted to replace the TOC, click **Yes**.
-
-4.  Verify your TOC no longer includes subheadings, such as *Add a Level
-    2 TOC entry*.
-
-# Get help in Word
-
-The **Tell me** search box takes you straight to commands and Help in
-Word.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image008.png?raw=true"
-  style="width:33%;"
-  alt="A screenshot that shows typing a table of contents in the search box." />
-</p>
-<!-- ![A screenshot that shows typing &quot;table of contents&quot; in the Search
-box.](./images/image008.png){width="3.301176727909011in"
-height="2.9367607174103236in"}
--->
-
-**Try it:** Go to **Tell me what you want to do** near the top of the
-window, and then type what you want to do.
-
-For example, type:
-
--   **table of contents** to quickly get to the Table of Contents
-    options and other TOC help topics
-
--   **styles** if you want to know more about using styles in Word
-
--   **help** to go to Word help
-
--   **training** to see the list of Word training courses
-
-# Let us know what you think
-
-Please [[give us feedback on this learning
-guide]](https://go.microsoft.com/fwlink/?linkid=2027721), so
-we can provide content that's truly useful and helpful. Thanks!
-
-## **Welcome to the JavaScript Introduction course!**
+### **Welcome to the JavaScript Introduction course!**
 
 Hello,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -484,7 +200,7 @@ collaboration with University of Côte d&apos;Azur.
 
 &ast;- Marie-Claire (Head of W3C Training) and Michel (your Professor).
 
-# Syllabus -- W3Cx -- Intro to JS
+## Syllabus -- W3Cx -- Intro to JS
 
 **Module 1: Introduction to JavaScript**
 
@@ -584,7 +300,7 @@ Certificate]](https://www.edx.org/professional-certificate/front-end-web-develop
 Professional Program Certificate in Front-End Web
 Development]](https://www.edx.org/microsoft-professional-program-front-end-development).
 
-## **[Online editor tools]**
+### **[Online editor tools]**
 
 To help you practice during the whole duration of the course, you will
 use the following online editor tools. Pretty much all the course&apos;s
@@ -926,15 +642,13 @@ pages.**
 
 **Example**:
 
-> <head>
->
-> &hellip;
->
->    <title>Web Accessibility Initiative (WAI) - home page</title>
->
-> &hellip;
->
-> </head>
+```
+<head>
+...
+   <title>Web Accessibility Initiative (WAI) - home page</title>
+...
+</head>
+```
 
 #### Example 2: image text alternatives (&quot;ALT TEXT&quot;)
 
@@ -953,10 +667,9 @@ the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
 ```
-<a href=&quot;http://w3.org&quot;>
+<a href="http://w3.org">
  
-<img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
-Web site&quot;>
+<img src="images/w3c_home.png" width="72"; height="48" alt="W3C Web site">
 </a>
 ```
 
@@ -988,11 +701,9 @@ important even if you think you are only designing for a specific
 community -- communities are made up of diverse individuals, and the Web
 stretches worldwide.
 
-## Unicode
+### Unicode
 
-![Unicode
-symbols](./images/image025.jpg){width="2.0833333333333335in"
-height="2.0833333333333335in"}
+![Unicode symbols](./images/image025.jpg){width="2.0833333333333335in" height="2.0833333333333335in"}
 
 Text in a computer or on the Web is composed of
 characters. *Characters* represent letters of the alphabet, punctuation,
@@ -1010,14 +721,14 @@ your content or data. This Unicode encoding is a good choice because you
 can use a single encoding to handle any character you are likely to
 meet. This greatly simplifies things.
 
-# Essential steps in Web internationalization
+### Essential steps in Web internationalization
 
 You find below three examples (and checks!) to help you to ensure that
 your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
 &apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)
 
-## Example 1: Character encoding declaration
+### Example 1: Character encoding declaration
 
 A character encoding declaration is **vital to ensure that the text in
 your page is recognized by browsers around the world**, and not garbled.
@@ -1030,16 +741,13 @@ your source code, and its value is UTF-8.**
 **Example 1**:
 
 ```
-> <head>
->
-> <meta charset=&quot;utf-8&quot;/>
->
-> &hellip;
->
-> </head>
+<head>
+<meta charset="utf-8">
+...
+</head>
 ```
 
-## Example 2: Primary language declaration
+### Example 2: Primary language declaration
 
 For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
@@ -1056,13 +764,10 @@ the language of your content.**
 **Example 2**: This indicates that the page is in French.
 
 ```
-> <!doctype html>
->
-> <html lang=&quot;fr&quot;>
->
-> <head>
->
-> &hellip;
+<!doctype html>
+<html lang="fr">
+<head>
+...
 ```
 
 ## Example 3: Cultural bias
@@ -1083,7 +788,7 @@ Check #3**: If your content will be seen by people from diverse
 cultures, check that your cultural references will be recognized and
 that there is no inappropriate cultural bias.**
 
-## Don&apos;t worry!
+### Don&apos;t worry!
 
 The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
@@ -1118,7 +823,7 @@ You will find more quick tips on the [[Internationalization quick
 tips]](http://www.w3.org/International/quicktips/) page.
 Remember that these tips do not constitute complete guidelines.
 
-## Internationalization checker
+### Internationalization checker
 
 When you start creating Web pages, you can also run them through the
 W3C&apos;s [[Internationalization
@@ -1214,7 +919,7 @@ That&apos;s why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate hyperlinks into a text document.
 
-![Illustration of yypertext
+![Illustration of Hypertext
 documents](./images/image026.png){width="6.5in"
 height="4.314583333333333in"}
 
@@ -1253,17 +958,17 @@ edit the source code and see the resulting Web page updating in real
 time):
 
 ```
->    <body>
->       <h1>A Tale of Two Cities</h1>
->       <p>
->          It was the best of times, it was the worst of times, . . . .
->       </p>
->       . . .
->       <p>
->          . . . it is a far, far better rest
->          that I go to than I have ever known.
->       </p>
->    </body>
+   <body>
+      <h1>A Tale of Two Cities</h1>
+      <p>
+         It was the best of times, it was the worst of times, . . . .
+      </p>
+      . . .
+      <p>
+         . . . it is a far, far better rest
+         that I go to than I have ever known.
+      </p>
+   </body>
 ```
 
 If you eliminated everything in between the angle brackets from the
@@ -1295,26 +1000,26 @@ Here is another, more generic example:
     real time.
 
 ```
-> <!DOCTYPE html>
->  <html lang=&quot;en&quot;>
->    <head>
->      <title>Your first HTML page</title>
->      <meta charset=&quot;utf-8&quot;/>
->    </head>
->   <body>
->   <h1>My home page</h1>
->    <h2>Who am I?</h2>
->     <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-> professor at the University of Nice, in France, and I&apos;m also the
-> author of two MOOCS about HTML5 on W3Cx.</p>
->     <p>I also play electric guitar and love coding WebAudio
-> applications&hellip;</p>
->     <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
->      alt=&quot;Michel Buffa plays rock and roll&quot;>
->    <h2>My Hobbies</h2>
-> Music, Movies, Video Games, Travelling, Family, etc.
->    </body>
->   </html>
+<!DOCTYPE html>
+ <html lang=&quot;en&quot;>
+   <head>
+     <title>Your first HTML page</title>
+     <meta charset=&quot;utf-8&quot;/>
+   </head>
+  <body>
+  <h1>My home page</h1>
+   <h2>Who am I?</h2>
+    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+professor at the University of Nice, in France, and I&apos;m also the
+author of two MOOCS about HTML5 on W3Cx.</p>
+    <p>I also play electric guitar and love coding WebAudio
+applications&hellip;</p>
+    <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
+     alt=&quot;Michel Buffa plays rock and roll&quot;>
+   <h2>My Hobbies</h2>
+Music, Movies, Video Games, Travelling, Family, etc.
+   </body>
+  </html>
 ```
 
 It&apos;s time to write your first HTML code :-)
@@ -1358,18 +1063,18 @@ they can then dismiss. To show where this would fit into an actual HTML
 document, here's an example of a simple page with some JavaScript:
 
 ```
-> <!DOCTYPE html>
-> <html lang=&quot;en&quot;>
-> <head>
-> <title>Hello</title>
-> <script>
-> alert(&apos;Hello, world!&apos;);
-> </script>
-> </head>
-> <body>
-> <h1>Hello!</h1>
-> </body>
-> </html>
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Hello</title>
+<script>
+alert(&apos;Hello, world!&apos;);
+</script>
+</head>
+<body>
+<h1>Hello!</h1>
+</body>
+</html>
 ```
 
 ## [[Events]](https://cs50.harvard.edu/web/2020/notes/5/#events)
@@ -1392,12 +1097,11 @@ wait for certain events to occur, and then execute some code.
 Let's begin by turning our JavaScript from above into
 a [[function]](https://www.w3schools.com/js/js_functions.asp) called hello:
 
-
-> function hello() {
-> 
-> alert(&apos;Hello, world!&apos;)
-> 
-> }
+```
+function hello() {
+alert(&apos;Hello, world!&apos;)
+}
+```
 
 Now, let's work on running this function whenever a button is clicked.
 To do this, we'll create an HTML button in our page with
@@ -1421,20 +1125,20 @@ keywords we can use to assign values in JavaScript:
 -   var: used to define a variable globally
 
 ```
-> var age = 20;
+var age = 20;
 ```
 
 -   let: used to define a variable that is limited in scope to the
     current block such as a function or loop
 
 ```
-> let counter = 1;
+let counter = 1;
 ```
 
 -   const: used to define a value that will not change
 
 ```
-> const PI = 3.14;
+const PI = 3.14;
 ```
 
 For an example of how we can use a variable, let's take a look at a page
@@ -1871,8 +1575,8 @@ is why almost every Web page is a combination of HTML and CSS.
 **CSS** • /si-ɛs-ɛs/ • *noun *
 
 ```
-> Stands for "**C**ascading **S**tyle **S**heets". A style sheet
-> language for describing how to display an HTML document.
+Stands for "**C**ascading **S**tyle **S**heets". A style sheet
+language for describing how to display an HTML document.
 ```
 
 #### Let&apos;s look at an example!
@@ -2428,18 +2132,18 @@ means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:
 
 -   [[SpiderMonkey]](https://developer.mozilla.org/fr/docs/SpiderMonkey) (included
-    > in Mozilla Firefox)
+    in Mozilla Firefox)
 
 -   [[JavaScriptCore]](https://developer.apple.com/reference/javascriptcore) (included
-    > in Apple Safari)
+    in Apple Safari)
 
 -   [[Chrome
-    > V8]](https://developers.google.com/v8/) (included in
-    > Google Chrome, in the Node.js server)
+    V8]](https://developers.google.com/v8/) (included in
+    Google Chrome, in the Node.js server)
 
 -   [[Chakra]](https://github.com/Microsoft/ChakraCore) (included
-    > in Microsoft Internet Explorer and now in the Microsoft Edge
-    > browser)
+    in Microsoft Internet Explorer and now in the Microsoft Edge
+    browser)
 
 **[The Best Way to Learn JavaScript]**
 
@@ -2689,9 +2393,9 @@ Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:
 
 ```
-> <script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 >
-> <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+<script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
 ```
 
 We will examine this soon in a later section of the course, but, in
@@ -2709,25 +2413,25 @@ Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
 ```
-> functionPlot(**{**
+functionPlot(**{**
 >
-> **       target: &apos;#myFunction&apos;,**
+**       target: &apos;#myFunction&apos;,**
 >
-> **       data: &lbrack;{**
+**       data: &lbrack;{**
 >
-> **       fn: &apos;sin(x)&apos;,**
+**       fn: &apos;sin(x)&apos;,**
 >
-> **       color: &apos;red&apos;**
+**       color: &apos;red&apos;**
 >
-> **    }&rbrack;,**
+**    }&rbrack;,**
 >
-> **    grid: true,**
+**    grid: true,**
 >
-> **    yAxis: {domain: &lbrack;-1, 1&rbrack;},**
+**    yAxis: {domain: &lbrack;-1, 1&rbrack;},**
 >
-> **    xAxis: {domain: &lbrack;0, 2&ast;*Math.PI&rbrack;}**
+**    xAxis: {domain: &lbrack;0, 2&ast;*Math.PI&rbrack;}**
 >
-> **}**);
+**}**);
 ```
 
 Ok, the syntax looks strange if you are not used to JavaScript, but I
@@ -2764,7 +2468,7 @@ To do this:
 You can think of this code in this way:
 
 ```
-> functionPlot(&hellip;);
+functionPlot(&hellip;);
 ```
 
 Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
@@ -2789,20 +2493,20 @@ Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:
 
 ```
-> {
->     **target**: &apos;#myFunction&apos;,
->     **data**: &lbrack;{
->              fn: &apos;sin(x)&apos;,
->              color: &apos;red&apos;
->           }&rbrack;,
->     **grid**: true,
->     **yAxis**: {
->          domain: &lbrack;-1, 1&rbrack;
->     },
->     **xAxis**: {
->          domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
->     }
-> }
+{
+    **target**: &apos;#myFunction&apos;,
+    **data**: &lbrack;{
+             fn: &apos;sin(x)&apos;,
+             color: &apos;red&apos;
+          }&rbrack;,
+    **grid**: true,
+    **yAxis**: {
+         domain: &lbrack;-1, 1&rbrack;
+    },
+    **xAxis**: {
+         domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
+    }
+}
 ```
 
 **[JavaScript object]**
@@ -2817,10 +2521,10 @@ A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:
 
 ```
-> {
->    givenName: "Michel",
->    familyName: "Buffa"
-> }
+{
+   givenName: "Michel",
+   familyName: "Buffa"
+}
 ```
 
 We use the &quot;:&quot; separator between the property name and its value. We
@@ -2862,18 +2566,18 @@ If we look at the values of the xAxis and yAxis properties, they
 are also objects.
 
 ```
-> xAxis: {
->     domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
-> }
+xAxis: {
+    domain: &lbrack;0, 2&ast;*Math.PI&rbrack;
+}
 ```
 
 The data object is even more complicated:
 
 ```
-> data: &lbrack;{
->    fn: &apos;sin(x)&apos;,
->    color: &apos;red&apos;
-> }&rbrack;,
+data: &lbrack;{
+   fn: &apos;sin(x)&apos;,
+   color: &apos;red&apos;
+}&rbrack;,
 ```
 
 Instead of containing another object like xAxis or yAxis, it contains
@@ -2891,16 +2595,16 @@ try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:
 
 ```
-> data: &lbrack;
->     {
->        fn: &apos;sin(x)&apos;,  // First function
->        color: &apos;red&apos;
->     },
->     {
->        fn: &apos;cos(x)&apos;,  // second function
->        color: &apos;blue&apos;
->     }
-> &rbrack;
+data: &lbrack;
+    {
+       fn: &apos;sin(x)&apos;,  // First function
+       color: &apos;red&apos;
+    },
+    {
+       fn: &apos;cos(x)&apos;,  // second function
+       color: &apos;blue&apos;
+    }
+&rbrack;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3188,27 +2892,27 @@ also change the styling of a page! In the page below, we use buttons to
 change the color of our heading.
 
 ```
-> <!DOCTYPE html>
-> <html lang="en">
-> <head>
-> <title>Colors</title>
-> <script>
-> document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-> document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
-> button.onclick = function() {
-> document.querySelector("#hello").style.color = button.dataset.color;
-> }
-> });
-> });
-> </script>
-> </head>
-> <body>
-> <h1 id="hello">Hello</h1>
-> <button data-color="red">Red</button>
-> <button data-color="blue">Blue</button>
-> <button data-color="green">Green</button>
-> </body>
-> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colors</title>
+<script>
+document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
+document.querySelectorAll(&apos;button&apos;).forEach(function(button) {
+button.onclick = function() {
+document.querySelector("#hello").style.color = button.dataset.color;
+}
+});
+});
+</script>
+</head>
+<body>
+<h1 id="hello">Hello</h1>
+<button data-color="red">Red</button>
+<button data-color="blue">Blue</button>
+<button data-color="green">Green</button>
+</body>
+</html>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3274,13 +2978,13 @@ by =&gt; followed by some code to be run. For example, we can alter our
 script above to use an anonymous arrow function:
 
 ```
-> document.addEventListener(&apos;DOMContentLoaded&apos;, () => {
-> document.querySelectorAll(&apos;button&apos;).forEach(button => {
-> button.onclick = () => {
-> document.querySelector("#hello").style.color = button.dataset.color;
-> }
-> });
-> });
+document.addEventListener(&apos;DOMContentLoaded&apos;, () => {
+document.querySelectorAll(&apos;button&apos;).forEach(button => {
+button.onclick = () => {
+document.querySelector("#hello").style.color = button.dataset.color;
+}
+});
+});
 ```
 
 
@@ -3288,13 +2992,13 @@ We can also have named functions that use arrows, as in this rewriting
 of the count function:
 
 ```
-> count = () =&gt; {
-> counter++;
-> document.querySelector(&apos;h1&apos;).innerHTML = counter;
-> if (counter % 10 === 0) {
-> alert(&ast;`Count is now &ast;${counter}&ast;`)
-> }
-> }
+count = () =&gt; {
+counter++;
+document.querySelector(&apos;h1&apos;).innerHTML = counter;
+if (counter % 10 === 0) {
+alert(&ast;`Count is now &ast;${counter}&ast;`)
+}
+}
 ```
 
 To get an idea about some other events we can use, let's see how we can
@@ -3546,10 +3250,12 @@ very similar to a Python dictionary, as it allows us to store key-value
 pairs. For example, I could create a JavaScript Object representing
 Harry Potter:
 
-> let person = {
-> first: &apos;Harry&apos;,
-> last: &apos;Potter&apos;
-> };
+```
+let person = {
+first: &apos;Harry&apos;,
+last: &apos;Potter&apos;
+};
+```
 
 I can then access or change parts of this object using either bracket or
 dot notation:
@@ -3590,17 +3296,19 @@ The values within a JSON do not have to just be strings and numbers as
 in the example above. We can also store lists, or even other JavaScript
 Objects:
 
-> {
-> "origin": {
-> "city": "New York",
-> "code": "JFK"
-> },
-> "destination": {
-> "city": "London",
-> "code": "LHR"
-> },
-> "duration": 415
-> }
+```
+{
+"origin": {
+"city": "New York",
+"code": "JFK"
+},
+"destination": {
+"city": "London",
+"code": "LHR"
+},
+"duration": 415
+}
+```
 
 ### [[Currency Exchange]](https://cs50.harvard.edu/web/2020/notes/5/#currency-exchange)
 
