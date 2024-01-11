@@ -143,9 +143,16 @@ organizations that you successfully completed a course that increased
 your mastery of JavaScript. This certificate can be used to highlight
 newly acquired skills on your resume or LinkedIn profile.
 
-![Verified Certificate
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.png?raw=true"
+  style="width:18%;"
+  alt="JS Bin logo." />
+</p>
+<!-- ![Verified Certificate
 image](./images/image014.png){width="1.84375in"
-height="1.3854166666666667in"}
+height="1.3854166666666667in"} -->
 
 Once you have a passing score (70% or higher), your certificate will be
 automatically generated and accessible from your progress page -
@@ -164,9 +171,16 @@ W3Cx courses for everyone globally.
 
 ### **&quot;Front-End Web Developer&quot; Professional Certificate**
 
-![FEWD Certificate
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png?raw=true"
+  style="width:16%;"
+  alt="FEWD Certificate image." />
+</p>
+<!-- ![FEWD Certificate
 image](./images/image015.png){width="1.5833333333333333in"
-height="1.5625in"}
+height="1.5625in"} -->
 
 This JavaScript Introduction course is part of the [[Front-End Web
 Developer&quot; (FEWD) Professional
@@ -308,9 +322,17 @@ examples will actually use these.
 
 #### JsBin
 
-![JS Bin logo](./images/image016.png){width="0.7291666666666666in"
-height="0.7291666666666666in"}[[JsBin]](http://jsbin.com/) is
-an open source collaborative Web development debugging tool. This tool
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png?raw=true"
+  style="width:7%;"
+  alt="JS Bin logo." />
+</p>
+<!-- ![JS Bin logo](./images/image016.png){width="0.7291666666666666in"
+height="0.7291666666666666in"} -->
+
+[[JsBin]](http://jsbin.com/) is an open source collaborative Web development debugging tool. This tool
 is really simple, just open the link to the provided examples, look at
 the code, look at the result, etc. And you can modify the examples as
 you like, you can also modify / clone / save / share them.&ast;
@@ -387,10 +409,16 @@ The [[CSS
 validator]](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
-
-![Laptop showing unicorn
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.png?raw=true"
+  style="width:22%;"
+  alt="Laptop showing unicorn validator." />
+</p>
+<!-- ![Laptop showing unicorn
 validator](./images/image017.png){width="2.21875in"
-height="1.8229166666666667in"}
+height="1.8229166666666667in"} -->
 
 #### Unicorn
 
@@ -429,9 +457,16 @@ W3C specifications, completed by summaries of guidelines developed at
 W3C, in particular Web accessibility guidelines, the Mobile Web Best
 Practices, and a number of internationalization tips.
 
-![W3C Cheatsheet snapshot
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+  style="width:37%;"
+  alt="W3C Cheatsheet snapshot image." />
+</p>
+<!-- ![W3C Cheatsheet snapshot
 image](./images/image018.png){width="3.7291666666666665in"
-height="2.4166666666666665in"}
+height="2.4166666666666665in"} -->
 
 Its main feature is a lookup search box, where one can start typing a
 keyword and get a list of matching
@@ -444,9 +479,15 @@ available as a [[pure Web
 application]](http://dev.w3.org/2009/cheatsheet/doc/).
 
 ### What is W3C?
-
-![W3C logo](./images/image019.png){width="4.25in"
-height="0.6979166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  style="width:42%;"
+  alt="W3C logo." />
+</p>
+<!-- ![W3C logo](./images/image019.png){width="4.25in"
+height="0.6979166666666666in"} -->
 
 ##### As steward of global Web standards, W3C&apos;s mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
 
@@ -455,9 +496,15 @@ ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
 #### A few history bits
-
-![Tim Berners-Lee at his desk in CERN,
-1994](./images/image020.jpg){width="2.8125in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.jpg?raw=true"
+  style="width:28%;"
+  alt="CSS logo." />
+</p>
+<!-- ![Tim Berners-Lee at his desk in CERN,
+1994](./images/image020.jpg){width="2.8125in" height="2.8125in"} -->
 
 *Tim Berners-Lee at his desk in CERN, 1994*
 
@@ -536,12 +583,20 @@ explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.
 
 ### LATEST NEWS! Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award
-
-![Picture of Sir Tim
-Berners-Lee](./images/image021.jpg){width="1.8645833333333333in"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 21/22.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image021.jpg?raw=true"
+  style="width:20%;"
+  alt="Picture of Sir Tim Berners-Lee." />
+<img src="./images/image022.png?raw=true"
+  style="width:20%;"
+  alt="ACM Turing Award logo." />
+</p>
+<!-- ![Lee](./images/image021.jpg){width="1.8645833333333333in"
 height="1.2395833333333333in"}![ACM Turing Award
 logo](./images/image022.png){width="3.9895833333333335in"
-height="1.2291666666666667in"}
+height="1.2291666666666667in"} -->
 
 On Tuesday 4 April 2017, the ACM, the Association for Computing
 Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director
@@ -561,10 +616,16 @@ computing innovations in history.
 ***Access by everyone regardless of disability is an essential
 aspect.**&ast;
 **Tim Berners-Lee, W3C Director and inventor of the World Wide Web**
-
-![WAI Web page displayed on a laptop&apos;s
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image023.png?raw=true"
+  style="width:21%;"
+  alt="CSS logo." />
+</p>
+<!-- ![WAI Web page displayed on a laptop&apos;s
 screen](./images/image023.png){width="2.1145833333333335in"
-height="2.1145833333333335in"}
+height="2.1145833333333335in"} -->
 
 The Web has become an essential aspect of our daily lives, and everyone
 should have access to this technology. Web accessibility focuses on
@@ -685,11 +746,18 @@ features that they will need.
 &apos;Internationalization&apos; is sometimes abbreviated to &apos;i18n&apos; in
 English, because there are 18 characters between the &apos;i&apos; and the
 &apos;n&apos;.
-
-![W3C Internationalization Activity
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.png?raw=true"
+  style="width:11%;"
+  alt="CSS logo." />
+</p>
+<!-- ![W3C Internationalization Activity
 logo](./images/image024.png){width="1.1145833333333333in"
-height="1.0416666666666667in"}The [[W3C Internationalization
-Activity]](http://www.w3.org/International/) works with W3C
+height="1.0416666666666667in"} -->
+
+The [[W3C Internationalization Activity]](http://www.w3.org/International/) works with W3C
 working groups and liaises with other organizations to make it possible
 to use Web technologies with different languages, scripts, and cultures.
 
@@ -702,8 +770,15 @@ community -- communities are made up of diverse individuals, and the Web
 stretches worldwide.
 
 ### Unicode
-
-![Unicode symbols](./images/image025.jpg){width="2.0833333333333335in" height="2.0833333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.jpg?raw=true"
+  style="width:21%;"
+  alt="CSS logo." />
+</p>
+<!-- ![Unicode symbols](./images/image025.jpg)
+{width="2.0833333333333335in" height="2.0833333333333335in"} -->
 
 Text in a computer or on the Web is composed of
 characters. *Characters* represent letters of the alphabet, punctuation,
@@ -919,9 +994,16 @@ That&apos;s why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate hyperlinks into a text document.
 
-![Illustration of Hypertext
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 26.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+  style="width:65%;"
+  alt="Illustration of Hypertext documents." />
+</p>
+<!-- ![Illustration of Hypertext
 documents](./images/image026.png){width="6.5in"
-height="4.314583333333333in"}
+height="4.314583333333333in"} -->
 
 He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
@@ -1163,9 +1245,15 @@ alert(counter);
 </body>
 </html>
 ```
-
-![counting](./images/image027.gif){width="6.25in"
-height="5.0625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image027.gif?raw=true"
+  style="width:63%;"
+  alt="CSS logo." />
+</p>
+<!-- ![counting](./images/image027.gif){width="6.25in"
+height="5.0625in"} -->
 
 ## [querySelector](https://cs50.harvard.edu/web/2020/notes/5/#queryselector)
 
@@ -1276,12 +1364,18 @@ That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 
 #### Tags
-
-![Thinking about HTML
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 28.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image028.jpg?raw=true"
+  style="width:23%;"
+  alt="CSS logo." />
+</p>
+<!-- ![Thinking about HTML
 tags](./images/image028.jpg){width="2.3333333333333335in"
-height="2.3333333333333335in"}
+height="2.3333333333333335in"} -->
 
-# &lt;html&gt;
+## &lt;html&gt;
 
 ### &lt;BODY&gt;
 
@@ -1331,8 +1425,15 @@ and the &quot;little bits of text&quot; in between tell us what kind of tag it
 is.  To completely describe the element, it needs an open and close
 tag, and everything in between the tags is the contents of the element:
 
-![Diagram of an element](./images/image029.png){width="6.5in"
-height="3.529166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 29.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+  style="width:65%;"
+  alt="CSS logo." />
+</p>
+<!-- ![Diagram of an element](./images/image029.png){width="6.5in"
+height="3.529166666666667in"} -->
 
 Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
@@ -1560,8 +1661,16 @@ the document, you indicate a shadow.
 
 ### Definition
 
-![CSS logo](./images/image030.png){width="2.5in"
-height="1.40625in"}CSS, or **C**ascading **S**tyle **S**heets, is a
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image030.png?raw=true"
+  style="width:25%;"
+  alt="CSS logo." />
+</p>
+<!-- ![CSS logo](./images/image030.png){width="2.5in" height="1.40625in"} -->
+
+CSS, or **C**ascading **S**tyle **S**heets, is a
 style sheet language used to describe the way an HTML or XML document
 should look to a user. CSS is where you specify the color, size,
 spacing, font and other visual aspects of the content that you create in
@@ -1747,8 +1856,15 @@ better to put the CSS rules in one or more separate .css files, like
 this ([[open this example in
 Plunker]](https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview))
 
-![Snapshot of a code editor showing a separate css
-file](./images/image031.jpg){width="6.5in" height="2.3125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 31.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.jpg?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![Snapshot of a code editor showing a separate css
+file](./images/image031.jpg){width="6.5in" height="2.3125in"} -->
 
 Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it will hide all the
@@ -1943,9 +2059,15 @@ if not standardized by the W3C).
 
 #### Why do we call it &quot;the interactive glue between HTML and CSS&quot;? 
 
-![JS is the perfect
-glue](./images/image032.png){width="2.6041666666666665in"
-height="2.2291666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image032.png?raw=true"
+  style="width:26%;"
+  alt="." />
+</p>
+<!-- ![JS is the perfect glue]
+(./images/image032.png){width="2.6041666666666665in" height="2.2291666666666665in"} -->
 
 Actually, this description does not do justice to JavaScript, which can
 do far more than just act as glue. JavaScript can be run outside of the
@@ -1960,10 +2082,23 @@ examples:
 
 ##### Example 1: Push the button to modify the heading of the page.
 
-![](./images/image033.png){width="6.5in" height="2.98125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 33.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![](./images/image033.png){width="6.5in" height="2.98125in"} -->
 
-![](./images/image034.png){width="6.5in"
-height="3.2152777777777777in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 34.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![](./images/image034.png){width="6.5in" height="3.2152777777777777in"} -->
 
 We will take a detailed look at how these examples work in the
 subsequent parts of the course. These examples are just here to show you
@@ -1987,9 +2122,15 @@ depended on Java. (Sun Microsystems,  the company that created the Java
 programming language, no longer exists, having been bought by Oracle
 Corporation in 2009.)
 
-![Sun Microsystems
-logo](./images/image035.png){width="1.7291666666666667in"
-height="0.7604166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image035.png?raw=true"
+  style="width:17%;"
+  alt="." />
+</p>
+<!-- ![Sun Microsystems logo](./images/image035.png)
+{width="1.7291666666666667in" height="0.7604166666666666in"} -->
 
 But Netscape realized that Java wasn&apos;t a suitable language for
 in-browser use. Netscape thought of JavaScript at the beginning, as a
@@ -2008,23 +2149,43 @@ appearance in [[Netscape Navigator 2 in March
 it was quickly integrated into other popular browsers. Microsoft also
 created its own version named JScript (and shipped it with Internet
 Explorer 3 in 1996).
-
-![Screenshot of a page in Netscape Navigator
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image036.jpg?raw=true"
+  style="width:57%;"
+  alt="." />
+</p>
+<!-- ![Screenshot of a page in Netscape Navigator
 2](./images/image036.jpg){width="5.666666666666667in"
-height="4.3125in"}
+height="4.3125in"} -->
 
 **Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
 (CSS did not exist at that time)**
 
-![](./images/image037.png){width="5.895833333333333in"
-height="3.5416666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image037.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![](./images/image037.png){width="5.895833333333333in" height="3.5416666666666665in"} -->
 
 **Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
 did not exist at this time!**
 
-![ecma logo](./images/image038.gif){width="1.5520833333333333in"
-height="0.6458333333333334in"}Towards the end of 1996, JavaScript was
-standardized
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image038.gif?raw=true"
+  style="width:16%;"
+  alt="." />
+</p>
+<!-- ![ecma logo](./images/image038.gif){width="1.5520833333333333in"
+height="0.6458333333333334in"} -->
+
+Towards the end of 1996, JavaScript was standardized
 by [[ECMA]](https://en.wikipedia.org/wiki/Ecma_International) as
 the [[EcmaScript]](https://en.wikipedia.org/wiki/ECMAScript) standard. **So
 no matter whether you see it called JavaScript or EcmaScript, don&apos;t
@@ -2033,8 +2194,15 @@ right up to the present day.
 
 #### THE PRESENT: what is the current version? What about ES6/ES2015/ES2016 I saw on the Web, are these the new names of JavaScript?
 
-![ecmascript history](./images/image039.png){width="6.5in"
-height="2.16875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image039.png?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![ecmascript history](./images/image039.png)
+{width="6.5in" height="2.16875in"} -->
 
 Since 1996, multiple versions of JavaScript have appeared. The stable
 version with 99% of features supported by all major browsers deployed on
@@ -2066,18 +2234,30 @@ along its life cycle).
 supported feature sets are not completely implemented!
 
 ##### Current support for ES2015/ES6/JavaScript 6th version (January 2017):
-
-![Snapshot of the current support of JS 6th version (as of Jan.
-2017)](./images/image040.jpg){width="6.5in" height="1.10625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image040.jpg?raw=true"
+  style="width:65%;"
+  alt="." />
+</p>
+<!-- ![Snapshot of the current support of JS 6th version 
+(as of Jan. 2017)](./images/image040.jpg){width="6.5in" height="1.10625in"} -->
 
 As you can see, recent browsers usually support more than 90% of
 ES2015/JavaScript 6 features.
 
 ##### Current support for ES2016/JavaScript 7th version (January 2017):
 
-![Snapshot of the current support of JS 7th version (as of Jan.
-2017)](./images/image041.jpg){width="6.5in"
-height="1.0416666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image041.jpg?raw=true"
+  style="width:65%;"
+  alt="Snapshot of the current support of JS 7th version (as of Jan 2017)." />
+</p>
+<!-- ![Snapshot of the current support of JS 7th version 
+(as of Jan. 2017)](./images/image041.jpg){width="6.5in" height="1.0416666666666667in"} -->
 
 Well, ES2016, the 7th version of JavaScript is not yet
 officially standardized, and its support, even by latest browser
@@ -2543,8 +2723,16 @@ They are respectively:
 
 -   **data**: this is where we indicate the value of the function(s) to
     be plotted. We talk about this in greater detail
-    below.![coordplane](./images/image043.gif){width="3.125in"
-    height="2.0in"}
+    below.
+	
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image043.gif?raw=true"
+  style="width:31%;"
+  alt="coordplane." />
+</p>
+<!--	![coordplane](./images/image043.gif){width="3.125in" height="2.0in"} -->
 
 -   **grid**: this can be true or false (we call these &quot;boolean
     values&quot;) and indicates whether or not we want a grid to be drawn
@@ -2614,8 +2802,7 @@ data: &lbrack;
   style="width:65%;"
   alt="." />
 </p>
-<!-- ![](./images/image044.png){width="6.5in"
-height="3.1777777777777776in"} -->
+<!-- ![](./images/image044.png){width="6.5in" height="3.1777777777777776in"} -->
 
 #### Conclusion
 
