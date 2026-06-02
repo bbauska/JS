@@ -12,7 +12,7 @@ JavaScript: Brian's JavaScript Tutorial
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:20%;"
-  alt="." />
+  alt="University cote d'azure logo." />
 </p>
 
 > *This doc isn't just for reading, it's for trying too. Watch for the
@@ -23,7 +23,7 @@ JavaScript: Brian's JavaScript Tutorial
 
 Hello,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. JS Introduction course logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.png?raw=true"
   style="width:20%;"
@@ -54,11 +54,11 @@ survey]](https://courses.edx.org/courses/course-v1:W3Cx+JS.0x+3T2017/courseware/
 ### **Course outline**
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. cat with glasses changing designs (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.gif?raw=true"
   style="width:17%;"
-  alt="Psychedelic cat." />
+  alt="Psychedelic cat with flashing glasses." />
 </p>
 <!-- ![psychedelic cat](./images/image010.gif){width="1.6875in"
 height="1.0416666666666667in"} -->
@@ -73,16 +73,17 @@ content, controlled multimedia, animated images, and much more.
     devtools, and discover how JavaScript is useful.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 11. You win! final score snapshot (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
   style="width:20%;"
-  alt="Balls game." />
+  alt="Ball game. You win! Final score snapshot." />
 </p>
 
 <!-- ![Balls
     game](./images/image011.png){width="1.9479166666666667in"
-    height="1.65625in"}-->
+    height="1.65625in"}
+-->
 
 In **Module 2**, you will learn about conditional
     statements, logical operators, loops and how to detect events. We
@@ -91,7 +92,7 @@ In **Module 2**, you will learn about conditional
     knowledge, you will be able to write a small game.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. Animated gif of a blue shell (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.gif?raw=true"
   style="width:19%;"
@@ -99,7 +100,8 @@ In **Module 2**, you will learn about conditional
 </p>
 <!--  ![animated gif of a blue
     shell](./images/image012.gif){width="1.875in"
-    height="1.0416666666666667in"}-->
+    height="1.0416666666666667in"}
+-->
 	
 **Module 3** will be more &quot;project
     oriented&quot;, and less focused on fundamental concepts. You&apos;ll use a
@@ -117,7 +119,7 @@ In **Module 2**, you will learn about conditional
     Module 2.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. JSON logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
   style="width:11%;"
@@ -125,7 +127,8 @@ In **Module 2**, you will learn about conditional
 </p>
 
 <!-- -   ![logo JSON](./images/image013.png){width="1.09375in"
-    height="1.09375in"} -->
+    height="1.09375in"} 
+-->
 
 **Module 5** is the last module of the course!
     You&apos;ll mainly learn how to use HTML5 forms in JavaScript and the
@@ -144,7 +147,7 @@ your mastery of JavaScript. This certificate can be used to highlight
 newly acquired skills on your resume or LinkedIn profile.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. JS Bin logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.png?raw=true"
   style="width:18%;"
@@ -172,15 +175,16 @@ W3Cx courses for everyone globally.
 ### **&quot;Front-End Web Developer&quot; Professional Certificate**
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. front end web development logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
   style="width:16%;"
-  alt="FEWD Certificate image." />
+  alt="Front End Web Development logo." />
 </p>
 <!-- ![FEWD Certificate
 image](./images/image015.png){width="1.5833333333333333in"
-height="1.5625in"} -->
+height="1.5625in"} 
+-->
 
 This JavaScript Introduction course is part of the [[Front-End Web
 Developer&quot; (FEWD) Professional
@@ -323,14 +327,16 @@ examples will actually use these.
 #### JsBin
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. JS Bin logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   style="width:7%;"
   alt="JS Bin logo." />
 </p>
-<!-- ![JS Bin logo](./images/image016.png){width="0.7291666666666666in"
-height="0.7291666666666666in"} -->
+<!-- 
+![JS Bin logo](./images/image016.png){width="0.7291666666666666in"
+height="0.7291666666666666in"} 
+-->
 
 [[JsBin]](http://jsbin.com/) is an open source collaborative Web development debugging tool. This tool
 is really simple, just open the link to the provided examples, look at
@@ -410,15 +416,17 @@ validator]](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 17. Laptop showing Unicorn Validator (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
   style="width:22%;"
   alt="Laptop showing unicorn validator." />
 </p>
-<!-- ![Laptop showing unicorn
+<!-- 
+![Laptop showing unicorn
 validator](./images/image017.png){width="2.21875in"
-height="1.8229166666666667in"} -->
+height="1.8229166666666667in"} 
+-->
 
 #### Unicorn
 
@@ -456,7 +464,7 @@ W3C, in particular Web accessibility guidelines, the Mobile Web Best
 Practices, and a number of internationalization tips.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. W3C Cheatsheet image (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
   style="width:37%;"
@@ -477,11 +485,11 @@ available as a [<a href="http://dev.w3.org/2009/cheatsheet/doc/">pure Web appli
 
 ### What is W3C?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. W3C consortium logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
   style="width:42%;"
-  alt="W3C logo." />
+  alt="W3C consortium logo." />
 </p>
 <!-- ![W3C logo](./images/image019.png){width="4.25in"
 height="0.6979166666666666in"} -->
@@ -495,11 +503,11 @@ define key parts of what actually makes the World Wide Web work.
 
 #### A few history bits
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 20. Inventor, Tim Berners-Lee at desk, 1994 (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.jpg?raw=true"
   style="width:28%;"
-  alt="CSS logo." />
+  alt="Tim Berners-Lee at his desk in CERN, Switzerland, 1994." />
 </p>
 <!-- ![Tim Berners-Lee at his desk in CERN,
 1994](./images/image020.jpg){width="2.8125in" height="2.8125in"} -->
@@ -581,7 +589,7 @@ Web Platform, as well as to help shape the Web of the future.
 
 ### LATEST NEWS! Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 21/22.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 21/22. Sir Tim Berners-Lee and ACM Turing Award logo (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.jpg?raw=true"
   style="width:20%;"
@@ -614,15 +622,17 @@ computing innovations in history.
 aspect.**&ast;
 **Tim Berners-Lee, W3C Director and inventor of the World Wide Web**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 23. WAI Web page displayed on laptop screen (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
   style="width:21%;"
-  alt="CSS logo." />
+  alt="WAI Web page displayed on laptop screen." />
 </p>
-<!-- ![WAI Web page displayed on a laptop&apos;s
+<!-- 
+![WAI Web page displayed on a laptop&apos;s
 screen](./images/image023.png){width="2.1145833333333335in"
-height="2.1145833333333335in"} -->
+height="2.1145833333333335in"} 
+-->
 
 The Web has become an essential aspect of our daily lives, and everyone
 should have access to this technology. Web accessibility focuses on
@@ -746,15 +756,17 @@ features that they will need.
 English, because there are 18 characters between the &apos;i&apos; and the
 &apos;n&apos;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 24. W3C Internationalization Activity logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png?raw=true"
   style="width:11%;"
-  alt="CSS logo." />
+  alt="W3C Internationalization Activity logo." />
 </p>
-<!-- ![W3C Internationalization Activity
+<!-- 
+![W3C Internationalization Activity
 logo](./images/image024.png){width="1.1145833333333333in"
-height="1.0416666666666667in"} -->
+height="1.0416666666666667in"} 
+-->
 
 The [[W3C Internationalization Activity]](http://www.w3.org/International/) works with W3C
 working groups and liaises with other organizations to make it possible
@@ -770,14 +782,16 @@ stretches worldwide.
 
 ### Unicode
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. Unicode symbols (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.jpg?raw=true"
   style="width:21%;"
-  alt="CSS logo." />
+  alt="Unicode symbols." />
 </p>
-<!-- ![Unicode symbols](./images/image025.jpg)
-{width="2.0833333333333335in" height="2.0833333333333335in"} -->
+<!-- 
+![Unicode symbols](./images/image025.jpg)
+{width="2.0833333333333335in" height="2.0833333333333335in"} 
+-->
 
 Text in a computer or on the Web is composed of
 characters. *Characters* represent letters of the alphabet, punctuation,
@@ -910,9 +924,7 @@ target="_blank" rel="noopener noreferrer">[Module 1.1: Introduction to JavaScrip
 Hello everyone, welcome to the wonderful world of JavaScript!
 
 In this module, after giving a brief history of JavaScript and Web
-browsers,
-
-we will explain how HTML, CSS and JavaScript are related to one another.
+browsers, we will explain how HTML, CSS and JavaScript are related to one another.
 
 We will see JavaScript in action through numerous interactive examples.
 
@@ -993,7 +1005,7 @@ HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate hyperlinks into a text document.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 26.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 26. Illustration of Hypertext documents (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
   style="width:65%;"
